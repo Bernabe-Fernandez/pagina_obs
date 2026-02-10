@@ -49,11 +49,6 @@ export default function Header() {
   return (
     <header className="h-96 md:h-[430px] lg:h-[580px] xl:h-[700px] relative flex items-center text-white overflow-hidden">
 
-      {/* Navbar flotante arriba */}
-      {/* <div className="absolute top-0 left-0 w-full z-30">
-        <NavBar />
-      </div> */}
-
       {/* Imagen de fondo */}
       <div
         className="absolute inset-0 bg-no-repeat bg-center bg-cover md:bg-[length:100%]"

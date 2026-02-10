@@ -12,6 +12,7 @@ export default function AppRouter() {
     <>
         <BrowserRouter>
             <Routes>
+                {/* rutas para la pagina web */}
                 <Route element={<Layout/>}>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/nosotros" element={<NosotrosPage/>}/>
