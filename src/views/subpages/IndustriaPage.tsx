@@ -2,6 +2,6 @@
 
 export default function IndustriaPage() {
   return (
-    <div>IndustriaPage</div>
+    <div>Cambio desde pc José</div>
   )
 }
