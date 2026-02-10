@@ -1,4 +1,4 @@
-import { NavLink} from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import { FaSearch, FaRegWindowClose } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
@@ -11,23 +11,25 @@ export default function NavBar() {
   return (
     <nav className="sticky top-0 left-0 w-full z-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-2 py-2 flex justify-between items-center">
-            <img src="images/logos/internos/logotipo.png" alt="logo omnibandas" className="h-10 md:h-14 lg:h-16 object-contain " />
+            <Link to="/">
+                <img src="/images/logos/internos/logotipo.png" alt="logo omnibandas" className="h-10 md:h-14 lg:h-16 object-contain " />
+            </Link>
 
             <ul className={`uppercase font-medium text-azulobs-500 gap-6
                 lg:flex lg:justify-center lg:static lg:h-auto
                 ${viewMenu ? "flex flex-col absolute top-full left-0 w-full bg-white p-6 shadow-md" : "hidden"}`}>
 
                 {/* NORMAL LINKS */}
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white ">
+                <li className="hover:bg-azulobs-600 hover:text-white ">
                     <NavLink to="/" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Inicio
                     </NavLink>
                 </li>
 
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white ">
+                <li className="hover:bg-azulobs-600 hover:text-white ">
                     <NavLink to="/nosotros" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Nosotros
                     </NavLink>
                 </li>
@@ -98,30 +100,30 @@ export default function NavBar() {
                     </div>
                 </li>
 
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white">
+                <li className="hover:bg-azulobs-600 hover:text-white">
                     <NavLink to="/catalago" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Catalago
                     </NavLink>
                 </li>
 
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white">
+                <li className="hover:bg-azulobs-600 hover:text-white">
                     <NavLink to="/bolsa_trabajo" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Bolsa de trabajo
                     </NavLink>
                 </li>
 
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white">
+                <li className="hover:bg-azulobs-600 hover:text-white">
                     <NavLink to="/contacto" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Contacto
                     </NavLink>
                 </li>
 
-                <li className="p-2 hover:bg-azulobs-600 hover:text-white">
+                <li className="hover:bg-azulobs-600 hover:text-white">
                     <NavLink to="/blog" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
+                        `block w-full p-2 ${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
                         Blog
                     </NavLink>
                 </li>

@@ -55,14 +55,14 @@ export default function Footer() {
               <p className="text-sm text-white/80">Siguenos</p>
               <div className="flex gap-3">
                 <a
-                  href="https://facebook.com"
+                  href="https://facebook.com/people/Omnibandas-Mx/61574903852569/?locale=es_LA"
                   target="_blank"
                   className="hover:opacity-80 hover:scale-110 transition text-white"
                 >
                   <FaFacebookF size={18} />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/omnibandasmx/"
                   target="_blank"
                   className="hover:opacity-80 hover:scale-110 transition text-white"
                 >
@@ -70,7 +70,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/omnibandas-belting-services-6958a6359/"
                   target="_blank"
                   className="hover:opacity-80 hover:scale-110 transition text-white"
                 >
