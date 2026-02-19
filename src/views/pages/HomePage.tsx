@@ -9,7 +9,6 @@ export default function HomePage() {
 
     return (
         <div>
-            <h1 className="bg-red-500 text-4xl font-bold text-center">Pagina de inicio</h1>
             <BeneficioServicios/>
             <SliderProductos/>
         </div>

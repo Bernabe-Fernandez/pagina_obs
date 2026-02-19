@@ -5,13 +5,7 @@ export default function SliderProductos() {
   return (
     <>
         <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
-        <CardSliderProducto/>
+
     </>
   )
 }
