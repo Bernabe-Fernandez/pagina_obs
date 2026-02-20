@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .perspective {
     perspective: 600px;
 }

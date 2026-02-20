@@ -7,35 +7,60 @@ export default function Industrias() {
 
   return (
     <>
-        <div className="max-w-6xl mx-auto px-6 my-36">
-            <div className='w-full flex flex-col justify-center items-center'>
-                <h3 className='uppercase text-3xl md:text-4xl font-semibold text-blue-900 mb-6 text-center'>Industrias</h3>
-                <p className="text-xl text-gray-600 mb-10 w-full text-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-16 md:my-24 lg:my-36">
+
+            {/* HEADER */}
+            <div className='w-full flex flex-col justify-center items-center text-center'>
+                <h3 className='uppercase text-2xl sm:text-3xl md:text-4xl font-semibold text-blue-900 mb-4 md:mb-6'>
+                    Industrias
+                </h3>
+
+                <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 md:mb-10 max-w-2xl">
                     Experiencia en múltiples sectores industriales y procesos productivos.
                 </p>
             </div>
-            <div className="grid grid-cols-3 gap-2 auto-rows-[225px] grid-flow-dense">
+
+            {/* GRID RESPONSIVE */}
+            <div className="
+                grid 
+                grid-cols-1 
+                sm:grid-cols-2 
+                lg:grid-cols-3 
+                gap-4 md:gap-6 
+                auto-rows-[200px] 
+                md:auto-rows-[225px] 
+                grid-flow-dense
+            ">
                 {industriasData.map((industria, index) => (
                     <div
                         key={index}
                         className={`
-                            ${industria.altura === "ancha" ? "col-span-2" : ""}
-                            ${industria.altura === "alta" ? "row-span-2" : ""}
+                            ${industria.altura === "ancha" ? "lg:col-span-2" : ""}
+                            ${industria.altura === "alta" ? "lg:row-span-2" : ""}
                         `}
                     >
                         <CardIndustria industria={industria} />
                     </div>
                 ))}
-
             </div>
-            <div className='w-full flex justify-end mt-4'>
+
+            {/* BOTÓN */}
+            <div className='w-full flex justify-center md:justify-end mt-8'>
                 <Link
                     to={"/contacto"}
-                    className='p-3 bg-white text-blue-800 rounded-3xl shadow-lg border border-gray-200 hover:bg-blue-900/80 hover:text-white'
+                    className='
+                        px-6 py-3 
+                        bg-white text-blue-800 
+                        rounded-3xl shadow-lg 
+                        border border-gray-200 
+                        hover:bg-blue-900 hover:text-white 
+                        transition-all duration-300
+                    '
                 >
-                    Solicitar Asesoria
+                    Solicitar Asesoría
                 </Link>
             </div>
+
         </div>
     </>
   )
