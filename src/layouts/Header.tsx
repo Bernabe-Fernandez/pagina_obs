@@ -5,6 +5,7 @@ type HeaderData = {
   title:string,
   subtitle?:string,
   text_btn?:string,
+  url_btn?:string,
   image:string
 }
 
@@ -14,7 +15,13 @@ const headerConfig: Record<string, HeaderData>= {
     title: "Bandas, Cadenas y Transportadores",
     subtitle: "Experiencia, Innovación y Compromiso en cada solución de transporte que desarrollados",
     text_btn:"Solicitar Cotización",
+    url_btn:"/contacto",
     image: "/images/backgrounds/headers/home.jpg"
+  },
+  "/nosotros": {
+    title:"Nosotros",
+    subtitle:"Especialistas en soluciones industriales",
+    image:"/images/backgrounds/headers/nosotros.jpg"
   },
   "/productos": {
     title: "Productos",
@@ -47,7 +54,7 @@ export default function Header() {
   };
 
   return (
-    <header className="h-96 md:h-[430px] lg:h-[580px] xl:h-[700px] relative flex items-center text-white overflow-hidden">
+    <header className="h-96 md:max-h-[430px] lg:h-[580px] xl:h-[700px] relative flex items-center text-white overflow-hidden mb-14">
 
       {/* Imagen de fondo */}
       <div
@@ -63,18 +70,18 @@ export default function Header() {
 
 
       {/* Contenido principal */}
-      <div className="relative z-10 w-full h-full px-8 py-10 flex flex-col justify-between">
+      <div className="relative z-10 w-full h-full px-8 py-10 flex flex-col justify-between mx-auto lg:mx-24">
 
         {/* Arriba izquierda */}
         <div className="border-t-2 border-white/70 w-full mb-3 mt-5">
 
           <div className="max-w-2xl pt-4 lg:max-w-3xl  lg:pt-12">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight uppercase">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight uppercase">
               {config.title}
             </h1>
 
             {config.subtitle && (
-              <p className="mt-2 text-lg md:text-xl lg:text-3xl text-white/90 uppercase">
+              <p className="mt-2 text-md md:text-lg lg:text-xl text-white/90 uppercase">
                 {config.subtitle}
               </p>
             )}
@@ -82,11 +89,15 @@ export default function Header() {
         </div>
 
         {/* Abajo derecha - Botón */}
-        <div className="flex justify-end">
-          <button className="bg-white text-blue-900 font-semibold px-6 py-3 rounded-md hover:bg-blue-100 transition shadow-lg">
-            {config.text_btn}
-          </button>
-        </div>
+        {
+          config.text_btn && (
+            <div className="flex justify-end">
+              <button className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-2 lg:py-4 rounded-3xl hover:bg-blue-100 transition shadow-lg">
+                {config.text_btn}
+              </button>
+            </div>
+          )
+        }
 
       </div>
 
