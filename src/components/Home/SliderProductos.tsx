@@ -13,14 +13,14 @@ import { ProductosCards } from "../../data/productosCard";
 export default function SliderProductos() {
   return (
     <>
-        <div className="w-full px-10 py-16 bg-gray-100">
+        <div className="w-full px-10 py-16 my-22">
           <h2 className="text-center text-3xl font-semibold text-blue-800 mb-10">
             PRODUCTOS DESTACADOS
           </h2>
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          slidesPerView={4}
+          // slidesPerView={5}
           spaceBetween={20}
           loop
           autoplay={{
@@ -28,12 +28,12 @@ export default function SliderProductos() {
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
-          speed={800}
+          speed={1000}
           breakpoints={{
             320: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
-            1280: { slidesPerView: 4 },
+            1280: { slidesPerView: 5 },
           }}
         >
             {ProductosCards.map((item, index) => (

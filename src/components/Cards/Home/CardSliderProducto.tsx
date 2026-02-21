@@ -10,7 +10,7 @@ type CardProps = {
 
 export default function CardSliderProducto({ title, descripcion, image, alt, url }: CardProps) {
   return (
-    <div className="relative h-[500px] w-full rounded-3xl overflow-hidden shadow-lg group">
+    <div className="relative h-[450px] w-full rounded-3xl overflow-hidden shadow-lg group">
       
       {/* Imagen */}
       <img

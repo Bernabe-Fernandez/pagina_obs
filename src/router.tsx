@@ -5,6 +5,10 @@ import FloatingWhatsaap from "./components/utilities/FloatingWhatsaap";
 import NosotrosPage from "./views/pages/NosotrosPage";
 import ProductoPage from "./views/subpages/ProductoPage";
 import IndustriaPage from "./views/subpages/IndustriaPage";
+import CatalagoPage from "./views/pages/CatalagoPage";
+import BolsaTrabajoPage from "./views/pages/BolsaTrabajoPage";
+import ContactoPage from "./views/pages/ContactoPage";
+import BlogPage from "./views/pages/BlogPage";
 
 
 export default function AppRouter() {
@@ -18,6 +22,10 @@ export default function AppRouter() {
                     <Route path="/nosotros" element={<NosotrosPage/>}/>
                     <Route path="/productos/:categoria" element={<ProductoPage/>}/>
                     <Route path="/industrias/:categoria" element={<IndustriaPage/>}/>
+                    <Route path="/catalago" element={<CatalagoPage/>}/>
+                    <Route path="/bolsa_trabajo" element={<BolsaTrabajoPage/>}/>
+                    <Route path="/contacto" element={<ContactoPage/>}/>
+                    <Route path="/blog" element={<BlogPage/>}/>
                 </Route>
             </Routes>
             
