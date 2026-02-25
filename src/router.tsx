@@ -9,6 +9,7 @@ import CatalagoPage from "./views/pages/CatalagoPage";
 import BolsaTrabajoPage from "./views/pages/BolsaTrabajoPage";
 import ContactoPage from "./views/pages/ContactoPage";
 import BlogPage from "./views/pages/BlogPage";
+import ScrollToTopButton from "./components/utilities/ScrollToTopButton";
 
 
 export default function AppRouter() {
@@ -31,6 +32,8 @@ export default function AppRouter() {
             
             {/* icono de WhatsApp permanente */}
             <FloatingWhatsaap/>
+            {/* boton para scroll to top */}
+            <ScrollToTopButton/>
         </BrowserRouter>
     </>
   )
