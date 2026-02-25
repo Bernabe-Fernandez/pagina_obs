@@ -7,7 +7,7 @@ export default function Experiencia() {
                 En Omnibandas somos una empresa 100% mexicana con más de 30 años de experiencia, especializada en la fabricación, suministro e implementación de soluciones en bandas y sistemas de transporte industrial. Trabajamos con un enfoque técnico y preventivo para garantizar procesos confiables y eficientes.
                 </p>
             </div>
-            <div>
+            
                 <section className="w-full bg-[#f5f8fa] py-20">
                     <div className="max-w-7xl mx-48 px-6 lg:px-12 grid lg:grid-cols-2 gap-12 items-center">
                         {/* Imagen */}
@@ -49,8 +49,18 @@ export default function Experiencia() {
                         </div>
                     </div>
                 </section>
-            </div>
-        </>
-    )
-}
+               
+               <div>
+               
+
+       
+ 
+    
+    </div>
+            </> 
+                    
+  )
+};
+
+
 
