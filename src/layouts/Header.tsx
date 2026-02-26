@@ -6,7 +6,8 @@ type HeaderData = {
   subtitle?:string,
   text_btn?:string,
   url_btn?:string,
-  image:string
+  image:string,
+  height?: string
 }
 
 //rutas base para seleccionar en el header
@@ -16,7 +17,8 @@ const headerConfig: Record<string, HeaderData>= {
     subtitle: "Experiencia, Innovación y Compromiso en cada solución de transporte que desarrollados",
     text_btn:"Solicitar Cotización",
     url_btn:"/contacto",
-    image: "/images/backgrounds/headers/home.jpg"
+    image: "/images/backgrounds/headers/home.jpg",
+    height: "h-[700px]"
   },
   "/nosotros": {
     title:"Nosotros",
@@ -53,8 +55,11 @@ export default function Header() {
     image: "/images/headers/default.jpg"
   };
 
+  const headerHeight = config.height ?? "h-96 md:h-[430px] lg:h-[500px]";
+
   return (
-    <header className="h-96 md:max-h-[430px] lg:h-[580px] xl:h-[700px] relative flex items-center text-white overflow-hidden mb-14">
+    // <header className="h-96 md:max-h-[430px] lg:h-[580px] xl:h-[700px] relative flex items-center text-white overflow-hidden mb-14">
+    <header className={`h-96 ${headerHeight} relative flex items-center text-white overflow-hidden mb-14`}>
 
       {/* Imagen de fondo */}
       <div

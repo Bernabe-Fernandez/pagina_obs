@@ -2,7 +2,7 @@
 
 export default function BeneficioServicios() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 py-12 md:py-20 my-10 md:my-20 mx-4 sm:mx-28 lg:mx-48">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 py-12 md:py-20 my-10 md:my-20 mx-4 sm:mx-32 lg:mx-64">
 
       {/* LADO IZQUIERDO */}
       <div>
@@ -67,7 +67,7 @@ export default function BeneficioServicios() {
         <img 
           src="/images/home/servicios.jpg" 
           alt="nuestros-servicios" 
-          className="w-full max-w-sm sm:max-w-md md:max-w-lg rounded-2xl shadow-lg"
+          className="w-full max-h-[600px] max-w-sm sm:max-w-md md:max-w-lg rounded-2xl shadow-lg"
         />
       </div>
 

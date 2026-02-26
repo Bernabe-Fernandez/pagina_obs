@@ -7,7 +7,7 @@ export default function Industrias() {
 
   return (
     <>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-16 md:my-24 lg:my-36">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-16 md:mx-28 lg:mx-64">
 
             {/* HEADER */}
             <div className='w-full flex flex-col justify-center items-center text-center'>

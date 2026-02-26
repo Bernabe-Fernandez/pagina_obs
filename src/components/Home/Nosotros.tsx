@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Nosotros() {
     return (
-        <div className="flex flex-col justify-center items-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 my-16 md:my-20">
+        <div className="flex flex-col justify-center items-center max-w-5xl mx-auto sm:mx-32 lg:mx-64 px-4 sm:px-6 lg:px-8 my-16 md:my-20">
 
             {/* IMAGEN */}
             <div className="w-full h-[250px] sm:h-[350px] md:h-[450px] overflow-hidden rounded-2xl shadow-lg">
