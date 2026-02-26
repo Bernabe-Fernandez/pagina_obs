@@ -26,7 +26,7 @@ export default function CardIndustria({industria} :  cardIndustriaProps) {
                 </h2>
 
                 {/* Contenido oculto */}
-                <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-500 group-hover:max-h-32 group-hover:opacity-100">
+                <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-500 group-hover:max-h-36 group-hover:opacity-100">
                 
                     <p className="mb-2">
                         {industria.descripcion}
