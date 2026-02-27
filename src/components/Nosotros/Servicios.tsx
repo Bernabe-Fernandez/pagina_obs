@@ -38,7 +38,19 @@ export default function Servicios() {
                   {service.title}
                 </p>
 
-                <button className="px-6 py-2 border border-blue-900 text-blue-900 rounded-full font-medium transition duration-300 hover:bg-blue-200 hover:text-blue-900">
+                <button
+                 className="
+                   w-40 h-11
+                   flex items-center justify-center
+                   bg-white text-blue-800
+                   rounded-full
+                   border border-gray-200
+                   shadow-md
+                   font-medium text-sm
+                   transition-colors duration-300
+                   hover:bg-blue-900 hover:text-white
+                  "
+                 >
                   Conoce más
                 </button>
               </div>

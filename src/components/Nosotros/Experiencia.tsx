@@ -3,12 +3,12 @@ export default function Experiencia() {
   return (
         <>
             <div>
-                <p className="text-[#5F86A3] text-center max-w-4xl mx-auto leading-relaxed text-lg">
+                <p className="text-[#2271a6] text-center max-w-4xl mx-auto leading-relaxed text-lg">
                 En Omnibandas somos una empresa 100% mexicana con más de 30 años de experiencia, especializada en la fabricación, suministro e implementación de soluciones en bandas y sistemas de transporte industrial. Trabajamos con un enfoque técnico y preventivo para garantizar procesos confiables y eficientes.
                 </p>
             </div>
             
-                <section className="w-full bg-[#f5f8fa] py-20">
+                <section className= "w-full bg-white py-28">
                     <div className="max-w-7xl mx-48 px-6 lg:px-12 grid lg:grid-cols-2 gap-12 items-center">
                         {/* Imagen */}
                         <div className="flex items-center justify-start h-screen w-full">
@@ -20,7 +20,7 @@ export default function Experiencia() {
                         </div>
 
                         {/* Contenido */}
-                        <div className="text-[#1E3A5F]">
+                        <div className="text-[#264d67]">
                             <h2 className="text-3xl lg:text-4xl font-bold mb-6 uppercase">
                                 Nuestra Experiencia
                             </h2>
