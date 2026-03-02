@@ -39,18 +39,18 @@ export default function Servicios() {
                 </p>
 
                 <button
-                 className="
-                   w-[170px] h-10
-                   flex items-center justify-center
-                   bg-white text-blue-800
-                   rounded-full
-                   border border-gray-200
-                   shadow-md
-                   font-medium text-sm
-                   transition-colors duration-300
-                   hover:bg-blue-900 hover:text-white
-                  "
-                 >
+                  className="
+                    w-[170px] h-10
+                    flex items-center justify-center
+                    bg-white text-blue-800
+                    rounded-full
+                    border border-gray-200
+                    shadow-md
+                    font-medium text-sm
+                    transition-colors duration-300
+                    hover:bg-blue-900 hover:text-white
+                    "
+                  >
                   Conoce más
                 </button>
               </div>
