@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 //tipo hedaerdata para crear un objetro de este tipo
 type HeaderData = {
@@ -97,9 +97,11 @@ export default function Header() {
         {
           config.text_btn && (
             <div className="flex justify-end">
-              <button className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-2 lg:py-4 rounded-3xl hover:bg-blue-100 transition shadow-lg">
+              <Link
+                to={config.url_btn ?? '/'}
+                className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-2 lg:py-4 rounded-3xl hover:bg-blue-100 transition shadow-lg">
                 {config.text_btn}
-              </button>
+              </Link>
             </div>
           )
         }

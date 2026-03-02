@@ -42,23 +42,23 @@ export default function NavBar() {
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-azulobs-600">
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/bandas" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Bandas transportadoras</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/termosellables" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/termosoldables" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Bandas termosoldables</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/modulares" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/transmision" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Bandas de transmision de potencia</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/modulares" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Bandas modulares</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/guias" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Guías de orientación</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empalmes" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/olanes" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Olanes</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empalmes" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/grapas" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Grapas</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empalmes" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empujadores" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Empujadores</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empalmes" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/transportadores" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Fabricación de transportadores</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/empalmes" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/proyectos" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Proyectos Especiales</NavLink></li>
                         </ul>
                     </div>
