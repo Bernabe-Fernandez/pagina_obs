@@ -8,6 +8,8 @@ export default function Servicios() {
   return (
     
     <section className= "w-full bg-white py-10 px-6">
+
+      {/* Contenedor de tarjetas */}
       <div className="max-w-5xl mx-auto">
         
         {/* Título */}
@@ -57,8 +59,26 @@ export default function Servicios() {
             </div>
           ))}
         </div>
-
-      </div>
+  </div>
+       {/* Botón Ver catálogo completo */} 
+       <div className="flex justify-end mt-16 pr-10"> 
+        <button 
+        className="
+        w-[220px] h-11 flex items-center justify-center 
+        bg-white text-blue-800 
+        rounded-full 
+        border border-gray-200 
+        shadow-md 
+        font-medium text-sm 
+        transition-colors duration-300 
+        hover:bg-blue-900 hover:text-white 
+        -translate-x-20
+        " 
+        >  
+        Ver catálogo completo 
+        </button> 
+        </div>   
     </section>
-  )
+  );
 }
+
