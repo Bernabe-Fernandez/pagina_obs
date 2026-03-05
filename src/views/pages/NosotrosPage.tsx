@@ -1,5 +1,8 @@
 import Experiencia from "../../components/Nosotros/Experiencia";
 import Servicios from "../../components/Nosotros/Servicios";
+import Compromiso from "../../components/Nosotros/Compromiso";
+
+
 import { usePageTitle } from "../../hooks/usePageTitle"
 
 
@@ -10,7 +13,8 @@ export default function NosotrosPage() {
   return (
     <div>
       <Experiencia/>
-      <Servicios/> 
+      <Servicios/>
+      <Compromiso/>
     </div>
   )
 }
