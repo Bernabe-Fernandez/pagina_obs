@@ -30,10 +30,12 @@ const headerConfig: Record<string, HeaderData>= {
     subtitle: "Soluciones industriales",
     image: "/images/headers/products.jpg"
   },
-  "/bolsa-trabajo": {
+  "/bolsa_trabajo": {
     title: "Bolsa de Trabajo",
-    subtitle: "Únete a nuestro equipo",
-    image: "/images/headers/jobs.jpg"
+    subtitle: "Forma parte de un equipo especializado en soluciones industriales, enfocado en la mejora continua y el trabajo colaborativo.",
+    image: "/images/backgrounds/headers/trabajo.jpg",
+    text_btn:"Contactar con Recursos Humanos",
+    url_btn:"/bolsa_trabajo#formulario",
   },
   "/contacto": {
     title: "Contacto",

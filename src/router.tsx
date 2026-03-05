@@ -23,7 +23,7 @@ export default function AppRouter() {
                     <Route path="/nosotros" element={<NosotrosPage/>}/>
                     <Route path="/productos/:categoria" element={<ProductoPage/>}/>
                     <Route path="/industrias/:categoria" element={<IndustriaPage/>}/>
-                    <Route path="/catalago" element={<CatalagoPage/>}/>
+                    <Route path="/catalogo" element={<CatalagoPage/>}/>
                     <Route path="/bolsa_trabajo" element={<BolsaTrabajoPage/>}/>
                     <Route path="/contacto" element={<ContactoPage/>}/>
                     <Route path="/blog" element={<BlogPage/>}/>
