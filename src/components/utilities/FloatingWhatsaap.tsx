@@ -8,7 +8,7 @@ export default function FloatingWhatsaap() {
     let phone = "523315274782"; // ventas default
     let message = "Hola, quiero información sobre sus productos";
 
-    if(location.pathname.includes("bolsa-trabajo")){
+    if(location.pathname.includes("bolsa_trabajo")){
         phone = "523334520836"; // RRHH
         message = "Hola, quiero información sobre vacantes";
     }
