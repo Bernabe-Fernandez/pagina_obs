@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2f56a2;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: url(#Degradado_sin_nombre_190);
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_68);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_190" data-name="Degradado sin nombre 190" x1="-8416.03" y1="-743.67" x2="-8402.53" y2="-743.67" gradientTransform="translate(-8397.28 -731.67) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0052a0"/>
+      <stop offset="1" stop-color="#64b2d5"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_68" data-name="Degradado sin nombre 68" x1="744.93" y1="857.98" x2="744.93" y2="864.77" gradientTransform="translate(-732.93 -849.37)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0052a0"/>
+      <stop offset="1" stop-color="#64b2d5"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-2" d="M2.66,14.33c.38,1.52,1.13,2.92,2.19,4.1,1.83,2.03,4.37,3.15,7.14,3.15,4.57,0,8.3-3.03,9.34-7.25H2.66Z"/>
+  <g>
+    <circle class="cls-1" cx="12" cy="12" r="7.66"/>
+    <path class="cls-3" d="M18.5,12.03c0,2.62-1.58,4.97-4.02,5.98-1.6.66-3.37.66-4.97,0-2.44-1.01-4.01-3.36-4.01-5.97,0-3.66,2.86-6.53,6.5-6.53,1.88,0,3.59.75,4.82,2.11,1.09,1.21,1.69,2.77,1.69,4.41h0Z"/>
+    <path class="cls-4" d="M16.2,13.21c-.11-.64-.68-2.18-1.08-3.22-.14-.37-.43-.64-.77-.78-.02-.05-.04-.11-.06-.16-.12-.31-.44-.49-.77-.43l-.12.02c-.33.06-.57.34-.58.67,0,.08,0,.17,0,.26-.21.23-.34.52-.35.85-.14-.07-.29-.12-.45-.12s-.32.04-.45.12c-.02-.32-.15-.62-.35-.85,0-.09,0-.18,0-.26,0-.33-.25-.61-.58-.67l-.12-.02c-.33-.06-.65.12-.77.43-.02.05-.04.11-.06.16-.34.14-.63.41-.77.78-.4,1.04-.97,2.58-1.08,3.22-.18,1.02.51,1.99,1.53,2.16,1,.17,1.95-.48,2.15-1.48.15.09.33.15.52.15s.37-.06.52-.15c.2.99,1.15,1.65,2.15,1.48,1.02-.18,1.7-1.14,1.53-2.16ZM9.65,14.69c-.64,0-1.17-.52-1.17-1.17s.52-1.17,1.17-1.17,1.17.52,1.17,1.17c0,.64-.52,1.17-1.17,1.17ZM12,13.49c-.25,0-.46-.2-.46-.46,0-.25.2-.46.46-.46s.46.21.46.46c0,.25-.2.46-.46.46ZM14.35,14.69c-.64,0-1.17-.52-1.17-1.17s.52-1.17,1.17-1.17,1.17.52,1.17,1.17-.52,1.17-1.17,1.17Z"/>
+  </g>
+</svg>
