@@ -48,20 +48,20 @@ export default function Compromiso() {
 
               {/* Imagen */}
               <div className="w-full h-80 relative">
-               <img
-                 src={item.image}
-                 alt={item.title}
-                 className="w-full h-full object-cover rounded-t-2xl"
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover rounded-t-2xl"
                 />
 
 
               {/* ICONO FLOTANTE */}
               <div className="absolute left-6 -bottom-16 w-40 h-40 z-20">
-               <img
-                 src={item.icon}
-                 alt="icono"
-                 className="w-full h-full object-contain"
-               />
+                <img
+                  src={item.icon}
+                  alt="icono"
+                  className="w-full h-full object-contain"
+                />
             </div>
           </div>
 
