@@ -33,7 +33,8 @@ export default function Valores() {
   ];
 
   return (
-  <section className="w-full bg-white py-16 px-6">
+  <section className="w-full bg-white py-16 px-6 mt-24">
+
     <div className="max-w-6xl mx-auto">
 
       <h2 className="text-center text-3xl font-bold text-blue-900 tracking-wide">
@@ -67,7 +68,7 @@ export default function Valores() {
 
             {/* Ícono grande + título */}
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 transition-opacity duration-300 group-hover:opacity-0">
-              <img src={item.icon} alt={item.title} className="w-32 h-32" />
+              <img src={item.icon} alt={item.title} className="w-36 h-36" />
               <h3 className="text-white text-lg font-semibold tracking-wide text-center">
                 {item.title}
               </h3>

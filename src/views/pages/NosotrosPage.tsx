@@ -15,7 +15,7 @@ export default function NosotrosPage() {
     usePageTitle('Nosotros');
 
   return (
-    <div>
+    <div className="mt-32">
       <Experiencia/>
       <Servicios/>
       <Compromiso/>
