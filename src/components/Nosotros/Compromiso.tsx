@@ -57,30 +57,29 @@ export default function Compromiso() {
 
               {/* ICONO FLOTANTE */}
               <div className="absolute left-6 -bottom-16 w-40 h-40 z-20">
-                <img
-                  src={item.icon}
-                  alt="icono"
-                  className="w-full h-full object-contain"
-                />
+               <img
+                 src={item.icon}
+                 alt="icono"
+                 className="w-full h-full object-contain"
+               />
             </div>
           </div>
 
               {/* Texto */}
               <div className="text-center px-6 pt-24 pb-8">
-                <h3 className="text-lg font-semibold text-blue-900 mb-2">
+
+                <h3 className="text-lg font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] mb-2">
                   {item.title}
-                </h3>
+                   </h3>
 
-                <p className="text-gray-700 leading-relaxed text-sm">
-                  {item.text}
-                </p>
-              </div>
-
+               <p className="text-[#2A4C9A] leading-relaxed text-sm">
+                 {item.text}
+                  </p>
+            </div>
             </div>
           ))}
         </div>
-
       </div>
     </section>
-  )
+  );
 }
