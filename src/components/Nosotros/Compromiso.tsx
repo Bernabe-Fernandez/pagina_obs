@@ -56,7 +56,7 @@ export default function Compromiso() {
 
 
               {/* ICONO FLOTANTE */}
-              <div className="absolute left-6 -bottom-16 w-40 h-40 z-20">
+              <div className="absolute left-6 -bottom-16 w-40 h-40 z-5">
                <img
                  src={item.icon}
                  alt="icono"
