@@ -2,6 +2,7 @@ import Experiencia from "../../components/Nosotros/Experiencia";
 import Servicios from "../../components/Nosotros/Servicios";
 import Compromiso from "../../components/Nosotros/Compromiso";
 import Valores from "../../components/Nosotros/Valores";
+import Calidad from "../../components/Nosotros/Calidad";
 
 
 
@@ -15,11 +16,12 @@ export default function NosotrosPage() {
     usePageTitle('Nosotros');
 
   return (
-    <div className="mt-32">
+    <div>
       <Experiencia/>
       <Servicios/>
       <Compromiso/>
       <Valores/>
+       <Calidad />
     </div>
   )
 }

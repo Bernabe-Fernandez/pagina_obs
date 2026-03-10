@@ -67,7 +67,7 @@ export default function Valores() {
             </div>
 
             {/* Ícono grande + título */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 transition-opacity duration-300 group-hover:opacity-0">
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 transition-opacity duration-500 group-hover:opacity-0">
               <img src={item.icon} alt={item.title} className="w-36 h-36" />
               <h3 className="text-white text-lg font-semibold tracking-wide text-center">
                 {item.title}
@@ -75,7 +75,7 @@ export default function Valores() {
             </div>
 
             {/* Ícono grande + título + descripción (hover) */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 px-4 text-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100 px-4 text-center">
               <img src={item.icon} alt={item.title} className="w-24 h-24 mb-4" />
               <h3 className="text-white text-lg font-semibold tracking-wide mb-3">
                 {item.title}
