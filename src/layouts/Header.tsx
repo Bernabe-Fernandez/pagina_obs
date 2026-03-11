@@ -29,7 +29,17 @@ const headerConfig: Record<string, HeaderData>= {
     title: "Productos",
     subtitle: "Soluciones industriales",
     image: "/images/headers/products.jpg"
+    },
+  
+    "/catalogo": {
+    title: "CATÁLOGO",
+    subtitle: "Soluciones en bandas transportadoras, transmisión y accesorios para aplicaciones industriales.",
+    text_btn: "Solicitar asesoría",
+    url_btn: "/contacto",
+    image: "/images/backgrounds/headers/catalogo.jpg",
+    height: "h-[700px]"
   },
+
   "/bolsa_trabajo": {
     title: "Bolsa de Trabajo",
     subtitle: "Forma parte de un equipo especializado en soluciones industriales, enfocado en la mejora continua y el trabajo colaborativo.",
