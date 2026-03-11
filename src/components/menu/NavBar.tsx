@@ -103,7 +103,7 @@ export default function NavBar() {
                 <li className="hover:bg-azulobs-600 hover:text-white">
                     <NavLink to="/catalogo" className={({ isActive }) =>
                         `block w-full p-2 ${isActive ? "text-azulobs-700 font-bold border-b-2 border-azulobs-600" : ""}`}>
-                        Catalogo
+                        Catálogo
                     </NavLink>
                 </li>
 
