@@ -37,7 +37,7 @@ const headerConfig: Record<string, HeaderData>= {
     text_btn: "Solicitar asesoría",
     url_btn: "/contacto",
     image: "/images/backgrounds/headers/catalogo.jpg",
-    height: "h-[700px]"
+    
   },
 
   "/bolsa_trabajo": {
