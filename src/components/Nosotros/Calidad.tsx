@@ -44,6 +44,7 @@ export default function Calidad() {
           </a>
         </div>
       </div>
+      
       {/* Texto debajo de la última imagen */}
       <div className="max-w-6xl mx-auto">
         <div className="md:w-1/2">

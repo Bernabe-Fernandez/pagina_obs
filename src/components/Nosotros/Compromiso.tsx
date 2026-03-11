@@ -35,7 +35,7 @@ export default function Compromiso() {
           NUESTRO COMPROMISO
         </h2>
 
-        <p className="text-center text-gray-700 max-w-3xl mx-auto mt-6 mb-16 leading-relaxed">
+        <p className="text-center text-gray-700 max-w-4xl mx-auto mt-6 mb-16 leading-relaxed">
           Trabajamos bajo un compromiso constante con la calidad, la seguridad y la continuidad operativa, aportando valor a nuestros clientes, socios comerciales y al desarrollo de la industria nacional.
         </p>
 
