@@ -47,7 +47,7 @@ export default function Compromiso() {
             >
 
               {/* Imagen */}
-              <div className="w-full h-80 relative">
+              <div className="w-full h-70 relative">
                 <img
                   src={item.image}
                   alt={item.title}

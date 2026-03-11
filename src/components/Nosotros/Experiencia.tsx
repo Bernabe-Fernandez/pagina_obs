@@ -15,7 +15,7 @@ export default function Experiencia() {
                             <img 
                                 src="/images/nosotros/experiencia.jpg"  
                                 alt="nuestra experiencia" 
-                                className="w-full max-w-md rounded-2xl shadow-lg"
+                                className="w-full max-w-sm rounded-2xl shadow-lg"
                             />
                         </div>
 
@@ -51,10 +51,6 @@ export default function Experiencia() {
                 </section>
                
                <div>
-               
-
-       
- 
     
     </div>
             </> 

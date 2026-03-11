@@ -14,7 +14,7 @@ export const services : servicios[] = [
                      {
                       id: 2,
                       title:
-                      "Suministro de componentes y refacciones para bandas, cadenas y transportadores.",
+                      "Suministro de componentes y refacciones para bandas, cadenas y transportadores",
                       image: "/images/nosotros/servicios/nosotros-04.jpg",
   },
   {
