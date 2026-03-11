@@ -23,7 +23,7 @@ export default function VacantesCard({vacante}: VacantesCardProps) {
             "
         >
             {/* Imagen */}
-            <div className="w-full aspect-[4/5] overflow-hidden">
+            <div className="w-full aspect-[4/4.3] overflow-hidden">
                 <img
                     src={vacante.image}
                     alt={vacante.alt}

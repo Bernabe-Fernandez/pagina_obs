@@ -15,7 +15,7 @@ export default function Caracteristicas() {
                 md:text-lg
                 lg:text-xl
                 font-medium
-                max-w-4xl
+                max-w-6xl
                 mx-auto
             ">
                 En Omnibandas creemos que cada área es parte fundamental del funcionamiento 

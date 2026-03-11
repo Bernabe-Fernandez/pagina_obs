@@ -12,7 +12,7 @@ export default function Caracteristica({ caracteristica }: caracteristicaProps) 
             {caracteristica.titulo}
         </h2>
 
-        <p className="text-gray-700 leading-relaxed text-base md:text-lg">
+        <p className="text-blue-900 leading-relaxed text-base md:text-lg">
             {caracteristica.contenido}
         </p>
 
