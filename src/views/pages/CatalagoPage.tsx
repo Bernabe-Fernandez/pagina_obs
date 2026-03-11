@@ -2,6 +2,10 @@
 
 export default function CatalagoPage() {
   return (
-    <div>CatalagoPage</div>
+    <div>
+      {/* ACA VAN TUS COMPONENTES GRANDES */}
+      
+      CatalagoPage
+    </div>
   )
 }
