@@ -6,7 +6,7 @@ import { usePageTitle } from "../../hooks/usePageTitle"
 
 export default function CatalogoPage() {
 
-   usePageTitle("Catalago");
+  usePageTitle("Catalago");
 
   return (
     <div>
