@@ -1,13 +1,6 @@
 
 import Encuentro from "../../components/Catalogo/Encuentro";
-import Manual from "../../components/Catalogo/manual";
-
-
-
-
-
-
-
+import Manual from "../../components/Catalogo/Manual";
 
 
 
