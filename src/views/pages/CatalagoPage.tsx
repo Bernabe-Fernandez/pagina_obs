@@ -1,5 +1,12 @@
 
 import Encuentro from "../../components/Catalogo/Encuentro";
+import Manual from "../../components/Catalogo/manual";
+
+
+
+
+
+
 
 
 
@@ -15,7 +22,9 @@ export default function CatalogoPage() {
   return (
     <div>
       <Encuentro />
-    </div>
-  );
-}
+      <Manual/>
 
+    </div>
+  )
+}
+  
