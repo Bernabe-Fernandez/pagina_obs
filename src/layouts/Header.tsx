@@ -92,13 +92,13 @@ export default function Header() {
         {/* Arriba izquierda */}
         <div className="border-t-2 border-white/70 w-full mb-3 mt-5">
 
-          <div className="max-w-2xl pt-4 lg:max-w-3xl  lg:pt-12">
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight uppercase">
+          <div className="max-w-2xl pt-3 lg:max-w-4xl  lg:pt-12">
+            <h1 className="text-5xl md:text-5xl lg:text-5xl font-bold leading-tight uppercase">
               {config.title}
             </h1>
 
             {config.subtitle && (
-              <p className="mt-2 text-md md:text-lg lg:text-xl text-white/90 uppercase">
+              <p className="mt-2 text-md md:text-lg lg:text-4xl text-white/90 uppercase">
                 {config.subtitle}
               </p>
             )}
