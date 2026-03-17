@@ -111,7 +111,7 @@ export default function Header() {
             <div className="flex justify-end">
               <Link
                 to={config.url_btn ?? '/'}
-                className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-1.5 rounded-3xl hover:bg-blue-100 transition shadow-lg">
+                className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-1.5 rounded-3xl hover:bg-blue-100 transition shadow-lg text-[17px]">
                 {config.text_btn}
               </Link>
             </div>

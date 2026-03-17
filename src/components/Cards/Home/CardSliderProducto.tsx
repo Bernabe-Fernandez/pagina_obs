@@ -30,7 +30,7 @@ export default function CardSliderProducto({ title, descripcion, image, alt, url
             {title}
           </h3>
 
-          <p className="text-sm opacity-90 mb-4 h-[64px] overflow-hidden">
+          <p className="text-base opacity-90 mb-4 h-[150px] overflow-hidden font-semibold">
             {descripcion}
           </p>
 

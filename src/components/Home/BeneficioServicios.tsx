@@ -6,23 +6,23 @@ export default function BeneficioServicios() {
 
       {/* LADO IZQUIERDO */}
       <div>
-        <h2 className="uppercase text-2xl sm:text-3xl md:text-4xl font-semibold text-blue-900 mb-4 md:mb-6 text-center md:text-left">
+        <h2 className="uppercase text-xl sm:text-2xl md:text-3xl font-semibold text-blue-900 mb-4 md:mb-6 text-center md:text-left">
           Beneficios operativos para tu línea de producción
         </h2>
 
-        <p className="text-base sm:text-lg text-gray-600 mb-8 md:mb-10 max-w-xl mx-auto md:mx-0 text-center md:text-left">
+        <p className="text-base sm:text-[22px] text-gray-600 mb-8 md:mb-10 max-w-xl mx-auto md:mx-0 text-center md:text-left">
           Aseguramos la continuidad operativa de las líneas de producción mediante 
           atención técnica, servicios preventivos y respuesta prioritaria.
         </p>
 
-        <ul className="space-y-6 md:space-y-8">
+        <ul className="space-y-6 md:space-y-8 ">
           <li className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-5 text-center sm:text-left">
             <img 
               src="/images/iconos/levantamiento.svg" 
               alt="levantamiento-icono" 
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
             />
-            <p className="text-gray-700 text-sm sm:text-base">
+            <p className="text-gray-700 text-sm sm:text-[22px]">
               Levantamientos técnicos predictivos y preventivos sin costo en sitio.
             </p>
           </li>
@@ -33,7 +33,7 @@ export default function BeneficioServicios() {
               alt="atencion-icono" 
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
             />
-            <p className="text-gray-700 text-sm sm:text-base">
+            <p className="text-gray-700 text-sm sm:text-[22px]">
               Atención prioritaria a emergencias, respuesta menor a 6 horas en la ZMG y Bajío.
             </p>
           </li>
@@ -44,7 +44,7 @@ export default function BeneficioServicios() {
               alt="ingenieria-icono" 
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
             />
-            <p className="text-gray-700 text-sm sm:text-base">
+            <p className="text-gray-700 text-sm sm:text-[22px]">
               Ingeniería de aplicación y monitoreo de bandas transportadoras.
             </p>
           </li>
@@ -55,7 +55,7 @@ export default function BeneficioServicios() {
               alt="capacitacion-icono" 
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
             />
-            <p className="text-gray-700 text-sm sm:text-base">
+            <p className="text-gray-700 text-sm sm:text-[22px]">
               Capacitación técnica al personal operativo y opciones comerciales flexibles.
             </p>
           </li>
