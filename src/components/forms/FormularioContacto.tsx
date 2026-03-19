@@ -2,11 +2,9 @@
 
 
 export default function FormularioContacto() {
-
-  
   return (
-    <div>
+    <form>
       
-    </div>
+    </form>
   )
 }

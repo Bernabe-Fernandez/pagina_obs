@@ -1,5 +1,5 @@
 
-import Formulario from "../../components/contacto/Formulario";
+import Contact from "../../components/contacto/Contact";
 import { usePageTitle } from "../../hooks/usePageTitle";
 
 export default function ContactoPage() {
@@ -7,7 +7,7 @@ export default function ContactoPage() {
 
   return (
     <div>
-      <Formulario/>
+      <Contact/>
     </div>
   );
 }
