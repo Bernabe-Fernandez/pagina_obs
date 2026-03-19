@@ -23,7 +23,7 @@ export default function VacantesCard({vacante}: VacantesCardProps) {
             "
         >
             {/* Imagen */}
-            <div className="w-full aspect-[4/4.3] overflow-hidden">
+            <div className="w-full aspect-[3/3.6] overflow-hidden">
                 <img
                     src={vacante.image}
                     alt={vacante.alt}
@@ -60,6 +60,8 @@ export default function VacantesCard({vacante}: VacantesCardProps) {
                         lg:text-sm
                         xl:text-base
                         leading-snug
+                        max-w-32
+                        text-center
                     "
                 >
                     {vacante.titulo}

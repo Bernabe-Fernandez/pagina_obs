@@ -14,8 +14,10 @@ export default function AreasTrabajo() {
                 uppercase 
                 font-bold 
                 text-lg 
-                md:text-xl 
-                lg:w-1/2
+                mx-auto
+                md:text-2xl
+                max-w-3xl
+                text-center
             ">
                 Constantemente estamos en búsqueda de talento para diferentes áreas dentro de la empresa.
             </h1>
@@ -45,6 +47,7 @@ export default function AreasTrabajo() {
                     md:text-lg 
                     text-center 
                     lg:text-right 
+                    font-semibold
                     max-w-xl
                 ">
                     Si tu perfil no coincide exactamente con una vacante activa,
