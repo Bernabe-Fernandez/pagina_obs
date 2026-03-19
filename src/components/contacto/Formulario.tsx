@@ -1,6 +1,4 @@
 
-import Formulario from "./Formulario";
-
 export default function ContactInfoAndForm() {
   return (
     <section className="w-full py-20 bg-white">
@@ -48,7 +46,7 @@ export default function ContactInfoAndForm() {
 
         {/* Columna derecha: Formulario */}
         <div>
-          <Formulario />
+          
         </div>
 
       </div>
