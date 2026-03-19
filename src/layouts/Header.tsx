@@ -47,11 +47,15 @@ const headerConfig: Record<string, HeaderData>= {
     text_btn:"Contactar con Recursos Humanos",
     url_btn:"/bolsa_trabajo#formulario",
   },
+
   "/contacto": {
-    title: "Contacto",
-    subtitle: "Estamos para ayudarte",
-    image: "/images/headers/contact.jpg"
+    title: "CONTACTO",
+    subtitle: "Nuestro equipo está disponible para atender su requerimiento.",
+    text_btn: "Contactar con un asesor",
+    url_btn: "/contacto#formulario",
+    image: "/images/backgrounds/headers/contacto.jpg",
   }
+  
 };
 
 
