@@ -1,7 +1,7 @@
 export default function Ubicacion() {
   return (
-    <section className="w-full bg-blue-900 py-12">
-      <h2 className="text-center text-white text-3xl font-bold tracking-wide mb-10">
+    <section className="w-full bg-blue-900 py-12  mt-20">
+      <h2 className="text-left text-white text-5xl font-bold tracking-wide mb-10 px-20">
         NUESTRA UBICACIÓN
       </h2>
 
