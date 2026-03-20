@@ -17,7 +17,7 @@ export default function Caracteristicas() {
                 max-w-7xl
                 mx-auto
             ">
-                En Omnibandas creemos que cada área es parte fundamental del funcionamiento 
+                En Omnibandas creemos que el talento humano es parte fundamental del funcionamiento 
                 de la empresa. Nuestro equipo está conformado por personas con distintos perfiles, 
                 experiencias y responsabilidades, que trabajan en conjunto para ofrecer 
                 soluciones confiables a nuestros clientes.
