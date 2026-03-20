@@ -22,6 +22,7 @@ export default function Contact() {
         <div className="flex flex-col justify-start items-center min-h-[650px]">
 
 
+
           {/* BLOQUE B: Información de contacto */}
           <div className="space-y-10 text-gray-700 mt-20">
             <div>
@@ -32,20 +33,24 @@ export default function Contact() {
               </p>
             </div>
 
+
             <div>
               <h3 className="font-semibold text-blue-900">Teléfono</h3>
               <p>+52 33 663 2500</p>
             </div>
+
 
             <div>
               <h3 className="font-semibold text-blue-900">Correo</h3>
               <p>ventas@omnibandas.com</p>
             </div>
 
+
             <div>
               <h3 className="font-semibold text-blue-900">Horario</h3>
               <p>Lunes a viernes<br />9:00 – 18:00 h</p>
             </div>
+
 
             <div>
               <h3 className="font-semibold text-blue-900">WhatsApp</h3>
@@ -54,6 +59,8 @@ export default function Contact() {
           </div>
 
         </div>
+
+
 
         {/* Columna derecha */}
         <div className="flex flex-col justify-start mt-20">
