@@ -4,38 +4,56 @@ export default function FormularioContacto() {
     <div className="w-full bg-white p-6 rounded-2xl border border-blue-900/20 shadow-[0_0_20px_rgba(30,58,138,0.25)] flex flex-col justify-start">
       <form className="space-y-3">
 
+
+
+      {/*Nombre*/}
         <input
           type="text"
           placeholder="Nombre"
-          className="w-full p-3 border border-blue-900 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full p-3 border border-blue-500 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
 
+
+
+      {/*Correo*/}
         <input
           type="email"
           placeholder="Correo"
-          className="w-full p-3 border border-blue-900 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full p-3 border border-blue-500 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
 
+
+
+       {/*Telefono*/}
         <div className="grid grid-cols-2 gap-4">
           <input
             type="tel"
             placeholder="Teléfono"
-            className="w-full p-3 border border-blue-900 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900"
+            className="w-full p-3 border border-blue-500 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
 
+
+
+        {/*Empresa*/}
           <input
             type="text"
             placeholder="Empresa"
-            className="w-full p-3 border border-blue-900 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900"
+            className="w-full p-3 border border-blue-500 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
 
+
+
+        {/*Mensaje*/}
         <textarea
           placeholder="Mensaje"
           rows={8}
-          className="w-full p-3 border border-blue-900 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full p-3 border border-blue-500 rounded-lg text-blue-900 placeholder-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
         ></textarea>
 
+
+
+        {/*Enviar*/}
         <div className="flex justify-end">
          <button className="w-32 bg-blue-900 text-white py-2 rounded-lg font-semibold hover:bg-blue-800 transition text-sm">
            ENVIAR
