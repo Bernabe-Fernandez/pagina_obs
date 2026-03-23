@@ -1,28 +1,28 @@
 const zonas = [
   {
     nombre: "Zona Norte",
-    img: "/images/trabajo/zona/cartas/contacto1.jpg",
-    icon: "/images/trabajo/zona/cartas/nortee.svg"
+    img: "/images/zona/cartas/contacto1.jpg",
+    icon: "/images/zona/cartas/nortee.svg"
   },
   {
     nombre: "Zona Bajío",
-    img: "/images/trabajo/zona/cartas/contacto2.jpg",
-    icon: "/images/trabajo/zona/cartas/bajio.svg"
+    img: "/images/zona/cartas/contacto2.jpg",
+    icon: "/images/zona/cartas/bajio.svg"
   },
   {
     nombre: "Zona Occidente",
-    img: "/images/trabajo/zona/cartas/contacto3.jpg",
-    icon: "/images/trabajo/zona/cartas/occidentee.svg"
+    img: "/images/zona/cartas/contacto3.jpg",
+    icon: "/images/zona/cartas/occidentee.svg"
   },
   {
     nombre: "Zona Centro",
-    img: "/images/trabajo/zona/cartas/contacto4.jpg",
-    icon: "/images/trabajo/zona/cartas/centroo.svg"
+    img: "/images/zona/cartas/contacto4.jpg",
+    icon: "/images/zona/cartas/centroo.svg"
   },
   {
     nombre: "Zona Pacífico",
-    img: "/images/trabajo/zona/cartas/contacto5.jpg",
-    icon: "/images/trabajo/zona/cartas/pacificoo.svg"
+    img: "/images/zona/cartas/contacto5.jpg",
+    icon: "/images/zona/cartas/pacificoo.svg"
   }
 ];
 
@@ -37,49 +37,57 @@ export default function Zona() {
         Para una atención más directa, comunícate con nuestro equipo de ventas según tu ubicación.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 px-6">
+      {/* GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 px-4">
+
         {zonas.map((zona, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300"
+            className="bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-200 flex flex-col min-h-[420px]"
           >
-            {/* Imagen más alta */}
-            <div className="relative h-56">
+
+            {/* IMAGEN (MISMA ALTURA) + FONDO AZUL + ICONO MÁS GRANDE */}
+            <div className="relative h-1/2 w-full overflow-hidden bg-blue-900">
               <img
                 src={zona.img}
                 alt={zona.nombre}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
 
-              {/* Capa oscura */}
-              <div className="absolute inset-0 bg-black/30"></div>
+              {/* Fondo azul difuminado */}
+              <div className="absolute inset-0 bg-blue-900/40 mix-blend-multiply"></div>
 
-              {/* Icono dentro de círculo azul */}
-              <div className="absolute bottom-3 right-3 bg-blue-700 p-3 rounded-full shadow-lg">
+              {/* Icono centrado y MÁS GRANDE */}
+              <div className="absolute inset-0 flex items-center justify-center">
                 <img
                   src={zona.icon}
                   alt="icono"
-                  className="w-10 h-10 invert brightness-0"
+                  className="w-[195px] h-[195px]"   // ← AQUI SE HACE MÁS GRANDE
                 />
               </div>
             </div>
 
-            {/* Contenido */}
-            <div className="p-5">
-              <h3 className="text-xl font-bold text-gray-800 mb-2">
-                {zona.nombre}
-              </h3>
+            {/* CONTENIDO */}
+            <div className="p-5 flex flex-col justify-between h-1/2">
+              <div>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  {zona.nombre}
+                </h3>
 
-              <p className="text-gray-600">Vendedor</p>
-              <p className="text-gray-600">Cel.</p>
-              <p className="text-gray-600 mb-4">correo@omnibandas.com.mx</p>
+                <p className="text-gray-600">Vendedor</p>
+                <p className="text-gray-600">Cel.</p>
+                <p className="text-gray-600 mb-4">correo@omnibandas.com.mx</p>
+              </div>
 
-              <button className="w-full bg-blue-900 hover:bg-blue-800 text-white py-2 rounded-md font-semibold shadow-sm hover:shadow-md transition-all">
+              {/* BOTÓN MÁS PEQUEÑO */}
+              <button className="w-full bg-blue-700 hover:bg-blue-800 text-white py-1 rounded-md text-xs font-medium shadow-sm transition-all">
                 Contactar
               </button>
             </div>
+
           </div>
         ))}
+
       </div>
     </section>
   );
