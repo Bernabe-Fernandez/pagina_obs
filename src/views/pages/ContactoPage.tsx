@@ -1,6 +1,9 @@
-
 import Contact from "../../components/contacto/Contact";
 import Ubicacion from "../../components/contacto/Ubicacion";
+import Zona from "../../components/contacto/Zona";
+  
+
+
 import { usePageTitle } from "../../hooks/usePageTitle";
 
 export default function ContactoPage() {
@@ -10,6 +13,7 @@ export default function ContactoPage() {
     <div>
       <Contact/>
       <Ubicacion/>
+      <Zona/>
     </div>
   );
 }

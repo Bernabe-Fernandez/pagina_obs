@@ -9,7 +9,7 @@ import IconComunicacion from "/images/nosotros/valores/comunicacion.svg";
 import IconRespeto from "/images/nosotros/valores/respeto.svg";
 import IconUrgencia from "/images/nosotros/valores/sentido de urgencia.svg";
 
-//importacion de imagenes de fonsdo//
+//importacion de imagenes de fondo//
 import BgHonestidad from "/images/nosotros/valores/honestidad.jpg";
 import BgEmpatia from "/images/nosotros/valores/empatia.jpg";
 import BgCompanierismo from "/images/nosotros/valores/companierismo.jpg";
