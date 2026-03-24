@@ -24,9 +24,9 @@ export default function Contact() {
 
 
           {/* BLOQUE B: Información de contacto */}
-          <div className="space-y-10 text-gray-700 mt-20">
+          <div className="space-y-8 text-gray-700 mt-20">
             <div>
-              <h3 className="font-semibold text-blue-900">Dirección</h3>
+              <h3 className="font-semibold text-blue-900 text-2xl">Dirección</h3>
               <p>
                 Industria del Vestido 2326,<br />
                 Zapopan Industrial Nte., 45130 Guadalajara, Jal.
@@ -54,7 +54,7 @@ export default function Contact() {
 
             <div>
               <h3 className="font-semibold text-blue-900">WhatsApp</h3>
-              <p>+52 1 33 1527 4782</p>
+              <p className="text-lg text-gray-700">+52 1 33 1527 4782</p>
             </div>
           </div>
 
