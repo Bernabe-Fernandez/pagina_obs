@@ -11,7 +11,7 @@ export default function Contact() {
                 ¿BUSCAS INFORMACIÓN O ASESORÍA TÉCNICA?
             </h2>
 
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-[20px] text-gray-700 leading-relaxed">
                 Nuestro equipo está disponible para apoyarte según los requerimientos de tu proceso.
             </p>
         </div>
@@ -27,7 +27,7 @@ export default function Contact() {
           <div className="space-y-8 text-gray-700 mt-20">
             <div>
               <h3 className="font-semibold text-blue-900 text-2xl">Dirección</h3>
-              <p>
+              <p className="text-lg text-gray-700">
                 Industria del Vestido 2326,<br />
                 Zapopan Industrial Nte., 45130 Guadalajara, Jal.
               </p>
@@ -35,29 +35,29 @@ export default function Contact() {
 
 
             <div>
-              <h3 className="font-semibold text-blue-900">Teléfono</h3>
-              <p>+52 33 663 2500</p>
+              <h3 className="font-semibold text-blue-900  text-2xl">Teléfono</h3>
+               <p className="text-lg text-gray-700">+52 33 663 2500</p>
             </div>
 
 
             <div>
-              <h3 className="font-semibold text-blue-900">Correo</h3>
-              <p>ventas@omnibandas.com</p>
+              <h3 className="font-semibold text-blue-900 text-2xl">Correo</h3>
+               <p className="text-lg text-gray-700">ventas@omnibandas.com</p>
             </div>
 
 
             <div>
-              <h3 className="font-semibold text-blue-900">Horario</h3>
-              <p>Lunes a viernes<br />9:00 – 18:00 h</p>
+              <h3 className="font-semibold text-blue-900 text-2xl">Horario</h3>
+              <p className="text-lg text-gray-700">
+                Lunes a viernes<br />9:00 – 18:00 h</p>
             </div>
 
 
             <div>
-              <h3 className="font-semibold text-blue-900">WhatsApp</h3>
-              <p className="text-lg text-gray-700">+52 1 33 1527 4782</p>
+              <h3 className="font-semibold text-blue-900 text-2xl">WhatsApp</h3>
+                <p className="text-lg text-gray-700">+52 1 33 1527 4782</p>
             </div>
           </div>
-
         </div>
 
 

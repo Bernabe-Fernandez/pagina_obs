@@ -36,9 +36,10 @@ export default function Zona() {
         CONTACTO POR ZONA
       </h2>
 
-      <p className="text-center text-azulobs-500 text-lg mb-40 max-w-3xl mx-auto">
+      <p className="text-center text-azulobs-500 text-[20px] mb-40 max-w-4xl mx-auto">
         Para una atención más directa, comunícate con nuestro equipo de ventas según tu ubicación.
       </p>
+
 
       {/* GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 px-4 mb-40">
@@ -48,6 +49,7 @@ export default function Zona() {
             key={index}
             className="bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-200 flex flex-col min-h-[420px]"
           >
+
 
             {/* IMAGEN */}
             <div className="relative h-1/2 w-full overflow-hidden bg-blue-900">
@@ -67,6 +69,7 @@ export default function Zona() {
               </div>
             </div>
 
+
             {/* CONTENIDO */}
             <div className="p-5 flex flex-col justify-between h-1/2">
               <div>
@@ -78,6 +81,7 @@ export default function Zona() {
                 <p className="text-azulobs-400">correo@omnibandas.com.mx</p>
               </div>
 
+
               {/* BOTÓN */}
               <div className="flex justify-end">
                 <button
@@ -87,7 +91,7 @@ export default function Zona() {
                     text-[15px]
                     font-semibold
                     rounded-xl
-                     bg-azulobs-500
+                    bg-azulobs-500
                     text-white
                     shadow-sm
                     transition-all

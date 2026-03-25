@@ -4,18 +4,18 @@ export default function Encuentro() {
       <div className="max-w-6xl mx-auto">
 
         {/* TEXTO AZUL INICIAL – MÁS GRANDE Y SEPARADO */}
-        <p className="text-[#2A4C9A] text-xl leading-relaxed max-w- 6xl mx-auto text-center mb-24 font-semibold">
+        <p className="text-[#2E6092] text-[20px] leading-relaxed max-w- 10xl mx-auto text-center mb-60 font-semibold">
           Consulta nuestro catálogo completo de soluciones en bandas transportadoras, transmisión y accesorios industriales.
           Encuentra especificaciones técnicas, materiales y configuraciones disponibles para distintas aplicaciones y procesos productivos.
         </p>
 
         {/* TÍTULO – MÁS GRANDE Y EN AZUL */}
-        <h2 className="text-center text-[#2A4C9A] text-4xl font-bold tracking-wide mb-8">
+        <h2 className="text-center text-[#2A4C9A] text-4xl font-bold tracking-wide mb-12">
           ¿QUÉ ENCONTRARÁS EN EL CATÁLOGO?
         </h2>
 
         {/* DESCRIPCIÓN */}
-        <p className="text-center text-[#2E6092] max-w-4xl mx-auto text-lg leading-relaxed mb-20 font-medium">
+        <p className="text-center text-[#2E6092] max-w-5xl mx-auto text-[20px]  leading-relaxed mb-24 font-medium">
           En este catálogo encontrarás una amplia gama de bandas transportadoras, termosoldables,
           de transmisión de potencia y modulares, así como accesorios, equipos de instalación y
           soluciones en proyectos especiales.

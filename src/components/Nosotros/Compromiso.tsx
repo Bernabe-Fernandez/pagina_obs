@@ -31,11 +31,11 @@ export default function Compromiso() {
     <section className="w-full bg-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-center text-3xl font-bold text-blue-900 tracking-wide">
+        <h2 className="text-center text-3xl font-bold text-[#2E6092] tracking-wide">
           NUESTRO COMPROMISO
         </h2>
 
-        <p className="text-center text-gray-700 max-w-4xl mx-auto mt-6 mb-16 leading-relaxed">
+        <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-12 mb-16 leading-relaxed text-[20px] md:text-[22px]">
           Trabajamos bajo un compromiso constante con la calidad, la seguridad y la continuidad operativa, aportando valor a nuestros clientes, socios comerciales y al desarrollo de la industria nacional.
         </p>
 
@@ -72,7 +72,7 @@ export default function Compromiso() {
                   {item.title}
                    </h3>
 
-               <p className="text-[#2A4C9A] leading-relaxed text-sm">
+               <p className="text-[#2E6092] leading-relaxed text-[20px]">
                  {item.text}
                   </p>
             </div>
