@@ -22,7 +22,8 @@ export default function Encuentro() {
         </p>
 
         {/* GRID DE IMÁGENES – IGUAL A LA REFERENCIA */}
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-1">
+
 
           {/* Imagen minera grande arriba */}
           <div className="w-full h-[350px] md:h-[420px] rounded-xl overflow-hidden shadow-md">
@@ -33,8 +34,11 @@ export default function Encuentro() {
             />
           </div>
 
+
           {/* Fila de imágenes pequeñas debajo */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
+
+
 
             {/* Imagen huevo */}
             <div className="w-full h-[180px] md:h-[220px] rounded-xl overflow-hidden shadow-md">

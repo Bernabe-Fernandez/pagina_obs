@@ -1,12 +1,34 @@
+import { useEffect } from "react";
 
 import FormularioContacto from '../forms/FormularioContacto'
 
+
 export default function Contact() {
+
+       // CARGAR LA PAGINA SCROLL
+          useEffect(() => {
+          const scrollToHash = () => {
+          const hash = window.location.hash;
+          if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+          setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 1000); // AJUSTE DEL NUMERO SCROLL
+      }
+    }
+  };
+
+  // ESPERA A QUE REACT TERMINE DE MONTAR
+  setTimeout(scrollToHash, 0);
+ }, []);
+
+
   return (
     <section className="w-full pt-48 pb-20 bg-white">
 
         {/* BLOQUE A: Título + descripción */}
-       <div className="mb-16 mt-10 text-center">
+       <div   id="inicio-contacto"    className="mb-16 mt-10 text-center">
             <h2 className="text-4xl font-bold text-blue-900 mb-12">
                 ¿BUSCAS INFORMACIÓN O ASESORÍA TÉCNICA?
             </h2>

@@ -1,5 +1,6 @@
 import { services } from "../../data/servicios";
 
+
 export default function Servicios() {
   return (
     <section className="w-full bg-white py-10 px-6 mt-28">
@@ -43,12 +44,12 @@ export default function Servicios() {
                     className="
                       w-[170px] h-10
                       flex items-center justify-center
-                      bg-azulobs-500 text-white
+                      bg-white text-azulobs-500
                       rounded-full
                       shadow-[0_4px_10px_rgba(0,0,0,0.25)]
                       font-medium text-sm
                       transition-all duration-300
-                      hover:bg-white hover:text-azulobs-500 hover:border-azulobs-500
+                      hover:bg-azulobs-500 hover:text-white
                       focus:outlinenone focus:ring-0 focus:border-transparent
                     "
                   >
@@ -63,23 +64,27 @@ export default function Servicios() {
       </div>
 
       {/* Botón Ver catálogo completo */}
-      <div className="flex justify-end mt-24 pr-10 mb-28">
-        <button
-          className="
+        <div className="flex justify-end mt-24 pr-10 mb-28">
+
+
+        <a
+            href="/catalogo"
+            className="
             w-[220px] h-11 flex items-center justify-center
-            bg-azulobs-500 text-white
+           bg-white text-azulobs-500
             rounded-full
             shadow-[0_4px_10px_rgba(0,0,0,0.25)]
             font-medium text-sm
             transition-all duration-300
-            hover:bg-white hover:text-azulobs-500 hover:border-azulobs-500
+             hover:bg-azulobs-500 hover:text-white
             focus:outline-none focus:ring-0 focus:border-transparent
-            -translate-x-60
-             "
-        >
+           -translate-x-60
+         "
+         >
           Ver catálogo completo
-        </button>
-      </div>
+       </a>
+    </div>
+
 
     </section>
   );

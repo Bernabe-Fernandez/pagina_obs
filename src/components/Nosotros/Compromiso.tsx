@@ -7,7 +7,7 @@ export default function Compromiso() {
     {
       id: 1,
       title: "MISIÓN",
-      text: "Que las bandas y transportadores marca Omnibandas satisfagan a nuestros clientes, generar valor al mercado nacional, actuando con responsabilidad social y ofreciendo calidad en los productos que ofrecemos..",
+      text: "Que las bandas y transportadores marca Omnibandas satisfagan a nuestros clientes, generar valor al mercado nacional, actuando con responsabilidad social y ofreciendo calidad en los productos que ofrecemos.",
       image: "/images/nosotros/compromiso/mision.jpeg",
       icon: IconMision,
     },
@@ -65,14 +65,17 @@ export default function Compromiso() {
             </div>
           </div>
 
-              {/* Texto */}
+              {/* TEXTO */}
               <div className="text-center px-6 pt-24 pb-8">
 
-                <h3 className="text-lg font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] mb-2">
+
+                  {/* TITULO */}
+                <h3 className="text-[22px]  font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] mb-2">
                   {item.title}
                    </h3>
-
-               <p className="text-[#2E6092] leading-relaxed text-[20px]">
+  
+                   {/* TEXTO */}
+               <p className="text-[#2E6092] leading-relaxed text-[18px]">
                  {item.text}
                   </p>
             </div>

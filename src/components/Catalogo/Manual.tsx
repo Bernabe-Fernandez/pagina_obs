@@ -1,4 +1,12 @@
+
+import { useNavigate } from "react-router-dom";
+
+
 export default function Manual() {
+
+   const navigate = useNavigate();
+
+
   return (
     <section className="w-full bg-white pt-20 pb-0 px-6 mt-28">
 
@@ -28,7 +36,7 @@ export default function Manual() {
 
             {/* BOTON  */}
             <div className="flex flex-col sm:flex-row justify-start gap-6 mb-10">
-                <a
+               <a
                  href="/images/catalago/manual/catalago.pdf"
                  target="_blank"
                  rel="noopener noreferrer"
@@ -38,22 +46,33 @@ export default function Manual() {
               </a>
 
 
-                {/* BOTON  */}
-               <button className="px-10 py-2 bg-white text-blue-800 rounded-full border border-gray-200 shadow-md font-medium text-sm transition-colors duration-200 hover:bg-blue-900 hover:text-white">
-                Solicitar cotización
-               </button>
-               </div>
+              
+               {/* BOTON Y TRASPASO A CONTACTO  */}
+                <button
+                 onClick={() => {
+                 navigate("/contacto#inicio-contacto");
+                 window.scrollTo({ top: 0, behavior: "smooth" });
+                  }}
+                  className="px-10 py-2 bg-white text-blue-800 rounded-full border border-gray-200 shadow-md font-medium text-sm transition-colors duration-200 hover:bg-blue-900 hover:text-white">
+                   Solicitar cotización
+                 </button>
+              </div>
 
 
 
-                {/* BANDA ALINEADA  */}
+              {/* BANDA ALINEADA  */}
+                 <div className="relative w-full h-full">
                 <img
                  src="/images/catalago/manual/plano.jpg"
                  alt="banda transportadora"
-                 className="w-full max-w-xl object-contain mt-10 scale-150"
+                 className="w-full max-w-xl object-contain mt-10 scale-150 "
                  />
-
-        </div>
+                  {/* Capa transparente */}
+                  <div className="absolute top-0 bottom-0 left-[-110px] right-[-110px] bg-white/60"></div>
+           
+      
+                </div>
+             </div>
           </div>
     </section>
   );
