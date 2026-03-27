@@ -49,14 +49,27 @@ const headerConfig: Record<string, HeaderData>= {
     url_btn:"/bolsa_trabajo#formulario",
   },
 
+
   "/contacto": {
     title: "CONTACTO",
     subtitle: "Nuestro equipo está disponible para atender su requerimiento.",
     text_btn: "Contactar con un asesor",
     url_btn: "/contacto#formulario",
     image: "/images/backgrounds/headers/contacto.jpg",
-  }
+  },
   
+
+    
+   "/productos/bandas": {
+      title: "BANDAS TRANSPORTADORAS",
+      subtitle: "Soluciones confiables para el transporte continuo de productos en líneas de producción procesamiento y empaque",
+      image: "/images/backgrounds/headers/banda.jpg",
+      text_btn: "Contactar con un asesor",
+   },
+
+
+
+
 };
 
 
