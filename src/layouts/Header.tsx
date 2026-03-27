@@ -122,29 +122,40 @@ export default function Header() {
       className={`h-96 ${headerHeight} relative flex items-center text-white overflow-hidden mb-14`}
     >
 
-      {/* Fondo dinámico */}
       <div className="absolute inset-0">
-        {isHome && !videoEnded ? (
+
+        {/* VIDEO */}
+        {isHome && (
           <video
             key={videoKey}
             ref={videoRef}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover absolute inset-0 ${
+              videoEnded ? "opacity-0" : "opacity-100"
+            }`}
             autoPlay
             muted
             playsInline
             onEnded={() => setVideoEnded(true)}
           >
-            <source src="/images/backgrounds/video/home.mp4" type="video/mp4" />
+            <source src="/images/backgrounds/video/logoanimacion2.mp4" type="video/mp4" />
           </video>
-        ) : (
-          <div
-            className="w-full h-full bg-no-repeat bg-center bg-cover md:bg-[length:100%]"
-            style={{
-              backgroundImage: `url(${config.image})`,
-              filter: "brightness(0.85)"
-            }}
-          />
         )}
+
+        {/* IMAGEN */}
+        <div
+          className={`w-full h-full bg-no-repeat bg-center bg-cover md:bg-[length:100%] absolute inset-0 ${
+            isHome
+              ? videoEnded
+                ? "opacity-100"
+                : "opacity-0"
+              : "opacity-100"
+          }`}
+          style={{
+            backgroundImage: `url(${config.image})`,
+            // filter: "brightness(0.85)"
+          }}
+        />
+
       </div>
 
       {/* Degradado */}
