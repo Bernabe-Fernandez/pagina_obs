@@ -1,16 +1,18 @@
 import { useParams } from "react-router-dom";
 import { usePageTitle } from "../../hooks/usePageTitle";
-
+import Bandas from "../../components/productos/Bandas";
 
 export default function ProductoPage() {
+  const { categoria } = useParams();
 
-    //para paginas que sean subpaginas, por ejemplo industrias y proyuctos usar el url y jalar el ultimo campo del url para mostrarlo como titulo
-    const { categoria } = useParams();
-    
-    //usamos el hook para mostrar el nombre de la pagina
-    usePageTitle(categoria ?? "");
+  usePageTitle(categoria ?? "");
 
-    return (
-        <div>ProductoPage</div>
-    )
+  return (
+    <>
+      
+
+      {categoria === "bandas" && <Bandas />}
+    </>
+  );
 }
+
