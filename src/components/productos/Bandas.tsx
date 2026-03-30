@@ -1,10 +1,13 @@
 export default function Bandas() {
   return (
-    <section className="w-full py-16 bg-white">
-      <div className="container mx-auto px-4">
+   <section className="w-full py-16 bg-white">
+       <div className="flex justify-center flex-wrap gap-0">
+
+
+
 
         {/* Descripción */}
-        <div className="text-center max-w-5xl mx-auto mb-12">
+        <div className="text-center max-w-5xl mx-auto mb-12 px-28">
           <p className="text-gray-700 leading-relaxed">
             Las bandas transportadoras son sistemas diseñados para el traslado continuo de productos a lo largo de un proceso productivo.
             En Omnibandas ofrecemos soluciones adaptadas a distintos entornos industriales, considerando el tipo de producto, la velocidad
@@ -18,32 +21,44 @@ export default function Bandas() {
         </h2>
 
         {/* Sección de 4 cartas */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-[repeat(4,minmax(0,1fr))] gap-0 -mx-3">
 
+
+          
           {/* Carta 1 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src="/images/bandas/cuadros/cereales.jpg"
-              alt="Transporte continuo y estable"
-              className="w-full h-28 object-cover"
-            />
-            <div
+    
+             <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70] ">
+           <div className="w-full aspect-[40/50] object-center">
+             <img
+               src="/images/bandas/cuadros/cereales.jpg"
+               alt="Transporte continuo y estable"
+               className="w-full h-full object-cover object-center"
+             />
+           </div>
+              
+
+             <div
               className="p-3 text-center"
-              style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
-            >
-              <h3 className="font-semibold text-white" style={{ fontSize: "14px" }}>
+             style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
+              >
+           <h3 className="font-semibold text-white" style={{ fontSize: "14px" }}>
                 Transporte continuo y estable
               </h3>
             </div>
-          </div>
+        </div>
 
+
+              
           {/* Carta 2 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+            <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+            <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/carnes.jpg"
               alt="Versatilidad de configuración"
-              className="w-full h-28 object-cover"
+              className="w-full h-full object-cover object-center"
             />
+             </div>
+            
             <div
               className="p-3 text-center"
               style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
@@ -54,13 +69,17 @@ export default function Bandas() {
             </div>
           </div>
 
+
           {/* Carta 3 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+               <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/ban.jpg"
               alt="Reducción de paros de producción"
-              className="w-full h-28 object-cover"
+              className="w-full h-full object-cover object-center"
             />
+             </div>
+            
             <div
               className="p-3 text-center"
               style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
@@ -71,13 +90,17 @@ export default function Bandas() {
             </div>
           </div>
 
+
           {/* Carta 4 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+           <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+                 <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/cajas.jpg"
               alt="Mejora en la eficiencia del proceso"
-              className="w-full h-28 object-cover"
+              className="w-full h-full object-cover object-center"
             />
+             </div>
+       
             <div
               className="p-3 text-center"
               style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
