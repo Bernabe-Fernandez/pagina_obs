@@ -27,6 +27,7 @@ export default function Compromiso() {
     },
   ];
 
+  
   return (
     <section className="w-full bg-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
