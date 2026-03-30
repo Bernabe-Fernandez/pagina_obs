@@ -21,36 +21,36 @@ export default function Bandas() {
         </h2>
 
         {/* Sección de 4 cartas */}
-        <div className="grid grid-cols-[repeat(4,minmax(0,1fr))] gap-0 -mx-3">
+        <div className="grid grid-cols-4 w-3/4 gap-0 mx-auto">
 
 
           
           {/* Carta 1 */}
     
-             <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70] ">
-           <div className="w-full aspect-[40/50] object-center">
-             <img
-               src="/images/bandas/cuadros/cereales.jpg"
-               alt="Transporte continuo y estable"
-               className="w-full h-full object-cover object-center"
-             />
-           </div>
-              
-
-             <div
-              className="p-3 text-center"
-             style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
-              >
-           <h3 className="font-semibold text-white" style={{ fontSize: "14px" }}>
-                Transporte continuo y estable
-              </h3>
+          <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.90] ">
+            <div className="w-full aspect-[40/50] object-center">
+              <img
+                src="/images/bandas/cuadros/cereales.jpg"
+                alt="Transporte continuo y estable"
+                className="w-full h-full object-cover object-center"
+              />
             </div>
-        </div>
+                
+
+              <div
+                className="p-3 text-center"
+              style={{ backgroundColor: "rgba(0, 51, 153, 0.65)" }}
+                >
+            <h3 className="font-semibold text-white" style={{ fontSize: "14px" }}>
+                  Transporte continuo y estable
+                </h3>
+              </div>
+          </div>
 
 
               
           {/* Carta 2 */}
-            <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+            <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.90]">
             <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/carnes.jpg"
@@ -71,7 +71,7 @@ export default function Bandas() {
 
 
           {/* Carta 3 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+          <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.90]">
                <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/ban.jpg"
@@ -92,7 +92,7 @@ export default function Bandas() {
 
 
           {/* Carta 4 */}
-           <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.70]">
+           <div className="bg-white shadow-md rounded-lg overflow-hidden scale-[0.90]">
                  <div className="w-full aspect-[40/50] object-center">
             <img
               src="/images/bandas/cuadros/cajas.jpg"
