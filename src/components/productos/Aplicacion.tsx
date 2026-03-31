@@ -1,13 +1,13 @@
 export default function Aplicacion() {
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white mt-20">
       <div className="w-3/4 mx-auto grid grid-cols-2 gap-10 items-center">
 
         {/* Imagen */}
         <div className="w-full">
           <img
-            src="/images/bandas/aplicaciones/aplicacion.jpg"
-            className="w-full h-full object-cover rounded-lg"
+            src="/images/bandas/aplicacion/cajas.jpg"
+            className="w-[450px] h-auto object-cover rounded-lg translate-x-16"
           />
         </div>
 
@@ -17,7 +17,7 @@ export default function Aplicacion() {
             APLICACIONES COMUNES
           </h2>
 
-          <ul className="text-[20px] text-[#2E6092] leading-relaxed space-y-3">
+          <ul className="text-[20px] text-[#2E6092] leading-relaxed space-y-4">
             <li>• Líneas de producción y ensamblaje</li>
             <li>• Procesos de empaque y clasificación</li>
             <li>• Transporte de productos a granel o unitarios</li>

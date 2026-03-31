@@ -1,24 +1,19 @@
-import { useParams } from "react-router-dom";
 import { usePageTitle } from "../../hooks/usePageTitle";
-import Bandas from "../../components/productos/Bandas";
+
+
 import Aplicacion from "../../components/productos/Aplicacion";
+import Ventajas from "../../components/productos/Ventajas";
 
-export default function ProductoPage() {
-  const { categoria } = useParams();
+export default function BandasPage() {
+  usePageTitle("Bandas Transportadoras");
 
-  usePageTitle(categoria ?? "");
-
- return (
-  <>
-    {categoria === "bandas" && <Bandas />}
-
-    {["aplicacion", "aplicaciones"].includes((categoria ?? "").toLowerCase()) && (
+  return (
+    <div>
+      <Ventajas />
       <Aplicacion />
-    )}
-  </>
-);
-
-
+    
+    </div>
+  );
 }
 
 
