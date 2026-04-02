@@ -1,6 +1,8 @@
 export default function Industria() {
   return (
-    <section className="relative w-full h-[800px] overflow-hidden">
+    <section className="relative w-full h-[800px] overflow-hidden mt-20">
+
+
 
       {/* IMÁGENES DE FONDO */}
       <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-4 ">
@@ -40,22 +42,30 @@ export default function Industria() {
         ></div>
       </div>
 
+
       {/* CONTENIDO */}
       <div className="relative w-3/4 mx-auto pt-20">
 
-        {/* TÍTULO */}
-        <h2 className="text-3xl font-bold text-white mb-10 mt-32">
+
+       {/* TÍTULO */}
+        <h2 className="text-3xl font-bold text-white mb-3 mt-40">
           INDUSTRIAS DONDE SE APLICAN
         </h2>
 
+
         {/* DESCRIPCIÓN */}
-        <p className="text-white text-lg leading-relaxed max-w-[700px]">
-          Las bandas transportadoras se utilizan ampliamente en industrias como:
-          <br />· Alimentaria y bebidas
-          <br />· Empaque y transformación
-          <br />· Materiales y procesos pesados
-          <br />· Automotriz y manufactura
-        </p>
+        <p className="text-white text-[20px] leading-relaxed max-w-[700px] ">
+         
+         
+    Las bandas transportadoras se utilizan ampliamente en industrias como:
+        <div className="mt-20 space-y-6">
+    <p>· Alimentaria y bebidas</p>
+    <p>· Empaque y transformación</p>
+    <p>· Materiales y procesos pesados</p>
+    <p>· Automotriz y manufactura</p>
+  </div>
+
+</p>
 
       </div>
     </section>
