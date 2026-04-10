@@ -4,7 +4,7 @@ export default function Encuentro() {
       <div className="max-w-6xl mx-auto">
 
         {/* TEXTO AZUL INICIAL – MÁS GRANDE Y SEPARADO */}
-        <p className="text-[#2E6092] text-[20px] leading-relaxed max-w- 10xl mx-auto text-center mb-60 font-semibold">
+        <p className="text-[#2E6092] text-[20px] leading-relaxed max-w-10xl mx-auto text-center mb-60 font-semibold">
           Consulta nuestro catálogo completo de soluciones en bandas transportadoras, transmisión y accesorios industriales.
           Encuentra especificaciones técnicas, materiales y configuraciones disponibles para distintas aplicaciones y procesos productivos.
         </p>

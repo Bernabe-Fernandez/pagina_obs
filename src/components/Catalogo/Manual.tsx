@@ -25,7 +25,7 @@ export default function Manual() {
         {/* COLUMNA DERECHA: TEXTO + BOTONES + BANDA */}
         <div className="w-full flex flex-col items-start">
 
-          <h2 className="text-[#2E6092]  text-[30px] font-bold mb-10">
+          <h2 className="text-[#2E6092]  text-[30px] font-bold mb-10 max-w-5xl">
               ¿Buscas la banda transportadora adecuada para tu proceso?
           </h2>
 
