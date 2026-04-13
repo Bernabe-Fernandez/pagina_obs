@@ -5,11 +5,11 @@ export default function Catal() {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full bg-white pt-20 pb-0 px-6 mt-40">
+    <section className="w-full bg-white pt-20 pb-0 px-6 mt-40 mb-80">
 
 {/* RECUADRO */}
   <div
-  className="bg-white shadow-2xl rounded-2xl p-20 max-w-6xl mx-auto"
+  className="bg-white shadow-2xl rounded-2xl p-20 pt-10 pb-0 max-w-6xl mx-auto"
   style={{
     boxShadow: "0 -8px 20px rgba(0,0,0,0.15), 0 8px 20px rgba(0,0,0,0.15)"
   }}
@@ -34,7 +34,7 @@ export default function Catal() {
 
 
 
-          {/* BLOQUE DE TEXTO + BOTONES (MOVIDO A LA IZQUIERDA) */}
+          {/* BLOQUE DE TEXTO + BOTONES  */}
           <div className="flex flex-col items-start gap-6 -ml-24">
 
             <h2 className="text-[#2E6092] text-[30px] font-bold max-w-5xl">
@@ -48,7 +48,7 @@ export default function Catal() {
 
 
             {/* BOTONES DEBAJO DEL TEXTO */}
-            <div className="flex flex-col justify-start gap-6 mb-14">
+            <div className="flex flex-col justify-start gap-6 mb-10">
               <a
                 href="/images/catalago/manual/catalago.pdf"
                 target="_blank"
@@ -73,20 +73,20 @@ export default function Catal() {
           </div>  
 
 
-          {/* BANDA MOVIDA A LA DERECHA */}
+          {/* BANDA  */}
           <div className=" relative w-full h-full ml-2 ">
             <img
               src="/images/catalago/manual/plano.jpg"
               alt="banda transportadora"
                className="w-full max-w-xl object-contain mt-10 scale-150"
                style={{
-               clipPath: "inset(0 80px 0 0)"
+               clipPath: "inset(0 30px 0 0)"
                }}
             />
 
 
-            {/* Capa transparente movida con la banda */}
-            <div className="absolute top-0 bottom-0 left-[3px] right-[-110px] bg-white/60 translate-x-[-110px]"></div>
+            {/* Capa transparente  */}
+            <div className="absolute top-0 bottom-0 left-[3px] right-[-168px] bg-white/60 translate-x-[-110px]"></div>
           </div>
 
         </div>
