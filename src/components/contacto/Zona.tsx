@@ -1,32 +1,84 @@
 {/*importacion de imagenes e iconos*/}
-
 const zonas = [
   {
     nombre: "Zona Norte",
     img: "/images/zona/cartas/contacto1.jpg",
-    icon: "/images/zona/cartas/nortee.svg"
+    icon: "/images/zona/cartas/nortee.svg",
+    contactos: [
+      {
+        rol: "Ventas directas",
+        nombre: "",
+        tel: "33 1991 1863",
+        correo: "ventas@omnibandas.com.mx"
+      }
+    ]
   },
   {
     nombre: "Zona Bajío",
     img: "/images/zona/cartas/contacto2.jpg",
-    icon: "/images/zona/cartas/bajio.svg"
+    icon: "/images/zona/cartas/bajio.svg",
+    contactos: [
+      {
+        rol: "Asesor técnico",
+        nombre: "César Lizardi Guillen",
+        tel: "33 2254 5598",
+        correo: "correo@omnibandas.com.mx"
+      },
+      {
+        rol: "Asesor técnico",
+        nombre: "Jonathan Isaac Molina",
+        tel: "33 1215 5797",
+        correo: "jonathanmolina@omnibandas.com.mx"
+      }
+    ]
   },
   {
     nombre: "Zona Occidente",
     img: "/images/zona/cartas/contacto3.jpg",
-    icon: "/images/zona/cartas/occidentee.svg"
+    icon: "/images/zona/cartas/occidentee.svg",
+    contactos: [
+      {
+        rol: "Ventas directas",
+        nombre: "",
+        tel: "33 1991 1863",
+        correo: "ventas@omnibandas.com.mx"
+      }
+    ]
   },
   {
     nombre: "Zona Centro",
     img: "/images/zona/cartas/contacto4.jpg",
-    icon: "/images/zona/cartas/centroo.svg"
+    icon: "/images/zona/cartas/centroo.svg",
+    contactos: [
+      {
+        rol: "Ventas directas",
+        nombre: "",
+        tel: "33 1991 1863",
+        correo: "ventas@omnibandas.com.mx"
+      }
+    ]
   },
   {
     nombre: "Zona Pacífico",
     img: "/images/zona/cartas/contacto5.jpg",
-    icon: "/images/zona/cartas/pacificoo.svg"
+    icon: "/images/zona/cartas/pacificoo.svg",
+    contactos: [
+      {
+        rol: "Asesor técnico",
+        nombre: "Jorge Domínguez Flores",
+        tel: "33 2835 2969",
+        correo: "ventaspacifico2@omnibandas.com.mx"
+      },
+      {
+        rol: "Asesor técnico",
+        nombre: "Everardo Armenta Cervantes",
+        tel: "33 1895 9945",
+        correo: "ventasgdl@omnibandas.com.mx"
+      }
+    ]
   }
 ];
+
 
 export default function Zona() {
   return (
@@ -40,19 +92,17 @@ export default function Zona() {
         Para una atención más directa, comunícate con nuestro equipo de ventas según tu ubicación.
       </p>
 
-
       {/* GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 px-4 mb-40">
 
         {zonas.map((zona, index) => (
           <div
             key={index}
-            className="bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-200 flex flex-col min-h-[420px]"
+            className="bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-200 flex flex-col min-h-[560px]"
           >
 
-
             {/* IMAGEN */}
-            <div className="relative h-1/2 w-full overflow-hidden bg-blue-900">
+            <div className="relative  h-[250px] w-full overflow-hidden bg-blue-900">
               <img
                 src={zona.img}
                 alt={zona.nombre}
@@ -71,14 +121,40 @@ export default function Zona() {
 
 
             {/* CONTENIDO */}
-            <div className="p-5 flex flex-col justify-between h-1/2">
+            <div className="p-5 flex flex-col justify-between -mt-1 flex-1">
               <div>
-                <h3 className="text-xl font-bold text-azulobs-500 mb-2">
+                <h3 className="text-xl font-bold text-azulobs-500 mb-4">
                   {zona.nombre}
                 </h3>
-                <p className="text-azulobs-400">Vendedor</p>
-                <p className="text-azulobs-400">Cel.</p>
-                <p className="text-azulobs-400">correo@omnibandas.com.mx</p>
+
+
+                {zona.contactos.map((c, i) => (
+                  <div key={i} className="mb-4">
+
+                    {/* ROL */}
+                    <p className="text-azulobs-400 font-semibold mb-1">{c.rol}</p>
+
+                    {c.nombre && (
+                       <div className="flex items-center gap-2 mb-1">
+                       <img src="/images/zona/cartas/usuario.svg" className="w-5 h-5" />
+                       <p className="text-azulobs-400">{c.nombre}</p>
+                       </div>
+                        )}
+
+                    {/* TELÉFONO */}
+                    <div className="flex items-center gap-2 mb-1">
+                      <img src="/images/zona/cartas/telefono.svg" className="w-5 h-5" />
+                      <p className="text-azulobs-400">{c.tel}</p>
+                    </div>
+
+                    {/* CORREO */}
+                    <div className="flex items-center gap-2">
+                      <img src="/images/zona/cartas/correo.svg" className="w-5 h-5" />
+                      <p className="text-azulobs-400">{c.correo}</p>
+                    </div>
+
+                  </div>
+                ))}
               </div>
 
 
