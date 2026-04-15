@@ -1,4 +1,6 @@
-{/*importacion de imagenes e iconos*/}
+import Icon from "@mdi/react";
+import { mdiAccount, mdiPhone, mdiEmail } from "@mdi/js";
+
 const zonas = [
   {
     nombre: "Zona Norte",
@@ -102,7 +104,7 @@ export default function Zona() {
           >
 
             {/* IMAGEN */}
-            <div className="relative  h-[250px] w-full overflow-hidden bg-blue-900">
+            <div className="relative h-[250px] w-full overflow-hidden bg-blue-900">
               <img
                 src={zona.img}
                 alt={zona.nombre}
@@ -119,7 +121,6 @@ export default function Zona() {
               </div>
             </div>
 
-
             {/* CONTENIDO */}
             <div className="p-5 flex flex-col justify-between -mt-1 flex-1">
               <div>
@@ -127,36 +128,47 @@ export default function Zona() {
                   {zona.nombre}
                 </h3>
 
-
                 {zona.contactos.map((c, i) => (
                   <div key={i} className="mb-4">
 
                     {/* ROL */}
                     <p className="text-azulobs-400 font-semibold mb-1">{c.rol}</p>
 
+                    {/* ICONO NOMBRE */}
                     {c.nombre && (
-                       <div className="flex items-center gap-2 mb-1">
-                       <img src="/images/zona/cartas/usuario.svg" className="w-5 h-5" />
-                       <p className="text-azulobs-400">{c.nombre}</p>
-                       </div>
-                        )}
+                      <div className="flex items-center gap-2 mb-1">
+                        <Icon
+                          path={mdiAccount}
+                          size={0.9}
+                          className="text-azulobs-500"
+                        />
+                        <p className="text-azulobs-400">{c.nombre}</p>
+                      </div>
+                    )}
 
-                    {/* TELÉFONO */}
+                    {/* ICONO TELÉFONO */}
                     <div className="flex items-center gap-2 mb-1">
-                      <img src="/images/zona/cartas/telefono.svg" className="w-5 h-5" />
+                      <Icon
+                        path={mdiPhone}
+                        size={0.9}
+                        className="text-azulobs-500"
+                      />
                       <p className="text-azulobs-400">{c.tel}</p>
                     </div>
 
-                    {/* CORREO */}
+                    {/* ICONO CORREO */}
                     <div className="flex items-center gap-2">
-                      <img src="/images/zona/cartas/correo.svg" className="w-5 h-5" />
+                      <Icon
+                        path={mdiEmail}
+                        size={0.9}
+                        className="text-azulobs-500 shrink-0"
+                      />
                       <p className="text-azulobs-400">{c.correo}</p>
                     </div>
 
                   </div>
                 ))}
               </div>
-
 
               {/* BOTÓN */}
               <div className="flex justify-end">
