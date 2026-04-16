@@ -64,10 +64,18 @@ const headerConfig: Record<string, HeaderData>= {
       title: "BANDAS TRANSPORTADORAS",
       subtitle: "Soluciones confiables para el transporte continuo de productos en líneas de producción procesamiento y empaque",
       image: "/images/backgrounds/headers/banda.jpg",
-      text_btn: "Contactar con un asesor",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
    },
 
-
+   "/industrias/alimentos": {
+     title: "AGROALIMENTARIA",
+     subtitle:
+     "Soluciones de transporte diseñadas para el manejo eficiente de materias primas y productos en procesos agroalimentarios.",
+     text_btn: "Solicitar asesoría",
+     url_btn: "/contacto",
+     image: "/images/backgrounds/headers/agroalimentaria.jpg",
+   },
 
 
 };

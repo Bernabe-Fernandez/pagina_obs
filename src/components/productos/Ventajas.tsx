@@ -1,4 +1,5 @@
-export default function Ventajas() {
+
+export default function Ventajas () {
   return (
     <section className="w-full py-16 bg-white">
       <div>
@@ -100,7 +101,7 @@ export default function Ventajas() {
               </div>
             </div>
           </div>
-
+         
         </div>
 
       </div>
