@@ -24,6 +24,7 @@ export default function Solucion() {
 
           <div className="flex gap-10">
 
+
             {/* COLUMNA IZQUIERDA (DESCRIPCIONES EN RECUADROS) */}
             <div className="flex flex-col gap-6 w-1/4">
 

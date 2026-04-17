@@ -24,7 +24,7 @@ export default function Condicion() {
           {/* ITEM 1 */}
           <div className="flex flex-col items-center text-center">
             <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
-              <img src="/images/Industria/condiciones/icono1.png" className="w-12 h-12" />
+              <img src="/images/Industria/operacion/banda.svg" className="w-26 h-26" />
             </div>
             <h3 className="text-azulobs-600 font-semibold text-[20px] mb-3">
               Líneas de producción y ensamblaje
@@ -39,7 +39,7 @@ export default function Condicion() {
           {/* ITEM 2 */}
           <div className="flex flex-col items-center text-center">
             <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
-              <img src="/images/Industria/condiciones/icono2.png" className="w-12 h-12" />
+              <img src="/images/Industria/operacion/empaque.svg" className="w-26 h-26" />
             </div>
             <h3 className="text-azulobs-600 font-semibold text-[20px] mb-3">
               Procesos de empaque y clasificación
@@ -53,7 +53,7 @@ export default function Condicion() {
           {/* ITEM 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
-              <img src="/images/Industria/condiciones/icono3.png" className="w-12 h-12" />
+              <img src="/images/Industria/operacion/transporte.svg" className="w-26 h-26" />
             </div>
             <h3 className="text-azulobs-600 font-semibold text-[20px] mb-3">
               Transporte de productos a granel o unitarios
@@ -68,7 +68,7 @@ export default function Condicion() {
           {/* ITEM 4 */}
           <div className="flex flex-col items-center text-center">
             <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
-              <img src="/images/Industria/condiciones/icono4.png" className="w-12 h-12" />
+              <img src="/images/Industria/operacion/engrane.svg" className="w-26 h-26" />
             </div>
             <h3 className="text-azulobs-600 font-semibold text-[20px] mb-3">
                Sistemas automatizados y semiautomatizados

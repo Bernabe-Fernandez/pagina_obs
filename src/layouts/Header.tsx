@@ -35,7 +35,7 @@ const headerConfig: Record<string, HeaderData>= {
     "/catalogo": {
     title: "CATÁLOGO",
     subtitle: "Soluciones en bandas transportadoras, transmisión y accesorios para aplicaciones industriales.",
-    text_btn: "Solicitar asesoría",
+    text_btn: "Contacta con un asesor",
     url_btn: "/contacto",
     image: "/images/backgrounds/headers/catalogo.jpg",
     

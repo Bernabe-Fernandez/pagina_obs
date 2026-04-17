@@ -9,10 +9,12 @@ export default function Encuentro() {
           Encuentra especificaciones técnicas, materiales y configuraciones disponibles para distintas aplicaciones y procesos productivos.
         </p>
 
+
         {/* TÍTULO – MÁS GRANDE Y EN AZUL */}
         <h2 className="text-center text-[#2A4C9A] text-4xl font-bold tracking-wide mb-12">
           ¿QUÉ ENCONTRARÁS EN EL CATÁLOGO?
         </h2>
+
 
         {/* DESCRIPCIÓN */}
         <p className="text-center text-[#2E6092] max-w-5xl mx-auto text-[20px]  leading-relaxed mb-24 font-medium">
@@ -21,6 +23,7 @@ export default function Encuentro() {
           soluciones en proyectos especiales.
         </p>
 
+
         {/* GRID DE IMÁGENES – IGUAL A LA REFERENCIA */}
         <div className="grid grid-cols-1 gap-1">
 
@@ -28,7 +31,7 @@ export default function Encuentro() {
           {/* Imagen minera grande arriba */}
           <div className="w-full h-[350px] md:h-[420px] rounded-xl overflow-hidden shadow-md">
             <img
-              src="/images/catalago/encontraras/mina.jpg"
+              src="/images/catalago/encontraras/carne.jpg"
               alt="imagen minera"
               className="w-full h-full object-cover"
             />
@@ -40,7 +43,7 @@ export default function Encuentro() {
 
 
 
-            {/* Imagen huevo */}
+            {/* Imagen huevo */}         
             <div className="w-full h-[180px] md:h-[220px] rounded-xl overflow-hidden shadow-md">
               <img
                 src="/images/catalago/encontraras/huevos.jpg"
