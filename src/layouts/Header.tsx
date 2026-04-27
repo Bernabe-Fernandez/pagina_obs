@@ -69,12 +69,12 @@ const headerConfig: Record<string, HeaderData>= {
    },
 
    "/industrias/alimentos": {
-     title: "AGROALIMENTARIA",
-     subtitle:
-     "Soluciones de transporte diseñadas para el manejo eficiente de materias primas y productos en procesos agroalimentarios.",
-     text_btn: "Solicitar asesoría",
-     url_btn: "/contacto",
-     image: "/images/backgrounds/headers/agroalimentaria.jpg",
+      title: "AGROALIMENTARIA",
+      subtitle:
+      "Soluciones de transporte diseñadas para el manejo eficiente de materias primas y productos en procesos agroalimentarios.",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      image: "/images/backgrounds/headers/agroalimentaria.jpg",
    },
 
 
