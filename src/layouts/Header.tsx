@@ -100,6 +100,7 @@ export default function Header() {
     image: "/images/headers/default.jpg"
   };
 
+  
   const headerHeight = config.height ?? "h-96 md:h-[430px] lg:h-[500px]";
 
   useEffect(() => {
