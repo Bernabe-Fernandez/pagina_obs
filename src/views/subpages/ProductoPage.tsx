@@ -14,9 +14,9 @@ export default function BandasPage() {
     <div>
       <Ventajas />
       <Aplicacion />
-       <Tipos />
-       <Industria />
-        <Catal />
+      <Tipos />
+      <Industria />
+      <Catal />
 
     
     </div>
