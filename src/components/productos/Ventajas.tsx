@@ -5,7 +5,7 @@ export default function Ventajas () {
       <div>
 
         {/* Descripción */}
-        <div className="text-center max-w-5xl mx-auto mb-60 text-[20px]">
+        <div className="text-center max-w-6xl mx-auto mb-60 text-[24px]">
           <p className="text-[#2E6092] leading-relaxed">
             Las bandas transportadoras son sistemas diseñados para el traslado continuo de productos a lo largo de un proceso productivo.
             En Omnibandas ofrecemos soluciones adaptadas a distintos entornos industriales, considerando el tipo de producto, la velocidad
