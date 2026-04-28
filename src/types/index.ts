@@ -16,3 +16,5 @@ export type caracteristicaType = z.infer<typeof caracteristicaBase>
 
 export type vacanteCardBase = z.infer<typeof vacanteBase>
 
+
+//pturba de cambio
