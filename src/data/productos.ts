@@ -37,7 +37,7 @@ export const productosList :  productoPage[] = [
         ],
         aplicaciones:{
             id:2,
-            img:"img.jpg",
+            img:"/images/bandas/aplicacion/cajas.jpg",
             aplicaciones:[
                 "Líneas de producción y ensamblaje",
                 "Procesos de empaque y clasificación",
@@ -75,7 +75,7 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 img:"/images/productos/transmision/Ventajas/imagen1.jpg",
-                titulo:"Transporte continuo y establ"
+                titulo:"Transmicion precisa y sincronizada"
             },
             {
                 id:2,
@@ -125,7 +125,7 @@ export const productosList :  productoPage[] = [
 
            {
                 id:3,
-                titulo:"Bandas donle dentadas",
+                titulo:"Bandas doble dentadas",
                 img:"/images/productos/transmision/Tipos/banda3.jpg"
             },
 
@@ -135,10 +135,10 @@ export const productosList :  productoPage[] = [
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
             opciones:[
-                "Alimentaria y bebidas",
-                "Empaque y transformación"
+                "Alimentaria y bebida",
+                "Empaque y transformaciónes"
             ]
-        },
+        }
 
     }
 ];

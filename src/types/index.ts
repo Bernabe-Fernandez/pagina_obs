@@ -1,6 +1,6 @@
 import type z from "zod";
 import type { industriaBase } from "../schemas/industrias-schema";
-import type { ProductoBaseSchema, productoCardBase, ventajasBase } from "../schemas/productos-schema";
+import type { aplicacionesBase, ProductoBaseSchema, productoCardBase, tiposBase, ventajasBase } from "../schemas/productos-schema";
 import type { caracteristicaBase } from "../schemas/caracteristicas-schema";
 import type { vacanteBase } from "../schemas/vacantes-schema";
 
@@ -18,4 +18,6 @@ export type vacanteCardBase = z.infer<typeof vacanteBase>
 
 export type productoPage = z.infer<typeof ProductoBaseSchema>
 export type ventajasTipo = z.infer<typeof ventajasBase>
+export type aplicacionesTipo = z.infer<typeof aplicacionesBase>
+export type tiposTipo = z.infer<typeof tiposBase>;
 

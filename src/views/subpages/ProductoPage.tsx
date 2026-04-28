@@ -8,6 +8,7 @@ import Industria from "../../components/productos/Industria";
 import Catal from "../../components/productos/Catal";
 import { useParams } from "react-router-dom";
 import { productosList } from "../../data/productos";
+import { TbViewportShort } from "react-icons/tb";
 
 export default function BandasPage() {
 
@@ -24,7 +25,7 @@ export default function BandasPage() {
 
     const {
       id,
-      tipo,
+      tipo
       subtitulo,
       ventajas,
       aplicaciones,
@@ -33,15 +34,13 @@ export default function BandasPage() {
     } = producto;
 
 
-  return (
+     return (
     <div>
-      <Ventajas subtitulo={subtitulo} ventajas={ventajas}/>
-      <Aplicacion />
-      <Tipos />
-      <Industria />
+      <Ventajas subtitulo={subtitulo} ventajas={ventajas} />
+      <Aplicacion aplicaciones={aplicaciones} />
+       <Tipos tipos={tipos} />
+      <Industria/>
       <Catal />
-
-    
     </div>
   );
 }
