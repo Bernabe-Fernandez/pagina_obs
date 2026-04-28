@@ -19,5 +19,3 @@ export type vacanteCardBase = z.infer<typeof vacanteBase>
 export type productoPage = z.infer<typeof ProductoBaseSchema>
 export type ventajasTipo = z.infer<typeof ventajasBase>
 
-
-//pturba de cambio
