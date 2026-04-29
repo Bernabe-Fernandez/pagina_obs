@@ -1,4 +1,10 @@
-export default function Tipos() {
+import type { tiposTipo } from "../../types";
+
+type TiposProps = {
+  tipos: tiposTipo[];
+};
+
+export default function Tipos({ tipos }: TiposProps) {
   return (
     <section className="w-full py-20 bg-white">
       <div className="w-3/4 mx-auto">
@@ -11,78 +17,35 @@ export default function Tipos() {
         {/* GRID DE 4 ELEMENTOS */}
         <div className="space-y-16">
 
-          {/* ITEM 1 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
+          {tipos.map((tipo) => (
+            <div
+              key={tipo.id}
+              className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center"
+            >
 
-            {/* TEXTO */}
-            <div className="bg-white shadow-xl px-10 py-3 rounded-lg border border-gray-200 w-[400px] ">
-              <p className="text-center text-lg font-semibold text-[#2E6092] leading-tight">
-                Bandas planas (PU / PVC / Plásticas)
-              </p>
-            </div>
-
-            {/* IMAGEN */}
-            <img
-              src="/images/bandas/Tipos/banda1.jpg"
-              className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
-              alt="Bandas planas"
-            />
-          </div>
-
-          {/* ITEM 2 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
-
-            <div className="bg-white shadow-xl px-10 py-3 rounded-lg border border-gray-200 w-[400px]">
-              <p className="text-center text-lg font-semibold text-[#2E6092] leading-tight">
-                Bandas con perfiles (Empujadores)
-              </p>
-            </div>
-
-            <img
-              src="/images/bandas/Tipos/banda2.jpg"
-              className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
-              alt="Bandas con perfiles"
-            />
-          </div>
-
-          {/* ITEM 3 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
-           <div className="bg-white shadow-xl px-10 py-3 rounded-lg border border-gray-200 w-[400px]">
-            <p className="text-center text-lg font-semibold text-[#2E6092] leading-tight">
-               Bandas con guías de alineación
-               </p>
+              {/* TEXTO */}
+              <div className="bg-white shadow-xl px-10 py-3 rounded-lg border border-gray-200 w-[400px] ">
+                <p className="text-center text-lg font-semibold text-[#2E6092] leading-tight">
+                  {tipo.titulo}
+                </p>
               </div>
 
-            <img
-              src="/images/bandas/Tipos/banda3.jpg"
-              className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
-              alt="Bandas con guías"
-            />
-          </div>
-
-          {/* ITEM 4 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
-
-            <div className="bg-white shadow-xl px-10 py-3 rounded-lg border border-gray-200 w-[400px]">
-              <p className="text-center text-lg font-semibold text-[#2E6092] leading-tight">
-                Bandas especiales por aplicación
-              </p>
+              {/* IMAGEN */}
+              <img
+                src={tipo.img}
+                className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
+                alt={tipo.titulo}
+              />
             </div>
-
-            <img
-              src="/images/bandas/Tipos/banda4.jpg"
-              className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
-              alt="Bandas especiales"
-            />
-          </div>
+          ))}
 
         </div>
 
         {/* BOTÓN */}
         <div className="flex justify-end mt-24 translate-x-12">
           <button
-            className="px-16 py-2 bg-white text-blue-800 rounded-full border border-gray-300 shadow-md font-medium text-lg transition-colors duration-200 hover:bg-blue-900 hover:text-white
-            ">
+            className="px-16 py-2 bg-white text-blue-800 rounded-full border border-gray-300 shadow-md font-medium text-lg transition-colors duration-200 hover:bg-blue-900 hover:text-white"
+          >
             Ver opciones en el catálogo
           </button>
         </div>

@@ -1,8 +1,12 @@
-export default function Industria() {
+import type { industriasTipo } from "../../types";
+
+type IndustriaProps = {
+  industrias: industriasTipo;
+};
+
+export default function Industria({ industrias }: IndustriaProps) {
   return (
     <section className="relative w-full h-[800px] overflow-hidden mt-20">
-
-
 
       {/* IMÁGENES DE FONDO */}
       <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-4 ">
@@ -28,12 +32,9 @@ export default function Industria() {
         />
       </div>
 
-      {/* CAPA AZUL TRANSLÚCIDA (TU COLOR EXACTO) */}
+      {/* CAPA AZUL TRANSLÚCIDA */}
       <div className="absolute inset-0">
-        {/* Azul claro translúcido */}
         <div className="absolute inset-0 bg-[#4da3ff]/70"></div>
-
-        {/* Degradado azul medio a azul profundo */}
         <div
           className="absolute inset-0 bg-gradient-to-b 
             from-transparent 
@@ -42,30 +43,26 @@ export default function Industria() {
         ></div>
       </div>
 
-
       {/* CONTENIDO */}
       <div className="relative w-3/4 mx-auto pt-20">
 
-
-       {/* TÍTULO */}
+        {/* TÍTULO */}
         <h2 className="text-3xl font-bold text-white mb-3 mt-40">
           INDUSTRIAS DONDE SE APLICAN
         </h2>
 
-
         {/* DESCRIPCIÓN */}
-        <p className="text-white text-[20px] leading-relaxed max-w-[700px] ">
-         
-         
-    Las bandas transportadoras se utilizan ampliamente en industrias como:
-        <div className="mt-20 space-y-6">
-    <p>· Alimentaria y bebidas</p>
-    <p>· Empaque y transformación</p>
-    <p>· Materiales y procesos pesados</p>
-    <p>· Automotriz y manufactura</p>
-  </div>
+        <p className="text-white text-[20px] leading-relaxed max-w-[700px]">
+          {industrias.subtitulo}
+        </p>
 
-</p>
+        <div className="mt-20 space-y-6">
+          {industrias.opciones.map((opcion, index) => (
+            <p key={index} className="text-white  text-[20px]">
+              • {opcion}
+            </p>
+          ))}
+        </div>
 
       </div>
     </section>

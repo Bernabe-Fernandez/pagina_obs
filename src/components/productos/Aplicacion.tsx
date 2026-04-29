@@ -19,7 +19,7 @@ export default function Aplicacion({ aplicaciones }: AplicacionProps) {
 
         {/* Texto */}
         <div>
-          <h2 className="text-3xl font-bold text-blue-900 mb-6">
+          <h2 className="text-3xl font-bold text-blue-900 mb-20">
             APLICACIONES COMUNES
           </h2>
 

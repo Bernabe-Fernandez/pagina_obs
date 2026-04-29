@@ -25,7 +25,7 @@ export default function BandasPage() {
 
     const {
       id,
-      tipo
+      tipo, 
       subtitulo,
       ventajas,
       aplicaciones,
@@ -38,8 +38,8 @@ export default function BandasPage() {
     <div>
       <Ventajas subtitulo={subtitulo} ventajas={ventajas} />
       <Aplicacion aplicaciones={aplicaciones} />
-       <Tipos tipos={tipos} />
-      <Industria/>
+      <Tipos tipos={tipos} />
+      <Industria  industrias={industrias} />
       <Catal />
     </div>
   );
