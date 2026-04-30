@@ -6,6 +6,7 @@ type IndustriaProps = {
 };
 
 export default function Industria({ tipo, industrias }: IndustriaProps) {
+  console.log(tipo);
   return (
     <section className="relative w-full h-[800px] overflow-hidden mt-20">
 

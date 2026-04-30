@@ -10,12 +10,14 @@ import BolsaTrabajoPage from "./views/pages/BolsaTrabajoPage";
 import ContactoPage from "./views/pages/ContactoPage";
 import BlogPage from "./views/pages/BlogPage";
 import ScrollToTopButton from "./components/utilities/ScrollToTopButton";
+import ScrollToTop from "./components/utilities/ScrollToTop";
 
 
 export default function AppRouter() {
   return (
     <>
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 {/* rutas para la pagina web */}
                 <Route element={<Layout/>}>

@@ -12,6 +12,10 @@ export default function Ventajas ({tipo, subtitulo, ventajas} : VentajasProps) {
 
   const count = ventajas.length;
 
+  const gridCol = `grid-cols-${count}`;
+
+  // console.log(gridCol);
+
   return (
       tipo === "proyectos" || tipo === "transportadores" ? (
         <div>
@@ -36,7 +40,7 @@ export default function Ventajas ({tipo, subtitulo, ventajas} : VentajasProps) {
             </h2>
 
             {/* Sección de 4 cartas */}
-            <div className={`grid grid-cols-${count} w-3/4 gap-0 mx-auto`}>
+            <div className={`grid ${gridCol} w-3/4 gap-0 mx-auto`}>
             {/* <div className="grid grid-cols-5 w-3/4 gap-0 mx-auto"> */}
 
               {
