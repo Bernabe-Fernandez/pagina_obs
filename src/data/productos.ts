@@ -391,125 +391,133 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 img:"/images/productos/termosoldables/ventajas/imagen1.jpg",
-                titulo:"Transmicion precisa y sincronizada"
+                titulo:"Versatilidad de configuración "
             },
             {
                 id:2,
                 img:"/images/productos/termosoldables/ventajas/imagen2.jpg",
-                titulo:"Prueba"
+                titulo:"Fácil instalación y ajuste de sitio "
             },
             {
                 id:3,
                 img:"/images/productos/termosoldables/ventajas/imagen3.jpg",
-                titulo:"Transporte continuo y establ"
+                titulo:"Buena resistencia a la abrasión y desgaste  "
             },
           
         ],
         aplicaciones:{
             id:3,
-            img:"/images/productos/transmision/Aplicaciones/imagen1.jpg",
+            img:"/images/productos/termosoldables/aplicacion/imagen1.jpg",
             aplicaciones:[
-                "Líneas de producción y ensamblaje",
-                "Procesos de empaque y clasificación",
-                "Transporte de productos a granel o unitarios"
-            ]
+                "Líneas de producción y empaque",
+                "Transporte de productos a granel unitarios",
+                "Procesos continuos en la industria alimentaria y farmacéutica",
+                "Sistemas con cambios frecuentes de configuración",
+             ]
 
         },
+
         tipos:[
             {
                 id:1,
-                titulo:"Bandas dentadas",
-                img:"/images/productos/transmision/Tipos/banda1.jpg"
+                titulo:"Bandas planas (PU / PVC / plásticas  )",
+                img:"/images/bandas/Tipos/banda1.jpg"
             },
-
 
             {
                 id:2,
-                titulo:"Bandas sincronicas",
-                img:"/images/productos/transmision/Tipos/banda2.jpg"
+                titulo:"Bandas con perfiles (Empujadores)",
+                img:"/images/bandas/Tipos/banda2.jpg"
             },
 
-
-           {
+             {
                 id:3,
-                titulo:"Bandas doble dentadas",
-                img:"/images/productos/transmision/Tipos/banda3.jpg"
+                titulo:"Bandas con guías de alineación",
+                img:"/images/bandas/Tipos/banda3.jpg"
             },
-
+            
+            {
+                id:4,
+                titulo:"Bandas especiales por aplicación ",
+                img:"/images/bandas/Tipos/banda4.jpg"
+            },
 
         ],
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
             opciones:[
-                "Automotriz y manufactura",
+                "Alimentaria y bebidas ",
+                "Farmacéutica",
                 "Empaque y transformación",
-                "Alimentaria (en equipos específicos)"
+                "Manufactura" ,
+
               ]
         }
     },
  
   
 
-
-
    {
         id:7,
         tipo:"modulares",
-        subtitulo:"Las bandas de transmisión de potencia son componentes que transmiten movimiento y fuerza entre ejes en equipos y sistemas industriales, ofreciendo soluciones adaptadas a aplicaciones que requieren control, precisión y eficiencia operativa. .",
+        subtitulo:"Las bandas modulares esta compuestas por módulos plásticos ensamblados entre sí, lo que permite crear sistemas de transporte flexibles y adaptables a distintas configuraciones. Este tipo de banda facilita mantenimiento, la limpieza y la adaptación del sistema a los requerimientos del proceso.",
         ventajas:[
             {
                 id:1,
-                img:"/images/productos/orientacion/ventajas/imagen1.jpg",
-                titulo:"Transmicion precisa y sincronizada"
+                img:"/images/productos/modulares/ventajas/imagen1.jpg",
+                titulo:"Diseño modular flexible"
             },
             {
                 id:2,
-                img:"/images/productos/orientacion/ventajas/imagen2.jpg",
-                titulo:"Prueba"
+                img:"/images/productos/modulares/ventajas/imagen2.jpg",
+                titulo:"Fácil mantenimiento y reemplazo de módulos"
             },
             {
                 id:3,
-                img:"/images/productos/orientacion/ventajas/imagen3.jpg",
-                titulo:"Transporte continuo y establ"
+                img:"/images/productos/modulares/ventajas/imagen3.jpg",
+                titulo:"Alta resistencia al desgaste"
             },
+
             {
                 id:4,
-                img:"/images/productos/orientacion/ventajas/imagen4.jpg",
-                titulo:"Transporte continuo y establ"
-           
+                img:"/images/productos/modulares/ventajas/imagen4.jpg",
+                titulo:"Adecuadas para procesos higiénicos  "
             },
 
         ],
         aplicaciones:{
             id:3,
-            img:"/images/productos/transmision/Aplicaciones/imagen1.jpg",
+            img:"/images/productos/modulares/aplicacion/imagen1.jpg",
             aplicaciones:[
-                "Líneas de producción y ensamblaje",
-                "Procesos de empaque y clasificación",
-                "Transporte de productos a granel o unitarios"
+                "Transporte de productos en la industria alimentaria y de bebidas",
+                "Líneas de procesamiento y empaque",
+                "Sistemas que requieren cambios frecuentes de diseño",
+                "Procesos con altos requerimientos de higiene",
+
             ]
 
         },
         tipos:[
             {
                 id:1,
-                titulo:"Bandas dentadas",
-                img:"/images/productos/transmision/Tipos/banda1.jpg"
+                titulo:"Bandas modulares planas",
+                img:"/images/productos/modulares/tipos/imagen1.jpg"
             },
 
 
             {
                 id:2,
-                titulo:"Bandas sincronicas",
-                img:"/images/productos/transmision/Tipos/banda2.jpg"
+                titulo:"Bandas modulares con arrastre ",
+                img:"/images/productos/modulares/tipos/imagen2.jpg"
             },
 
 
            {
                 id:3,
-                titulo:"Bandas doble dentadas",
-                img:"/images/productos/transmision/Tipos/banda3.jpg"
+                titulo:"Bandas modulares especiales (según aplicación)",
+                img:"/images/productos/modulares/tipos/imagen3.jpg"
             },
 
 
@@ -518,9 +526,9 @@ export const productosList :  productoPage[] = [
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
             opciones:[
-                "Automotriz y manufactura",
-                "Empaque y transformación",
-                "Alimentaria (en equipos específicos)"
+                "Alimentaria y bebidas",
+                "Farmacéutica",
+                "Empaque y transformación"
               ]
         }
     },
@@ -532,38 +540,41 @@ export const productosList :  productoPage[] = [
   {
         id:8,
         tipo:"olanes",
-        subtitulo:"Las bandas de transmisión de potencia son componentes que transmiten movimiento y fuerza entre ejes en equipos y sistemas industriales, ofreciendo soluciones adaptadas a aplicaciones que requieren control, precisión y eficiencia operativa. .",
+        subtitulo:"Los olanes son perfiles o elementos adicionales que se integran a las bandas industriales para mejorar el arrastre y el control del producto durante el transporte. Son especialmente utilizados en aplicación con inclinación, declive o cuando se requiere mantener el producto en una posición especifica.",
         ventajas:[
             {
                 id:1,
-                img:"/images/productos/orientacion/ventajas/imagen1.jpg",
-                titulo:"Transmicion precisa y sincronizada"
+                img:"/images/productos/olanes/ventajas/imagen1.jpg",
+                titulo:"Mejor control del producto transportado"
             },
             {
                 id:2,
-                img:"/images/productos/orientacion/ventajas/imagen2.jpg",
-                titulo:"Prueba"
+                img:"/images/productos/olanes/ventajas/imagen2.jpg",
+                titulo:"Optimización en sistemas inclinados"
             },
             {
                 id:3,
-                img:"/images/productos/orientacion/ventajas/imagen3.jpg",
-                titulo:"Transporte continuo y establ"
+                img:"/images/productos/olanes/ventajas/imagen3.jpg",
+                titulo:"Reducción de pérdidas y deslizamientos "
             },
             {
                 id:4,
-                img:"/images/productos/orientacion/ventajas/imagen4.jpg",
-                titulo:"Transporte continuo y establ"
+                img:"/images/productos/olanes/ventajas/imagen4.jpg",
+                titulo:"Adaptación a diferentes tipos de banda "
            
             },
 
         ],
         aplicaciones:{
             id:3,
-            img:"/images/productos/transmision/Aplicaciones/imagen1.jpg",
+            img:"/images/productos/olanes/aplicacion/imagen1.jpg",
             aplicaciones:[
-                "Líneas de producción y ensamblaje",
-                "Procesos de empaque y clasificación",
-                "Transporte de productos a granel o unitarios"
+                
+            "Transporte inclinado o vertical",
+            "Arrastre de productos a granel",
+            "Posicionamiento de productos unitarios",
+            "Procesos donde se requiere evitar deslizamientos" ,
+
             ]
 
         },
@@ -571,21 +582,21 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 titulo:"Bandas dentadas",
-                img:"/images/productos/transmision/Tipos/banda1.jpg"
+                img:"/images/productos/olanes/tipos/imagen1.jpg"
             },
 
 
             {
                 id:2,
                 titulo:"Bandas sincronicas",
-                img:"/images/productos/transmision/Tipos/banda2.jpg"
+                img:"/images/productos/olanes/tipos/imagen2.jpg"
             },
 
 
            {
                 id:3,
                 titulo:"Bandas doble dentadas",
-                img:"/images/productos/transmision/Tipos/banda3.jpg"
+                img:"/images/productos/olanes/tipos/imagen3.jpg"
             },
 
 
@@ -594,9 +605,12 @@ export const productosList :  productoPage[] = [
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
             opciones:[
-                "Automotriz y manufactura",
-                "Empaque y transformación",
-                "Alimentaria (en equipos específicos)"
+
+              "Alimentaria y bebidas",
+              "Empaque y transformación",
+              "Materiales y procesos pesados",
+              "Automotriz y manufactura",
+
               ]
         }
     },
@@ -609,84 +623,78 @@ export const productosList :  productoPage[] = [
   {
         id:9,
         tipo:"empujadores",
-        subtitulo:"Las bandas de transmisión de potencia son componentes que transmiten movimiento y fuerza entre ejes en equipos y sistemas industriales, ofreciendo soluciones adaptadas a aplicaciones que requieren control, precisión y eficiencia operativa. .",
+        subtitulo:"Los empujadores son elementos que se integran en las bandas industriales para mover, separar o redirigir productos a lo largo del sistema de transporte. Se utilizan principalmente en procesos donde se requiere control del flujo, clasificación o posicionamiento preciso del producto.",
         ventajas:[
             {
                 id:1,
-                img:"/images/productos/orientacion/ventajas/imagen1.jpg",
-                titulo:"Transmicion precisa y sincronizada"
+                img:"/images/productos/empujadores/ventajas/imagen1.jpg",
+                titulo:"Transporte continuo y estable"
             },
             {
                 id:2,
-                img:"/images/productos/orientacion/ventajas/imagen2.jpg",
-                titulo:"Prueba"
+                img:"/images/productos/empujadores/ventajas/imagen2.jpg",
+                titulo:"Versatilidad de configuración"
             },
             {
                 id:3,
-                img:"/images/productos/orientacion/ventajas/imagen3.jpg",
-                titulo:"Transporte continuo y establ"
+                img:"/images/productos/empujadores/ventajas/imagen3.jpg",
+                titulo:"Reducción de paros de producción "
             },
             {
                 id:4,
-                img:"/images/productos/orientacion/ventajas/imagen4.jpg",
-                titulo:"Transporte continuo y establ"
+                img:"/images/productos/empujadores/ventajas/imagen4.jpg",
+                titulo:"Mejora en la eficiencia del proceso "
            
             },
 
         ],
         aplicaciones:{
             id:3,
-            img:"/images/productos/transmision/Aplicaciones/imagen1.jpg",
+            img:"/images/productos/empujadores/aplicacion/imagen1.jpg",
             aplicaciones:[
-                "Líneas de producción y ensamblaje",
-                "Procesos de empaque y clasificación",
-                "Transporte de productos a granel o unitarios"
+                "Separación y espaciamiento de productos",
+                "Clasificación en líneas de producción",
+                "Posicionamiento para procesos posteriores", 
+                "Sistemas de desvió o transferencia" ,
             ]
 
         },
         tipos:[
             {
                 id:1,
-                titulo:"Bandas dentadas",
-                img:"/images/productos/transmision/Tipos/banda1.jpg"
+                titulo:"Empujadores rectos ",
+                img:"/images/productos/empujadores/tipos/imagen1.jpg"
             },
 
 
             {
                 id:2,
-                titulo:"Bandas sincronicas",
-                img:"/images/productos/transmision/Tipos/banda2.jpg"
+                titulo: "Empujadores especiales según aplicación",
+                img:"/images/productos/empujadores/tipos/imagen2.jpg"
             },
 
 
-           {
-                id:3,
-                titulo:"Bandas doble dentadas",
-                img:"/images/productos/transmision/Tipos/banda3.jpg"
-            },
-
+           
 
         ],
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
             opciones:[
-                "Automotriz y manufactura",
-                "Empaque y transformación",
-                "Alimentaria (en equipos específicos)"
+              "Alimentaria y bebidas",
+              "Empaque y transformación",
+              "Materiales y procesos pesados",
+              "Automotriz y manufactura",
               ]
         }
     },
 
 
 
-
-
-
  {
         id:10,
         tipo:"proyectos",
-        subtitulo:"Las bandas de transmisión de potencia son componentes que transmiten movimiento y fuerza entre ejes en equipos y sistemas industriales, ofreciendo soluciones adaptadas a aplicaciones que requieren control, precisión y eficiencia operativa. .",
+        subtitulo:"Los proyectos especiales son soluciones desarrolladas a partir de necesidades especificas que no se resuelven con configuraciones estándar, abordadas mediante ingeniería en aplicación, diseño a la medida y acompañamiento técnico para asegurar que cada solución se adapte al proceso real del cliente.",
         ventajas:[
             {
                 id:1,
