@@ -36,10 +36,10 @@ export default function BandasPage() {
 
      return (
     <div>
-      <Ventajas subtitulo={subtitulo} ventajas={ventajas} />
+      <Ventajas tipo={tipo} subtitulo={subtitulo} ventajas={ventajas} />
       <Aplicacion aplicaciones={aplicaciones} />
       <Tipos tipos={tipos} />
-      <Industria  industrias={industrias} />
+      <Industria tipo={tipo} industrias={industrias} />
       <Catal />
     </div>
   );

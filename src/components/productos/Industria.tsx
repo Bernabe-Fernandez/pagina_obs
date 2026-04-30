@@ -1,10 +1,11 @@
 import type { industriasTipo } from "../../types";
 
 type IndustriaProps = {
+  tipo:string,
   industrias: industriasTipo;
 };
 
-export default function Industria({ industrias }: IndustriaProps) {
+export default function Industria({ tipo, industrias }: IndustriaProps) {
   return (
     <section className="relative w-full h-[800px] overflow-hidden mt-20">
 

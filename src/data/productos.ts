@@ -12,7 +12,9 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 img:"/images/bandas/cuadros/cereales.jpg",
-                titulo:"Transporte continuo y estable"
+                titulo:"Transporte continuo y estable",
+                listaVentajas:[]
+
             },
 
             {
@@ -467,23 +469,37 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 img:"/images/productos/modulares/ventajas/imagen1.jpg",
-                titulo:"Diseño modular flexible"
+                titulo:"Diseño modular flexible",
+                listaVentajas:[]
             },
             {
                 id:2,
                 img:"/images/productos/modulares/ventajas/imagen2.jpg",
-                titulo:"Fácil mantenimiento y reemplazo de módulos"
+                titulo:"Fácil mantenimiento y reemplazo de módulos",
+                listaVentajas:[]
+
             },
             {
                 id:3,
                 img:"/images/productos/modulares/ventajas/imagen3.jpg",
-                titulo:"Alta resistencia al desgaste"
+                titulo:"Alta resistencia al desgaste",
+                listaVentajas:[]
+
             },
 
             {
                 id:4,
                 img:"/images/productos/modulares/ventajas/imagen4.jpg",
-                titulo:"Adecuadas para procesos higiénicos  "
+                titulo:"Adecuadas para procesos higiénicos  ",
+                listaVentajas:[]
+
+            },
+            {
+                id:5,
+                img:"/images/productos/modulares/ventajas/imagen1.jpg",
+                titulo:"Diseño modular flexible",
+                listaVentajas:[]
+
             },
 
         ],

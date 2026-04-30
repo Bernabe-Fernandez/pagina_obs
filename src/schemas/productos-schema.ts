@@ -15,8 +15,15 @@ export const productoCardBase = z.object({
 export const ventajasBase = z.object({
     id: z.number(),
     titulo:z.string(),
-    img:z.string()
+    img:z.string(),
+    lista:z.array(z.string()).nullable()
 });
+
+// export const ventajasDiferentes = z.object({
+//     id:z.number(),
+//     titulo:z.string(),
+//     img
+// })
 
 // esquema para las aplicaciones del producto
 export const aplicacionesBase = z.object({
@@ -31,7 +38,7 @@ export const aplicacionesBase = z.object({
 export const tiposBase = z.object({
     id:z.number(),
     titulo:z.string(),
-    img:z.string()
+    img:z.string(),
 });
 
 // esquema de las industrias del producto
