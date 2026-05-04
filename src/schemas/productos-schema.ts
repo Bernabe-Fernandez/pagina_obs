@@ -1,6 +1,8 @@
 import z from "zod";
 
 
+
+
 export const productoCardBase = z.object({
     title: z.string(),
     descripcion:z.string(),
@@ -58,5 +60,6 @@ export const ProductoBaseSchema = z.object({
     ventajas: z.array(ventajasBase),
     aplicaciones: aplicacionesBase,
     tipos:z.array(tiposBase),
-    industrias:industriasBase
+    industrias:industriasBase,
+
 });

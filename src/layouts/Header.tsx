@@ -11,6 +11,7 @@ type HeaderData = {
   height?: string
 }
 
+
 //rutas base para seleccionar en el header
 const headerConfig: Record<string, HeaderData>= {
   "/": {
@@ -76,6 +77,88 @@ const headerConfig: Record<string, HeaderData>= {
       url_btn: "/contacto",
       image: "/images/backgrounds/headers/agroalimentaria.jpg",
    },
+
+     
+   "/productos/transmision": {
+      title: "BANDAS DE TRANSMISIÓN DE POTENCIA",
+      subtitle: "Soluciones diseñadas para transmitir movimiento con precisión, sincronización y confiabilidad en procesos industriales.",
+      image: "/images/backgrounds/headers/bandatransmicion.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+   "/productos/guias": {
+      title: "GUÍAS DE ORIENTACIÓN ",
+      subtitle: "Componentes diseñados para dirigir, estabilizar y optimizar el funcionamiento de las bandas industriales.",
+      image: "/images/backgrounds/headers/guias.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+   "/productos/grapas": {
+      title: "GRAPAS",
+      subtitle: "Soluciones de unión diseñadas para asegurar continuidad operativa y facilitar el mantenimiento de bandas transportadoras.",
+      image: "/images/backgrounds/headers/grapa.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+   "/productos/transportadores": {
+      title: "FABRICACIÓN DE TRANSPORTADORES",
+      subtitle: "Diseño y fabricación de sistemas de transporte adaptados a las necesidades específicas de cada proceso industrial.",
+      image: "/images/backgrounds/headers/fabricacion.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+   
+
+  "/productos/termosoldables": {
+      title: "BANDAS TERMOSOLDABLES",
+      subtitle: "Soluciones versátiles para sistemas de transporte continuo, adaptables a diferentes configuraciones y condiciones de operación.",
+      image: "/images/backgrounds/headers/termosoldable.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+     "/productos/modulares": {
+      title: "BANDAS MODULARES",
+      subtitle: "Soluciones modulares diseñadas para procesos que requieren higiene, flexibilidad y resistencia en el transporte de productos.",
+      image: "/images/backgrounds/headers/modular.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+     "/productos/olanes": {
+      title: "OLANES",
+      subtitle: "Accesorios diseñados para facilitar el arrastre, posicionamiento y control de productos en sistemas de transporte.",
+      image: "/images/backgrounds/headers/olanes.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+    "/productos/empujadores": {
+      title: "EMPUJADORES",
+      subtitle: "Accesorios diseñados para separar, posicionar y dirigir productos durante el transporte en bandas industriales.",
+      image: "/images/backgrounds/headers/empujadores.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+
+   "/productos/proyectos": {
+      title: "PROYECTOS ESPECIALES",
+      subtitle: "Desarrollo de soluciones a la medida para procesos que requieren un enfoque técnico especializado.",
+      image: "/images/backgrounds/headers/proyectos.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   }
 
 
 };
