@@ -12,8 +12,7 @@ export const productosList :  productoPage[] = [
             {
                 id:1,
                 img:"/images/bandas/cuadros/cereales.jpg",
-                titulo:"Transporte continuo y estable",
-                listaVentajas:[]
+                titulo: "Transporte continuo y estable"
 
             },
 
@@ -260,8 +259,19 @@ export const productosList :  productoPage[] = [
                 id:4,
                 img:"/images/productos/grapas/ventajas/grapa4.jpg",
                 titulo:"Adaptables a distintos tipos de banda "
-           
             },
+
+             {
+                id:5,
+                img:"/images/productos/grapas/ventajas/grapa5.jpg",
+                titulo:"Solución práctica para continuidad operativa"
+            },
+
+
+
+
+
+
           
         ],
         aplicaciones:{
@@ -314,29 +324,35 @@ export const productosList :  productoPage[] = [
      {
         id:5,
         tipo:"transportadores",
-        subtitulo:"Las bandas de transmisión de potencia son componentes que transmiten movimiento y fuerza entre ejes en equipos y sistemas industriales, ofreciendo soluciones adaptadas a aplicaciones que requieren control, precisión y eficiencia operativa. .",
+        subtitulo:"La fabricación de transportadores consiste en el diseño y construcción de sistemas completos de transporte industrial, desarrollados a la medida según el tipo de proceso, producto y condiciones de operación. En Omnibandas ofrecemos soluciones integrales que consideran desde la ingeniería hasta la implementación en planta.",
         ventajas:[
             {
                 id:1,
-                img:"/images/productos/orientacion/ventajas/imagen1.jpg",
-                titulo:"Transmicion precisa y sincronizada"
+                img:"/images/productos/F transportadores/ventajas/imagen1.jpg",
+                titulo:"APLICACIONES COMUNES",
+                descripcion: "La fabricación de transportadores es ideal para procesos como:",
+                listaVentajas: [
+                 "Líneas de producción y ensamble.",
+                 "Procesos de empaque y clasificación.",
+                 "Transporte continuo de producto.",
+                 "Sistemas automatizados y personalizados."
+                ]
             },
+
             {
-                id:2,
-                img:"/images/productos/orientacion/ventajas/imagen2.jpg",
-                titulo:"Prueba"
+                id: 2,
+                img: "/images/productos/F transportadores/ventajas/imagen2.jpg",
+                titulo: "BENEFICIOS PRINCIPALES",
+                listaVentajas: [
+                "Soluciones adaptadas al proceso específico.",
+                "Optimización del flujo de producción.",
+                "Integración con bandas y componentes adecuados.",
+                "Mayor eficiencia y confiabilidad operativa.",
+                "Reducción de paros y ajustes posteriores."
+      ]
             },
-            {
-                id:3,
-                img:"/images/productos/orientacion/ventajas/imagen3.jpg",
-                titulo:"Transporte continuo y establ"
-            },
-            {
-                id:4,
-                img:"/images/productos/orientacion/ventajas/imagen4.jpg",
-                titulo:"Transporte continuo y establ"
+            
            
-            },
 
         ],
         aplicaciones:{
@@ -496,8 +512,8 @@ export const productosList :  productoPage[] = [
             },
             {
                 id:5,
-                img:"/images/productos/modulares/ventajas/imagen1.jpg",
-                titulo:"Diseño modular flexible",
+                img:"/images/productos/modulares/ventajas/imagen5.jpg",
+                titulo:"Versatilidad de configuración ",
                 listaVentajas:[]
 
             },

@@ -18,7 +18,8 @@ export const ventajasBase = z.object({
     id: z.number(),
     titulo:z.string(),
     img:z.string(),
-    lista:z.array(z.string()).nullable()
+    descripcion: z.string().optional(),
+    listaVentajas: z.array(z.string()).optional()
 });
 
 // export const ventajasDiferentes = z.object({
