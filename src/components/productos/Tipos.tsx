@@ -1,4 +1,5 @@
 import type { tiposTipo } from "../../types";
+import BotonCatalogo from "../Botones/BotonCatalogo";
 
 type TiposProps = {
   tipos: tiposTipo[];
@@ -41,15 +42,7 @@ export default function Tipos({ tipos }: TiposProps) {
 
         </div>
 
-        {/* BOTÓN */}
-        <div className="flex justify-end mt-24 translate-x-12">
-          <button
-            className="px-16 py-2 bg-white text-blue-800 rounded-full border border-gray-300 shadow-md font-medium text-lg transition-colors duration-200 hover:bg-blue-900 hover:text-white"
-          >
-            Ver opciones en el catálogo
-          </button>
-        </div>
-
+        <BotonCatalogo/>
       </div>
     </section>
   );
