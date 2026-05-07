@@ -45,6 +45,7 @@ export const productosList :  productoPage[] = [
                 "Sistemas automatizados y semiautomatizados",
             ]
         },
+        tituloTipo:"Tipos de Bandas Transportadoras",
         tipos:[
             {
                 id:1,
@@ -125,6 +126,7 @@ export const productosList :  productoPage[] = [
             ]
 
         },
+        tituloTipo:"Tipos de Bandas de Transmisión",
         tipos:[
             {
                 id:1,
@@ -365,6 +367,8 @@ export const productosList :  productoPage[] = [
             ]
 
         },
+        tituloTipo:"Industrias en las que se aplican",
+        subtituloTipo: "Cada Sistema se diseña considerando....",
         tipos:[
             {
                 id:1,
