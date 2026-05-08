@@ -45,34 +45,33 @@ export const productosList :  productoPage[] = [
                 "Sistemas automatizados y semiautomatizados",
             ]
         },
-        tituloTipo:"Tipos de Bandas Transportadoras",
-        tipos:[
-            {
-                id:1,
-                titulo:"Bandas planas (PU / PVC / plásticas  )",
-                img:"/images/bandas/Tipos/banda1.jpg"
-            },
 
-            {
-                id:2,
-                titulo:"Bandas con perfiles (Empujadores)",
-                img:"/images/bandas/Tipos/banda2.jpg"
-            },
-
-             {
-                id:3,
-                titulo:"Bandas con guías de alineación",
-                img:"/images/bandas/Tipos/banda3.jpg"
-            },
-            
-            {
-                id:4,
-                titulo:"Bandas especiales por aplicación ",
-                img:"/images/bandas/Tipos/banda4.jpg"
-            },
-
-
-        ],
+        tipos: {
+        
+        tituloTipo:"TIPOS DE BANDAS",
+        items: [
+       {
+        id: 1,
+        titulo: "Bandas planas (PU / PVC / plásticas)",
+        img: "/images/bandas/Tipos/banda1.jpg"
+       },
+       {
+        id: 2,
+        titulo: "Bandas con perfiles (Empujadores)",
+        img: "/images/bandas/Tipos/banda2.jpg"
+       },
+       {
+        id: 3,
+        titulo: "Bandas con guías de alineación",
+        img: "/images/bandas/Tipos/banda3.jpg"
+       },
+       {
+       id: 4,
+       titulo: "Bandas especiales por aplicación",
+       img: "/images/bandas/Tipos/banda4.jpg"
+       }
+  ]
+},
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -126,11 +125,10 @@ export const productosList :  productoPage[] = [
             ]
 
         },
-        tituloTipo:"Tipos de Bandas de Transmisión",
         tipos:[
             {
                 id:1,
-                titulo:"Bandas dentadas",
+                titulo:"TIPOS DE GUIAS",
                 img:"/images/productos/transmision/Tipos/banda1.jpg"
             },
 
@@ -351,10 +349,9 @@ export const productosList :  productoPage[] = [
                 "Integración con bandas y componentes adecuados.",
                 "Mayor eficiencia y confiabilidad operativa.",
                 "Reducción de paros y ajustes posteriores."
-      ]
+                 ]
             },
             
-           
 
         ],
         aplicaciones:{
@@ -367,8 +364,6 @@ export const productosList :  productoPage[] = [
             ]
 
         },
-        tituloTipo:"Industrias en las que se aplican",
-        subtituloTipo: "Cada Sistema se diseña considerando....",
         tipos:[
             {
                 id:1,

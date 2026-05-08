@@ -34,5 +34,3 @@ export default function Aplicacion({ aplicaciones }: AplicacionProps) {
     </section>
   );
 }
-
-

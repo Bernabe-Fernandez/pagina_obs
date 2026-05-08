@@ -60,8 +60,6 @@ export const ProductoBaseSchema = z.object({
     subtitulo:z.string(),
     ventajas: z.array(ventajasBase),
     aplicaciones: aplicacionesBase,
-    tituloTipo:z.string().optional(),
-    subtituloTipo:z.string().optional(),
     tipos:z.array(tiposBase),
     industrias:industriasBase,
 

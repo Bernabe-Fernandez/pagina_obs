@@ -23,3 +23,4 @@ export type tiposTipo = z.infer<typeof tiposBase>;
 export type industriasTipo = z.infer<typeof industriasBase>
 
 
+
