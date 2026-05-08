@@ -4,7 +4,7 @@ import TipoViewTwo from "../sections/TipoViewTwo";
 
 type TiposProps = {
   subtituloTipo: string|undefined,
-  tituloTipo: string | undefined,
+  tituloTipo: string,
   tipos: tiposTipo[];
   tipo: string
 };
@@ -29,7 +29,7 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, tipo }: TiposP
         {/* GRID DE 4 ELEMENTOS */}
         {
           tipo === "proyectos" || tipo === "transportadores" ? (
-            <TipoViewTwo/>
+            <TipoViewTwo    tipos={tipos}/>
           ) : (
               <>
                 <div className="space-y-16">

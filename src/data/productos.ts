@@ -46,32 +46,38 @@ export const productosList :  productoPage[] = [
             ]
         },
 
-        tipos: {
-        
-        tituloTipo:"TIPOS DE BANDAS",
-        items: [
-       {
-        id: 1,
-        titulo: "Bandas planas (PU / PVC / plásticas)",
-        img: "/images/bandas/Tipos/banda1.jpg"
-       },
-       {
-        id: 2,
-        titulo: "Bandas con perfiles (Empujadores)",
-        img: "/images/bandas/Tipos/banda2.jpg"
-       },
-       {
-        id: 3,
-        titulo: "Bandas con guías de alineación",
-        img: "/images/bandas/Tipos/banda3.jpg"
-       },
-       {
+
+
+
+     tituloTipo: "TIPOS DE BANDAS TRANSPORTADORAS",
+     tipos: [
+
+      {
+       id: 1,
+       titulo: "Bandas planas (PU / PVC / plásticas)",
+       subtituloTipo: "Bandas planas",
+       img: "/images/bandas/Tipos/banda1.jpg"
+      },
+     {
+       id: 2,
+       titulo: "Bandas con perfiles (Empujadores)",
+       subtituloTipo: "Bandas con perfiles",
+       img: "/images/bandas/Tipos/banda2.jpg"
+     },
+     {
+      id: 3,
+      titulo: "Bandas con guías de alineación",
+      subtituloTipo: "Bandas con guías",
+       img: "/images/bandas/Tipos/banda3.jpg"
+     },
+     {
        id: 4,
        titulo: "Bandas especiales por aplicación",
+       subtituloTipo: "Bandas especiales",
        img: "/images/bandas/Tipos/banda4.jpg"
-       }
-  ]
-},
+     }
+ ],
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -123,31 +129,34 @@ export const productosList :  productoPage[] = [
                 "Equipos con requerimientos de sincronización ",
                 "Procesos de alta precisión y repetividad",
             ]
-
         },
-        tipos:[
-            {
-                id:1,
-                titulo:"TIPOS DE GUIAS",
-                img:"/images/productos/transmision/Tipos/banda1.jpg"
-            },
+
+        
+        
+        tituloTipo: "TIPOS DE BANDAS DE TRANSMISIÓN DE POTENCIA",
+        tipos: [
+
+        {
+         id: 1,
+         titulo: "Bandas dentadas",
+         subtituloTipo: "Bandas dentadas",
+         img: "/images/productos/transmision/Tipos/banda1.jpg"
+        },
+        {
+         id: 2,
+          titulo: "Bandas sincrónicas",
+          subtituloTipo: "Bandas sincrónicas ",
+           img: "/images/productos/transmision/Tipos/banda2.jpg"
+        },
+        {
+         id: 3,
+         titulo: "Banda doble dentadas ",
+         subtituloTipo: "Banda doble dentadas ",
+         img: "/images/productos/transmision/Tipos/banda3.jpg"
+        },
+       ],
 
 
-            {
-                id:2,
-                titulo:"Bandas sincrónicas ",
-                img:"/images/productos/transmision/Tipos/banda2.jpg"
-            },
-
-
-           {
-                id:3,
-                titulo:"Bandas doble dentadas",
-                img:"/images/productos/transmision/Tipos/banda3.jpg"
-            },
-
-
-        ],
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -197,13 +206,16 @@ export const productosList :  productoPage[] = [
                 "Procesos de empaque y clasificación",
                 "Transporte productor o granel unitarios",
                 "Sistemas automatizados y semiautomatizados",
-            ]
-
+            ]   
         },
+
+
+        tituloTipo: "TIPOS DE GUÍAS",
         tipos:[
             {
                 id:1,
                 titulo:"Guías de PVC",
+                subtituloTipo: "Banda doble dentadas ",
                 img:"/images/productos/orientacion/tipos/imagen1.jpg"
             },
 
@@ -211,12 +223,13 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Guías de Uretano",
+                subtituloTipo: "Banda doble dentadas ",
                 img:"/images/productos/orientacion/tipos/imagen2.jpg"
-            },
-
+            }
+          ],
 
        
-        ],
+        
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -230,11 +243,6 @@ export const productosList :  productoPage[] = [
     },
  
   
- 
-   
-
-
-
    {
         id:4,
         tipo:"grapas",
@@ -285,12 +293,14 @@ export const productosList :  productoPage[] = [
                "Aplicaciones con necesidad de desmontaje frecuente",
 
             ]
-
         },
+
+        tituloTipo: "TIPOS DE GRAPAS",
         tipos:[
             {
                 id:1,
                 titulo:"Grapas de alambre ",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/grapas/tipos/grapa1.jpg"
             },
 
@@ -298,13 +308,14 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Grapas tipo bisagra ",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/grapas/tipos/grapa2.jpg"
             },
+       ] ,
 
 
 
-
-        ],
+       
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -364,10 +375,14 @@ export const productosList :  productoPage[] = [
             ]
 
         },
+
+
+        tituloTipo: "INDUSTRIAS DONDE SE APLICAN",
         tipos:[
             {
                 id:1,
                 titulo:"Bandas dentadas",
+                 subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda1.jpg"
             },
 
@@ -375,6 +390,7 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Bandas sincronicas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda2.jpg"
             },
 
@@ -382,11 +398,13 @@ export const productosList :  productoPage[] = [
            {
                 id:3,
                 titulo:"Bandas doble dentadas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda3.jpg"
             },
-
-
         ],
+
+
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -433,33 +451,40 @@ export const productosList :  productoPage[] = [
              ]
 
         },
+   
 
-        tipos:[
+              tituloTipo: "TIPOS DE BANDAS TERMOSOLDABLES",
+              tipos:[
             {
                 id:1,
                 titulo:"Bandas planas (PU / PVC / plásticas  )",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/bandas/Tipos/banda1.jpg"
             },
 
             {
                 id:2,
                 titulo:"Bandas con perfiles (Empujadores)",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/bandas/Tipos/banda2.jpg"
             },
 
              {
                 id:3,
                 titulo:"Bandas con guías de alineación",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/bandas/Tipos/banda3.jpg"
             },
             
             {
                 id:4,
                 titulo:"Bandas especiales por aplicación ",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/bandas/Tipos/banda4.jpg"
             },
-
         ],
+
+
 
         industrias:{
             id:1,
@@ -528,12 +553,15 @@ export const productosList :  productoPage[] = [
                 "Procesos con altos requerimientos de higiene",
 
             ]
-
         },
+
+
+        tituloTipo: "TIPOS DE BANDAS TRANSPORTADORAS",
         tipos:[
             {
                 id:1,
                 titulo:"Bandas modulares planas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/modulares/tipos/imagen1.jpg"
             },
 
@@ -541,6 +569,7 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Bandas modulares con arrastre ",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/modulares/tipos/imagen2.jpg"
             },
 
@@ -548,11 +577,14 @@ export const productosList :  productoPage[] = [
            {
                 id:3,
                 titulo:"Bandas modulares especiales (según aplicación)",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/modulares/tipos/imagen3.jpg"
             },
-
-
         ],
+
+
+
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -607,12 +639,16 @@ export const productosList :  productoPage[] = [
             "Procesos donde se requiere evitar deslizamientos" ,
 
             ]
-
         },
+
+
+
+        tituloTipo: "TIPOS DE OLANES",
         tipos:[
             {
                 id:1,
                 titulo:"Bandas dentadas",
+                 subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/olanes/tipos/imagen1.jpg"
             },
 
@@ -620,6 +656,7 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Bandas sincronicas",
+                 subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/olanes/tipos/imagen2.jpg"
             },
 
@@ -627,11 +664,14 @@ export const productosList :  productoPage[] = [
            {
                 id:3,
                 titulo:"Bandas doble dentadas",
+                 subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/olanes/tipos/imagen3.jpg"
             },
-
-
         ],
+
+
+
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -688,12 +728,15 @@ export const productosList :  productoPage[] = [
                 "Posicionamiento para procesos posteriores", 
                 "Sistemas de desvió o transferencia" ,
             ]
-
         },
+
+
+        tituloTipo: "TIPOS DE EMPUJADORES",
         tipos:[
             {
                 id:1,
                 titulo:"Empujadores rectos ",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/empujadores/tipos/imagen1.jpg"
             },
 
@@ -701,13 +744,14 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo: "Empujadores especiales según aplicación",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/empujadores/tipos/imagen2.jpg"
             },
 
-
-           
-
         ],
+
+
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
@@ -758,12 +802,15 @@ export const productosList :  productoPage[] = [
                 "Procesos de empaque y clasificación",
                 "Transporte de productos a granel o unitarios"
             ]
-
         },
+
+        
+     tituloTipo: "TIPOS DE PROYECTOS DESARROLLADOS",
         tipos:[
             {
                 id:1,
                 titulo:"Bandas dentadas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda1.jpg"
             },
 
@@ -771,6 +818,7 @@ export const productosList :  productoPage[] = [
             {
                 id:2,
                 titulo:"Bandas sincronicas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda2.jpg"
             },
 
@@ -778,11 +826,13 @@ export const productosList :  productoPage[] = [
            {
                 id:3,
                 titulo:"Bandas doble dentadas",
+                subtituloTipo: "Bandas sincrónicas ",
                 img:"/images/productos/transmision/Tipos/banda3.jpg"
             },
-
-
         ],
+
+
+
         industrias:{
             id:1,
             subtitulo:"Las bandas transportadoras se utilizan ampliamente en industrias como:",
