@@ -274,14 +274,12 @@ export const productosList :  productoPage[] = [
                 img:"/images/productos/grapas/ventajas/grapa5.jpg",
                 titulo:"Solución práctica para continuidad operativa"
             },
-
-
-
-
-
-
           
         ],
+
+
+
+
         aplicaciones:{
             id:3,
             img:"/images/productos/grapas/aplicacion/imagen1.jpg",
@@ -365,16 +363,33 @@ export const productosList :  productoPage[] = [
             
 
         ],
-        aplicaciones:{
-            id:3,
-            img:"/images/productos/transmision/Aplicaciones/imagen1.jpg",
-            aplicaciones:[
-                "Líneas de producción y ensamblaje",
-                "Procesos de empaque y clasificación",
-                "Transporte de productos a granel o unitarios"
-            ]
+        aplicacionesViewTwo: [
+            {
+                id: 1,
+                titulo: "Sistemas de transporte especiales",
+                descripcion: "",
+                img: "/images/productos/F transportadores/aplicacion/imagen1.jpg",
+            },
+            {
+                id: 2,
+                titulo: "Modificaciones a equipos existentes",
+                descripcion: "",
+                img: "/images/productos/F transportadores/aplicacion/imagen2.jpg",
+            },
+            {
+                id: 3,
+                titulo: "Soluciones para procesos complejos",
+                descripcion: "",
+                img: "/images/productos/F transportadores/aplicacion/imagen3.jpg",
+            },
+            {
+                id: 4,
+                titulo: "Integraciones técnicas especificas ",
+                descripcion: "",
+                img: "/images/productos/F transportadores/aplicacion/imagen4.jpg",
+            },
+            ],
 
-        },
 
 
         tituloTipo: "INDUSTRIAS DONDE SE APLICAN",

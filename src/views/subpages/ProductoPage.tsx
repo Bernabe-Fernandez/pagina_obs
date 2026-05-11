@@ -29,6 +29,7 @@ export default function BandasPage() {
       subtitulo,
       ventajas,
       aplicaciones,
+      aplicacionesViewTwo,
       tituloTipo,
       subtituloTipo,
       tipos,
@@ -40,7 +41,7 @@ export default function BandasPage() {
     <div>
       
       <Ventajas tipo={tipo} subtitulo={subtitulo} ventajas={ventajas} />
-      <Aplicacion aplicaciones={aplicaciones} />
+      <Aplicacion aplicaciones={aplicaciones} tipo={tipo} aplicacionesTwo={aplicacionesViewTwo} />
       <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} tipo={tipo}/>
       <Industria tipo={tipo} industrias={industrias} />
       <Catal />

@@ -38,12 +38,19 @@ export const aplicacionesBase = z.object({
 });
 
 
+export const aplicacionesViewTwoBase = z.object({
+  id: z.number(),
+  titulo: z.string(),
+  descripcion: z.string(),
+  img: z.string(),
+});
+
 
 //esquema para los tipos del producto
 export const tiposBase = z.object({
     id:z.number(),
     titulo:z.string(),
-    subtituloTipo:z.string().optional,
+    subtituloTipo:z.string().optional(),
     img:z.string(),
 });
 
@@ -57,13 +64,16 @@ export const industriasBase = z.object({
     )
 });
 
+
+
 // esquema completo para el tipo producto
 export const ProductoBaseSchema = z.object({
     id:z.number(),
     tipo:z.string(),
     subtitulo:z.string(),
     ventajas: z.array(ventajasBase),
-    aplicaciones: aplicacionesBase,
+    aplicaciones: aplicacionesBase.optional(),
+    aplicacionesViewTwo: z.array(aplicacionesViewTwoBase).optional(),
     tituloTipo:z.string(),
     subtituloTipo:z.string().optional(),
     tipos:z.array(tiposBase),
