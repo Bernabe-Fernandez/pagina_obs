@@ -1,39 +1,43 @@
-import type { tiposTipo } from "../../types";
+import type { condicionTipo } from "../../types";
 
 type TipoViewTwoProps = {
-  tipos: tiposTipo[];
+  condiciones: condicionTipo[];
 };
 
-export default function TipoViewTwo({ tipos }: TipoViewTwoProps) {
+export default function TipoViewTwo({ condiciones }: TipoViewTwoProps) {
   return (
     <section className="w-full py-20 bg-white">
-      <div className="w-3/4 mx-auto">
-        <h2 className="text-3xl font-bold text-center text-azulobs-500 mb-20">
-          TIPOS DE BANDAS TRANSPORTADORAS
+      <div className="max-w-6xl mx-auto">
+
+        {/* TÍTULO */}
+        <h2 className="text-3xl font-bold text-center text-azulobs-500 mb-12 mt-40">
+          CONDICIONES DE OPERACIÓN
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {tipos.map((tipo) => (
-            <div
-              key={tipo.id}
-              className="bg-white shadow-lg rounded-lg overflow-hidden"
-            >
-              <img
-                src={tipo.img}
-                alt={tipo.titulo}
-                className="w-full h-56 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2E6092] mb-3">
-                  {tipo.titulo}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {tipo.subtituloTipo}
-                </p>
+        {/* DESCRIPCIÓN */}
+        <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
+          En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte
+          capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos
+          de alta exigencia.
+        </p>
+
+        {/* GRID DE ELEMENTOS */}
+        <div className="grid grid-cols-2 grid-rows-2 gap-10 w-4/5 mx-auto">
+          {condiciones.map((item) => (
+            <div key={item.id} className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
+                <img src={item.icono} className="w-26 h-26" />
               </div>
+              <h3 className="text-azulobs-600 font-semibold text-[20px] mb-3">
+                {item.titulo}
+              </h3>
+              <p className="text-[18px] text-[#2E6092] leading-relaxed">
+                {item.descripcion}
+              </p>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ import Catal from "../../components/productos/Catal";
 import { useParams } from "react-router-dom";
 import { productosList } from "../../data/productos";
 import { TbViewportShort } from "react-icons/tb";
+import TipoViewTwo from "../../components/sections/TipoViewTwo";
 
 export default function BandasPage() {
 
@@ -30,6 +31,7 @@ export default function BandasPage() {
       ventajas,
       aplicaciones,
       aplicacionesViewTwo,
+      condiciones,
       tituloTipo,
       subtituloTipo,
       tipos,
@@ -42,8 +44,12 @@ export default function BandasPage() {
       
       <Ventajas tipo={tipo} subtitulo={subtitulo} ventajas={ventajas} />
       <Aplicacion aplicaciones={aplicaciones} tipo={tipo} aplicacionesTwo={aplicacionesViewTwo} />
-      <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} tipo={tipo}/>
-      <Industria tipo={tipo} industrias={industrias} />
+      <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} condiciones={condiciones} tipo={tipo}/>
+      {
+        (tipo != "transportadores" && tipo != "fabricacion") && (
+           <Industria tipo={tipo} industrias={industrias} />
+        ) 
+      }
       <Catal />
     </div>
   );

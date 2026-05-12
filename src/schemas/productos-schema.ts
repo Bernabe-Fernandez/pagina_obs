@@ -65,6 +65,13 @@ export const industriasBase = z.object({
 });
 
 
+export const condicionBase = z.object({
+  id: z.number(),
+  icono: z.string(),
+  titulo: z.string(),
+  descripcion: z.string(),
+});
+
 
 // esquema completo para el tipo producto
 export const ProductoBaseSchema = z.object({
@@ -76,7 +83,8 @@ export const ProductoBaseSchema = z.object({
     aplicacionesViewTwo: z.array(aplicacionesViewTwoBase).optional(),
     tituloTipo:z.string(),
     subtituloTipo:z.string().optional(),
-    tipos:z.array(tiposBase),
+    condiciones: z.array(condicionBase).optional(),
+    tipos:z.array(tiposBase).optional(),
     industrias:industriasBase,
 
 });
