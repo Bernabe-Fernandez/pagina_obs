@@ -361,11 +361,9 @@ export const productosList: productoPage[] = [
         descripcion: "",
         img: "/images/productos/F transportadores/aplicacion/imagen4.jpg",
       },
-
-
     ],
-    
-    tituloTipo: "CONDICIONES DE OPERACIÓN",
+
+    tituloTipo: "",
     industrias: {
       id: 1,
       subtitulo:
@@ -721,65 +719,101 @@ export const productosList: productoPage[] = [
 
   {
     id: 10,
-    tipo: "proyectos",
+     tipo: "proyectos",
     subtitulo:
-      "Los proyectos especiales son soluciones desarrolladas a partir de necesidades especificas que no se resuelven con configuraciones estándar, abordadas mediante ingeniería en aplicación, diseño a la medida y acompañamiento técnico para asegurar que cada solución se adapte al proceso real del cliente.",
+      "Los proyectos especiales son soluciones desarrolladas a partir de necesidades específicas que no se resuelven con configuraciones estándar, abordadas mediante ingeniería en aplicación, diseño a la medida y acompañamiento técnico para asegurar que cada solución de adapte al proceso real del cliente.",
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/orientacion/ventajas/imagen1.jpg",
-        titulo: "Transmicion precisa y sincronizada",
+        img: "/images/productos/proyectos/ventajas/imagen2.jpg",
+        titulo: "CUANDO SE REQUIERE UN PROYECTO ESPECIAL",
+        descripcion:
+          "",
+        listaVentajas: [
+          "Procesos no estándar o altamente específicos.",
+          "Espacios o layouts con restricciones.",
+          "Necesidad de integración con equipos existentes.",
+         "Problemas recurrentes sin solución convencional.",
+          "Requerimientos técnicos particulares del cliente.",
+        ],
+      },
+
+      {
+        id: 2,
+        img: "/images/productos/proyectos/ventajas/imagen1.jpg",
+        titulo: "QUÉ OFRECEMOS EN PROYECTOS ESPECIALES",
+        listaVentajas: [
+          "Análisis técnico del proceso.",
+          "Diseño de soluciones personalizadas.",
+         "Selección de bandas, componentes y sistemas.",
+          "Fabricación e integración a la medida.",
+          "Acompañamiento durante la implementación.",
+        ],
+      },
+    ],
+
+    aplicacionesViewTwo: [
+      {
+        id: 1,
+        titulo: "Sistemas de transporte especiales",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen1.jpg",
       },
       {
         id: 2,
-        img: "/images/productos/orientacion/ventajas/imagen2.jpg",
-        titulo: "Prueba",
+        titulo: "Modificaciones a equipos existentes",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen2.jpg",
       },
       {
         id: 3,
-        img: "/images/productos/orientacion/ventajas/imagen3.jpg",
-        titulo: "Transporte continuo y establ",
+        titulo: "Soluciones para procesos complejos",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen3.jpg",
       },
       {
         id: 4,
-        img: "/images/productos/orientacion/ventajas/imagen4.jpg",
-        titulo: "Transporte continuo y establ",
+        titulo: "Integraciones técnicas especificas ",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen4.jpg",
       },
     ],
-    aplicaciones: {
-      id: 3,
-      img: "/images/productos/transmision/Aplicaciones/imagen1.jpg",
-      aplicaciones: [
-        "Líneas de producción y ensamblaje",
-        "Procesos de empaque y clasificación",
-        "Transporte de productos a granel o unitarios",
-      ],
-    },
 
-    tituloTipo: "TIPOS DE PROYECTOS DESARROLLADOS",
-    tipos: [
-      {
-        id: 1,
-        titulo: "Bandas dentadas",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/transmision/Tipos/banda1.jpg",
-      },
-
-      {
-        id: 2,
-        titulo: "Bandas sincronicas",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/transmision/Tipos/banda2.jpg",
-      },
-
-      {
-        id: 3,
-        titulo: "Bandas doble dentadas",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/transmision/Tipos/banda3.jpg",
-      },
-    ],
+    tituloTipo: "",
     
+
+    condiciones: [
+  {
+    id: 1,
+    icono: "/images/productos/proyectos/tipos/analisis.svg",
+    titulo: "Análisis del proceso",
+    descripcion:
+      "Evaluación de las condiciones reales de operación, producto y entorno para definir la solución más adecuada.",
+  },
+  {
+    id: 2,
+    icono: "/images/productos/proyectos/tipos/ingenieria.svg",
+    titulo: "Ingeniería aplicada",
+    descripcion:
+      "Desarrollo técnico enfocado en funcionalidad, eficiencia y compatibilidad con el sistema existente.",
+  },
+  {
+    id: 3,
+    icono: "/images/productos/proyectos/tipos/adaptabilidad.svg",
+    titulo: "Adaptabilidad operativa",
+    descripcion:
+      "Soluciones pensadas para ajustarse a cambios futuros en el proceso o en el tipo de producto.",
+  },
+  {
+    id: 4,
+    icono: "/images/productos/proyectos/tipos/acompañamiento.svg",
+    titulo: "Acompañamiento técnico",
+    descripcion:
+      "Soporte durante las etapas clave del proyecto para asegurar una implementación correcta.",
+   },
+  ],
+
+
 
     industrias: {
       id: 1,

@@ -1,29 +1,33 @@
 import type { aplicacionesViewTwoTipo } from "../../types";
+import BotonCatalogo from "../Botones/BotonCatalogo"; // ⭐ Importación del botón
 
 type AplicacionesViewTwoProps = {
   aplicaciones: aplicacionesViewTwoTipo[];
+  tipo: string;
 };
 
-export default function AplicacionesViewTwo({ aplicaciones }: AplicacionesViewTwoProps) {
+export default function AplicacionesViewTwo({ aplicaciones, tipo }: AplicacionesViewTwoProps) {
   const count = aplicaciones.length;
   const gridCol = `grid-cols-${count}`;
+  const esProyecto = tipo === "proyectos";
 
   return (
     <div>
-
       {/* Título */}
       <h2 className="text-3xl font-bold text-center text-azulobs-500 mt-40">
-        INDUSTRIAS DONDE SE APLICAN
+        {esProyecto
+          ? "TIPOS DE PROYECTOS DESARROLLADOS"
+          : "INDUSTRIAS DONDE SE APLICAN"}
       </h2>
 
-      {/* Subtítulo agregado */}
-      <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-6 mb-20 leading-relaxed md:text-[24px]  ">
-        Cada sistema se diseña considerando variables como tipo de producto, flujo de trabajo, 
-        condiciones operativas, espacio disponible y nivel de automatización, lo que permite 
-        desarrollar soluciones adaptables a prácticamente cualquier sector industrial.
+      {/* Descripción */}
+      <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-6 mb-20 leading-relaxed md:text-[24px]">
+        {esProyecto
+          ? "Analizamos cada proceso y sus condiciones reales de operación para desarrollar soluciones que mejoran la eficiencia y continuidad productiva."
+          : "Cada sistema se diseña considerando variables como tipo de producto, flujo de trabajo, condiciones operativas, espacio disponible y nivel de automatización, lo que permite desarrollar soluciones adaptables a prácticamente cualquier sector industrial."}
       </p>
 
-      {/* Sección de 4 cartas */}
+      {/* Grid de cartas */}
       <div className={`grid ${gridCol} w-3/4 gap-0 mx-auto`}>
         {aplicaciones.map((item, index) => (
           <div
@@ -36,7 +40,6 @@ export default function AplicacionesViewTwo({ aplicaciones }: AplicacionesViewTw
                 className="w-full h-full object-cover object-bottom"
               />
 
-              {/* Recuadro azul transparente */}
               <div
                 className="absolute bottom-[-3px] w-full h-[80px] bg-gradient-to-b
                   from-[#3b8cff]/80
@@ -57,6 +60,8 @@ export default function AplicacionesViewTwo({ aplicaciones }: AplicacionesViewTw
         ))}
       </div>
 
+      {/* ⭐ Botón al final (centrado) */}
+      <BotonCatalogo />
     </div>
   );
 }

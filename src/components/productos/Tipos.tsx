@@ -1,10 +1,11 @@
-import type { condicionTipo } from "../../types";
+import type { tiposTipo , condicionTipo } from "../../types";
 import TipoViewTwo from "../../components/sections/TipoViewTwo";
+import BotonCatalogo from "../Botones/BotonCatalogo"; //  Importación del botón
 
 type TiposProps = {
   subtituloTipo?: string;
   tituloTipo: string;
-  tipos?: condicionTipo[];
+  tipos?: tiposTipo[];
   condiciones?: condicionTipo[];
   tipo: string;
 };
@@ -14,6 +15,7 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
     <section className="w-full py-20 bg-white">
       <div className="w-3/4 mx-auto">
 
+        {/* TÍTULO */}
         <h2 className="text-3xl font-bold text-blue-900 mb-36 mt-28">
           {tituloTipo}
         </h2>
@@ -21,7 +23,7 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
         {subtituloTipo && <p>{subtituloTipo}</p>}
 
         {tipo === "proyectos" || tipo === "transportadores" ? (
-          <TipoViewTwo  condiciones={condiciones ?? []} />
+          <TipoViewTwo condiciones={condiciones ?? []} tipo={tipo} />
         ) : (
           <>
             <div className="space-y-16">
@@ -38,16 +40,20 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
                     </div>
 
                     <img
-                      src={tipo.icono}
+                      src={tipo.img}
                       className="max-w-none w-[700px] h-[120px] object-cover rounded-lg -ml-24"
                       alt={tipo.titulo}
                     />
                   </div>
                 ))}
             </div>
+
+            {/*  Botón agregado al final */}
+            <BotonCatalogo />
           </>
         )}
       </div>
     </section>
   );
 }
+

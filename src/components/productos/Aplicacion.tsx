@@ -16,8 +16,11 @@ export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: Apli
   return (
     <>
       {
-        tipo === "transportadores" || tipo === "fabricacion" ? (
-          <AplicacionesViewTwo aplicaciones={aplicacionesTwo} />
+        tipo === "transportadores" || tipo === "proyectos" ? (
+          <AplicacionesViewTwo 
+            aplicaciones={aplicacionesTwo} 
+            tipo={tipo}   // ⭐ SE AGREGA ESTE PROP
+          />
         ) : (
           <section className="w-full py-20 bg-white mt-20">
             <div className="w-3/4 mx-auto grid grid-cols-2 gap-10 items-center">
@@ -50,4 +53,3 @@ export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: Apli
     </>
   );
 }
-

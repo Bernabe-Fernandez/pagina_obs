@@ -2,9 +2,10 @@ import type { condicionTipo } from "../../types";
 
 type TipoViewTwoProps = {
   condiciones: condicionTipo[];
+  tipo: string;
 };
 
-export default function TipoViewTwo({ condiciones }: TipoViewTwoProps) {
+export default function TipoViewTwo({ condiciones, tipo }: TipoViewTwoProps) {
   return (
     <section className="w-full py-20 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -15,11 +16,17 @@ export default function TipoViewTwo({ condiciones }: TipoViewTwoProps) {
         </h2>
 
         {/* DESCRIPCIÓN */}
-        <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
-          En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte
-          capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos
-          de alta exigencia.
-        </p>
+        {tipo === "proyectos" ? (
+          <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
+            Los proyectos especiales permiten responder a requerimientos operativos particulares mediante el diseño y desarrollo de soluciones de transporte adaptadas a cada proceso.
+          </p>
+        ) : (
+          <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
+            En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte
+            capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos
+            de alta exigencia.
+          </p>
+        )}
 
         {/* GRID DE ELEMENTOS */}
         <div className="grid grid-cols-2 grid-rows-2 gap-10 w-4/5 mx-auto">
