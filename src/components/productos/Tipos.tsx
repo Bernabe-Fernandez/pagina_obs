@@ -47,13 +47,16 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
                   </div>
                 ))}
             </div>
-
-            {/*  Botón agregado al final */}
-            <BotonCatalogo />
           </>
         )}
+
       </div>
+
+      {/* Mostrar botón SOLO cuando NO sea TipoViewTwo */}
+      {!(tipo === "proyectos" || tipo === "transportadores") && (
+        <BotonCatalogo />
+      )}
+
     </section>
   );
 }
-

@@ -46,7 +46,7 @@ export default function BandasPage() {
       <Aplicacion aplicaciones={aplicaciones} tipo={tipo} aplicacionesTwo={aplicacionesViewTwo} />
       <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} condiciones={condiciones} tipo={tipo}/>
       {
-        (tipo != "transportadores" && tipo != "fabricacion") && (
+        (tipo != "transportadores" && tipo != "fabricacion" && tipo != "proyectos") && (
            <Industria tipo={tipo} industrias={industrias} />
         ) 
       }
