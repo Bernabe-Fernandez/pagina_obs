@@ -1,4 +1,4 @@
-import type { industriasBase } from "../types";
+import type { industriasBase, industriaTipo } from "../types";
 
 export const industriasData : industriasBase[] = [
     {
@@ -118,4 +118,60 @@ export const industriasData : industriasBase[] = [
         alt:"img-agroalimentaria",
         altura:"ancha"
     }
+]
+
+
+
+export const industriasPage : industriaTipo[] = [
+    
+    {
+    id: 1,
+    titulo: "alimentos",
+    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
+    url: "chocolatera",
+    img: "/images/industrias/chocolatera.jpg",
+    alt: "Industria chocolatera",
+
+    procesos: [
+      { id: 1, img: "/images/procesos/choco1.jpg", titulo: "Transporte de producto moldeado" },
+      { id: 2, img: "/images/procesos/choco2.jpg", titulo: "Transferencia entre enfriado y empaque" },
+      { id: 3, img: "/images/procesos/choco3.jpg", titulo: "Manejo de piezas delicadas" },
+    ],
+
+    condiciones: [
+      {
+        id: 1,
+        icono: "/icons/produccion.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+      },
+      {
+        id: 2,
+        icono: "/icons/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+    ],
+
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/soluciones/bandas-transportadoras.jpg",
+        titulo: "Bandas transportadoras",
+        descripcion: "Soluciones para el transporte continuo de producto en líneas de producción.",
+      },
+      {
+        id: 2,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas termosoldables",
+        descripcion: "Ideales para procesos que requieren higiene y resistencia a la humedad.",
+      },
+    ],
+    },
+
+
+
+
+
+
 ]

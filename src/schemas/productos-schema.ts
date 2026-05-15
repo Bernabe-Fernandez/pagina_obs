@@ -13,6 +13,7 @@ export const productoCardBase = z.object({
 
 //schema para la distribución de productos.
 
+
 // esquema de las ventajas
 export const ventajasBase = z.object({
     id: z.number(),
@@ -88,3 +89,6 @@ export const ProductoBaseSchema = z.object({
     industrias:industriasBase,
 
 });
+
+
+

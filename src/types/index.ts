@@ -1,5 +1,6 @@
 import type z from "zod";
-import type { industriaBase } from "../schemas/industrias-schema";
+import type { condicionItemBase, industriaBase, procesosBase, solucionBase } from "../schemas/industrias-schema";
+import type { IndustriaBaseShema } from "../schemas/industrias-schema";
 import type { aplicacionesBase, aplicacionesViewTwoBase, condicionBase, industriasBase, ProductoBaseSchema, productoCardBase, tiposBase, ventajasBase } from "../schemas/productos-schema";
 import type { caracteristicaBase } from "../schemas/caracteristicas-schema";
 import type { vacanteBase } from "../schemas/vacantes-schema";
@@ -25,3 +26,9 @@ export type aplicacionesViewTwoTipo = z.infer<typeof aplicacionesViewTwoBase>;
 export type condicionTipo = z.infer<typeof condicionBase>;
 
 
+
+//Tipos de industria
+export type procesoTipo = z.infer<typeof procesosBase>;
+export type condicionItemTipo = z.infer<typeof condicionItemBase>;
+export type solucionTipo = z.infer<typeof solucionBase>;
+export type industriaTipo = z.infer<typeof IndustriaBaseShema>;
