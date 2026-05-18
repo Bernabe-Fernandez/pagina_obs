@@ -124,54 +124,251 @@ export const industriasData : industriasBase[] = [
 
 export const industriasPage : industriaTipo[] = [
     
-    {
+    { 
     id: 1,
-    titulo: "alimentos",
+    tipo: "alimentos",
     descripcion: "Industria dedicada a la producción de chocolate y derivados.",
     url: "chocolatera",
     img: "/images/industrias/chocolatera.jpg",
     alt: "Industria chocolatera",
 
     procesos: [
-      { id: 1, img: "/images/procesos/choco1.jpg", titulo: "Transporte de producto moldeado" },
-      { id: 2, img: "/images/procesos/choco2.jpg", titulo: "Transferencia entre enfriado y empaque" },
-      { id: 3, img: "/images/procesos/choco3.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
     ],
 
+
+    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
     condiciones: [
       {
         id: 1,
-        icono: "/icons/produccion.svg",
+        icono: "/images/Industria/operacion/banda.svg",
         titulo: "Líneas de producción y ensamblaje",
         descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
       },
       {
         id: 2,
-        icono: "/icons/empaque.svg",
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
         titulo: "Procesos de empaque y clasificación",
         descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
       },
     ],
 
+
+
+    subtitulo: "Configuraciones y productos comúnmente.",
     soluciones: [
       {
         id: 1,
         img: "/images/soluciones/bandas-transportadoras.jpg",
         titulo: "Bandas transportadoras",
-        descripcion: "Soluciones para el transporte continuo de producto en líneas de producción.",
+        
       },
       {
         id: 2,
         img: "/images/soluciones/bandas-termosoldables.jpg",
         titulo: "Bandas termosoldables",
-        descripcion: "Ideales para procesos que requieren higiene y resistencia a la humedad.",
+       
+      },
+      {
+        id: 3,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Accesorios tecnicos ",
+       
+      },
+
+    
+    ],
+    
+    },
+
+
+    
+
+    { 
+    id: 1,
+    tipo: "confitera",
+    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
+    url: "chocolatera",
+    img: "/images/industrias/chocolatera.jpg",
+    alt: "Industria chocolatera",
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
+    ],
+
+
+    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
       },
     ],
+
+
+
+    subtitulo: "Configuraciones y productos comúnmente.",
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/soluciones/bandas-transportadoras.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Accesorios tecnicos ",
+       
+      },
+
+    
+    ],
+    
     },
 
 
 
 
+    { 
+    id: 1,
+    tipo: "embotelladora",
+    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
+    url: "chocolatera",
+    img: "/images/industrias/chocolatera.jpg",
+    alt: "Industria chocolatera",
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
+    ],
+
+
+    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+      },
+    ],
+
+
+
+    subtitulo: "Configuraciones y productos comúnmente.",
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/soluciones/bandas-transportadoras.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/soluciones/bandas-termosoldables.jpg",
+        titulo: "Accesorios tecnicos ",
+       
+      },
+
+    
+    ],
+    
+    },
 
 
 ]

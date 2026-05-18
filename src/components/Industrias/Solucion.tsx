@@ -1,7 +1,12 @@
 import { useNavigate } from "react-router-dom";
 
-export default function Solucion() {
+type SolucionProps = {
+  subtitulo: string;
+};
+
+export default function Solucion({ subtitulo }: SolucionProps) {
   const navigate = useNavigate();
+
   return (
     <section className="w-full py-20 bg-white mt-60">
       <div className="max-w-7xl mx-auto">
@@ -13,7 +18,7 @@ export default function Solucion() {
           </h2>
 
           <p className="text-[20px] text-[#2E6092] max-w-3xl mx-auto leading-relaxed -translate-x-60 mb-20">
-            Configuraciones y productos comúnmente utilizados en procesos de esta industria.
+            {subtitulo}
           </p>
         </div>
 
@@ -23,7 +28,6 @@ export default function Solucion() {
                   border border-gray-300">
 
           <div className="flex gap-10">
-
 
             {/* COLUMNA IZQUIERDA (DESCRIPCIONES EN RECUADROS) */}
             <div className="flex flex-col gap-6 w-1/4">
@@ -91,29 +95,30 @@ export default function Solucion() {
 
           {/* BOTÓN FINAL */}
           <div className="text-right mt-16">
-  <button
-    onClick={() => navigate("/catalogo")}
-    className="
-      bg-azulobs-500 
-      text-white 
-      px-10 
-      py-2
-      rounded-lg 
-      text-[20px] 
-      font-semibold 
-      shadow-[0_4px_15px_rgba(0,0,0,0.25)]
-      transition 
-      duration-300
-      hover:bg-white 
-      hover:text-azulobs-500 
-      hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
-      border 
-      border-transparent 
-    "
-  >
-    Ver opciones en el catálogo
-  </button>
-</div>
+            <button
+              onClick={() => navigate("/catalogo")}
+              className="
+                bg-azulobs-500 
+                text-white 
+                px-10 
+                py-2
+                rounded-lg 
+                text-[20px] 
+                font-semibold 
+                shadow-[0_4px_15px_rgba(0,0,0,0.25)]
+                transition 
+                duration-300
+                hover:bg-white 
+                hover:text-azulobs-500 
+                hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
+                border 
+                border-transparent 
+              "
+            >
+              Ver opciones en el catálogo
+            </button>
+          </div>
+
         </div>
 
       </div>

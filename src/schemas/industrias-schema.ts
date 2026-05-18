@@ -50,7 +50,6 @@ export const solucionBase = z.object({
   id: z.number(),
   img: z.string(),
   titulo: z.string(),
-  descripcion: z.string(),
 });
 
 
@@ -62,6 +61,8 @@ export const IndustriaBaseShema = z.object({
   procesos: z.array(procesosBase),
   condiciones: z.array(condicionItemBase),
   soluciones: z.array(solucionBase),
+  tipo: z.string(), 
+   subtitulo: z.string(),
 });
 
 

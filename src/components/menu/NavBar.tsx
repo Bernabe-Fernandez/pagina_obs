@@ -72,29 +72,29 @@ export default function NavBar() {
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-[15px] text-azulobs-600">
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/alimentos" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Agroalimentaria</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/chocolatera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Chocolatera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/confitera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Confitera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/panificadora" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Panificadora</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/embotelladora" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Embotelladora</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/tequilera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Tequilera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/mineria" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/granos" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Granos</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/farmaceutica" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Farmacéutica</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/automotriz" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/latas" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Latas</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/automotriz" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/cartonera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Cartonera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/automotriz" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/tabacalera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Tabacalera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/automotriz" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/piedrera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Piedrera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/automotriz" className={({ isActive }) =>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/llantera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Llantera</NavLink></li>
                         </ul>
                     </div>
