@@ -62,7 +62,9 @@ export const IndustriaBaseShema = z.object({
   condiciones: z.array(condicionItemBase),
   soluciones: z.array(solucionBase),
   tipo: z.string(), 
-   subtitulo: z.string(),
+  descripcion: z.string(), 
+  subtituloCondicion: z.string(),
+  subtituloSolucion: z.string(),
 });
 
 

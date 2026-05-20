@@ -1,124 +1,79 @@
 import { useNavigate } from "react-router-dom";
+import type { solucionTipo } from "../../types";
 
 type SolucionProps = {
   subtitulo: string;
+  data: solucionTipo[];
 };
 
-export default function Solucion({ subtitulo }: SolucionProps) {
+export default function Solucion({ subtitulo, data }: SolucionProps) {
   const navigate = useNavigate();
 
   return (
     <section className="w-full py-20 bg-white mt-60">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto ">
 
-        {/* TÍTULO Y TEXTO FUERA DEL RECUADRO */}
-        <div className="transform -translate-x-0">
-          <h2 className="text-4xl font-bold text-azulobs-500 mb-10">
-            SOLUCIONES APLICABLES
-          </h2>
 
-          <p className="text-[20px] text-[#2E6092] max-w-3xl mx-auto leading-relaxed -translate-x-60 mb-20">
-            {subtitulo}
-          </p>
+
+        <div className="transform translate-x-[120px]">
+
+        {/* TÍTULO Y SUBTÍTULO */}
+        <h2 className="text-4xl font-bold text-azulobs-500 mb-6">
+          SOLUCIONES APLICABLES
+        </h2>
+
+        <p className="text-[20px] text-[#2E6092] leading-relaxed mb-16 ">
+          {subtitulo}
+        </p>
+      </div>
+
+        {/* IMÁGENES DINÁMICAS */}
+        <div className="flex flex-col items-center gap-10 mt-28">
+          {data.map(({ id, img, titulo }) => (
+            <div
+              key={id}
+              className="relative w-full max-w-4xl rounded-2xl overflow-hidden shadow-lg border border-gray-200"
+            >
+              <img
+                src={img}
+                alt={titulo}
+                className="w-full h-[300px] object-cover"
+              />
+
+              {/* Etiqueta sobre la imagen */}
+              <div className="absolute bottom-4 right-6 bg-white px-4 py-2 rounded-lg shadow-md">
+                <p className="text-[18px] font-semibold text-azulobs-500">
+                  {titulo}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
 
-        {/* RECUADRO PRINCIPAL CON SOMBRA SUPERIOR */}
-        <div className="bg-white rounded-2xl p-12 mt-14 
-                  shadow-[0_-15px_25px_-5px_rgba(0,0,0,0.12),0_4px_10px_rgba(0,0,0,0.16)]
-                  border border-gray-300">
-
-          <div className="flex gap-10">
-
-            {/* COLUMNA IZQUIERDA (DESCRIPCIONES EN RECUADROS) */}
-            <div className="flex flex-col gap-6 w-1/4">
-
-              <div className="bg-white mt-10 text-center rounded-xl px-6 py-2 border border-gray-300 shadow-[0_4px_20px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_25px_rgba(0,0,0,0.35)] transition cursor-pointer">
-                <p className="text-[20px] font-semibold text-azulobs-500">
-                  Bandas transportadoras
-                </p>
-              </div>
-
-              <div className="bg-white mt-6 text-center rounded-xl px-6 py-2 border border-gray-300 shadow-[0_4px_20px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_25px_rgba(0,0,0,0.35)] transition cursor-pointer">
-                <p className="text-[20px] font-semibold text-azulobs-500">
-                  Bandas termosoldables
-                </p>
-              </div>
-
-              <div className="bg-white mt-6 text-center rounded-xl px-6 py-2 border border-gray-300 shadow-[0_4px_20px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_25px_rgba(0,0,0,0.35)] transition cursor-pointer">
-                <p className="text-[20px] font-semibold text-azulobs-500">
-                  Bandas modulares
-                </p>
-              </div>
-
-              <div className="bg-white mt-6 text-center rounded-xl px-6 py-2 border border-gray-300 shadow-[0_4px_20px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_25px_rgba(0,0,0,0.35)] transition cursor-pointer">
-                <p className="text-[20px] font-semibold text-azulobs-500">
-                  Accesorios técnicos
-                </p>
-              </div>
-
-            </div>
-
-            {/* COLUMNA DERECHA (IMÁGENES) */}
-            <div className="grid grid-cols-4 gap-6 w-3/4">
-
-              <div className="h-[420px] bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200">
-                <img
-                  src="/images/Industria/soluciones/margen1.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="h-[420px] bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200">
-                <img
-                  src="/images/Industria/soluciones/margen2.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="h-[420px] bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200">
-                <img
-                  src="/images/Industria/soluciones/margen3.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="h-[420px] bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200">
-                <img
-                  src="/images/Industria/soluciones/margen4.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-            </div>
-
-          </div>
-
-          {/* BOTÓN FINAL */}
-          <div className="text-right mt-16">
-            <button
-              onClick={() => navigate("/catalogo")}
-              className="
-                bg-azulobs-500 
-                text-white 
-                px-10 
-                py-2
-                rounded-lg 
-                text-[20px] 
-                font-semibold 
-                shadow-[0_4px_15px_rgba(0,0,0,0.25)]
-                transition 
-                duration-300
-                hover:bg-white 
-                hover:text-azulobs-500 
-                hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
-                border 
-                border-transparent 
-              "
-            >
-              Ver opciones en el catálogo
-            </button>
-          </div>
-
+        {/* BOTÓN FINAL */}
+        <div className="mt-16 text-right pr-28">
+          <button
+            onClick={() => navigate("/catalogo")}
+            className="
+              bg-azulobs-500 
+              text-white 
+              px-5
+              py-2
+              rounded-full 
+              text-[18px] 
+              font-semibold 
+              shadow-[0_4px_15px_rgba(0,0,0,0.25)]
+              transition 
+              duration-300
+              hover:bg-white 
+              hover:text-azulobs-500 
+              hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
+              border 
+              border-transparent 
+            "
+          >
+            Ver opciones en el catálogo
+          </button>
         </div>
 
       </div>

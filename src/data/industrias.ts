@@ -127,162 +127,199 @@ export const industriasPage : industriaTipo[] = [
     { 
     id: 1,
     tipo: "alimentos",
-    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
-    url: "chocolatera",
-    img: "/images/industrias/chocolatera.jpg",
-    alt: "Industria chocolatera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
 
     procesos: [
-      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
-      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
-      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
-      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
     ],
 
 
-    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
     condiciones: [
       {
         id: 1,
         icono: "/images/Industria/operacion/banda.svg",
         titulo: "Líneas de producción y ensamblaje",
-        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
       },
       {
         id: 2,
         icono: "/images/Industria/operacion/empaque.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
       },
 
       {
         id: 3,
         icono: "/images/Industria/operacion/transporte.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
       },
 
       {
         id: 4,
         icono: "/images/Industria/operacion/engrane.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
       },
     ],
 
 
 
-    subtitulo: "Configuraciones y productos comúnmente.",
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+
     soluciones: [
       {
         id: 1,
-        img: "/images/soluciones/bandas-transportadoras.jpg",
+        img: "/images/Industria/soluciones/soli.jpg",
         titulo: "Bandas transportadoras",
         
       },
-      {
-        id: 2,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
-        titulo: "Bandas termosoldables",
-       
-      },
-      {
-        id: 3,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
-        titulo: "Bandas modulares",
-       
-      },
-      {
-        id: 4,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
-        titulo: "Accesorios tecnicos ",
-       
-      },
+      
 
-    
     ],
     
     },
 
 
-    
-
+  
     { 
-    id: 1,
+    id: 2,
     tipo: "confitera",
-    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
-    url: "chocolatera",
-    img: "/images/industrias/chocolatera.jpg",
-    alt: "Industria chocolatera",
+    descripcion : "La industria de la confitería se caracteriza por el manejo de productos de pequeño tamaño y alta rotación, donde la precisión y la repetitividad del proceso son clave. Los sistemas de transporte deben permitir un flujo ordenado y constante del producto, facilitando su transferencia entre procesos de conformado, decoración y empaque.",
+    titulo: "Industria chocolatera", 
 
     procesos: [
-      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
-      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
-      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
-      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 1, img: "/images/Industria/confiteria/proceso/imagen1.jpg", titulo: "Transporte de piezas pequeñas " },
+      { id: 2, img: "/images/Industria/confiteria/proceso/imagen2.jpg", titulo: "Clasificación y alineación" },
+      { id: 3, img: "/images/Industria/confiteria/proceso/imagen3.jpg", titulo: "Transferencia a líneas de empaque" },
     ],
 
 
-    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
+    subtituloCondicion: "En la industria de confitería, las condiciones de operación requieren sistemas de transporte capaces de adaptarse a procesos continuos, variaciones en el producto y altos ritmos de producción, manteniendo el control y la estabilidad a lo largo de cada etapa del proceso.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/confiteria/condicion/icono1.svg",
+        titulo: " Procesos continuos",
+        descripcion: "Sistemas diseñados para operar de forma continua, asegurando un flujo constante del producto durante todo el proceso.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/confiteria/condicion/reloj.svg",
+        titulo: "Alta velocidad de producción",
+        descripcion: "Soluciones capaces de trabajar a altas velocidades, acompañando los ritmos propios de los procesos de confitería sin comprometer la estabilidad.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/confiteria/condicion/icono3.svg",
+        titulo: "Volúmenes variables de producto",
+        descripcion: "Equipos que se adaptan a cambios en el volumen y tipo de producto, manteniendo un desempeño confiable en diferentes condiciones de operación.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/confiteria/condicion/icono4.svg",
+        titulo: " Precisión y control en el manejo",
+        descripcion: "Sistemas que permiten un manejo preciso y controlado del producto, contribuyendo a la uniformidad y calidad del proceso.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/soli.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      
+
+    ],
+    },
+
+
+
+     { 
+    id: 3,
+    tipo: "embotelladora",
+    descripcion : "La industria embotelladora opera con líneas de alta velocidad donde el manejo estable de envases es crítico. El transporte interno debe asegurar un flujo continuo y sincronizado de botellas o envases a lo largo de procesos como llenado, etiquetado y empaque, minimizando interrupciones y desalineaciones.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/embotelladora/proceso/imagen1.jpg", titulo: "Transporte de envases vacíos y llenos" },
+      { id: 2, img: "/images/Industria/embotelladora/proceso/imagen2.jpg", titulo: "Acumulación y transferencia" },
+      { id: 3, img: "/images/Industria/embotelladora/proceso/imagen3.jpg", titulo: "Integración con llenado y etiquetado " },
+      
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
     condiciones: [
       {
         id: 1,
         icono: "/images/Industria/operacion/banda.svg",
         titulo: "Líneas de producción y ensamblaje",
-        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
       },
       {
         id: 2,
         icono: "/images/Industria/operacion/empaque.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
       },
 
       {
         id: 3,
         icono: "/images/Industria/operacion/transporte.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
       },
 
       {
         id: 4,
         icono: "/images/Industria/operacion/engrane.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
       },
     ],
 
 
 
-    subtitulo: "Configuraciones y productos comúnmente.",
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
     soluciones: [
       {
         id: 1,
-        img: "/images/soluciones/bandas-transportadoras.jpg",
+        img: "/images/Industria/soluciones/margen1.jpg",
         titulo: "Bandas transportadoras",
         
       },
       {
         id: 2,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
+        img: "/images/Industria/soluciones/margen2.jpg",
         titulo: "Bandas termosoldables",
        
       },
       {
         id: 3,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
+        img: "/images/Industria/soluciones/margen3.jpg",
         titulo: "Bandas modulares",
        
       },
       {
         id: 4,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
-        titulo: "Accesorios tecnicos ",
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
        
       },
 
-    
     ],
     
     },
@@ -290,82 +327,805 @@ export const industriasPage : industriaTipo[] = [
 
 
 
-    { 
-    id: 1,
-    tipo: "embotelladora",
-    descripcion: "Industria dedicada a la producción de chocolate y derivados.",
-    url: "chocolatera",
-    img: "/images/industrias/chocolatera.jpg",
-    alt: "Industria chocolatera",
+
+
+    
+     { 
+    id: 4,
+    tipo: "granos",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
 
     procesos: [
-      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado" },
-      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado y empaque" },
-      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
-      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
     ],
 
 
-    subtitulo: "Configuraciones y productos comúnmente utilizados en procesos de esta industria.",
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
     condiciones: [
       {
         id: 1,
         icono: "/images/Industria/operacion/banda.svg",
         titulo: "Líneas de producción y ensamblaje",
-        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes.",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
       },
       {
         id: 2,
         icono: "/images/Industria/operacion/empaque.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
       },
 
       {
         id: 3,
         icono: "/images/Industria/operacion/transporte.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
       },
 
       {
         id: 4,
         icono: "/images/Industria/operacion/engrane.svg",
         titulo: "Procesos de empaque y clasificación",
-        descripcion: "Soluciones que facilitan el manejo y clasificación del producto.",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
       },
     ],
 
 
 
-    subtitulo: "Configuraciones y productos comúnmente.",
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
     soluciones: [
       {
         id: 1,
-        img: "/images/soluciones/bandas-transportadoras.jpg",
+        img: "/images/Industria/soluciones/margen1.jpg",
         titulo: "Bandas transportadoras",
         
       },
       {
         id: 2,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
+        img: "/images/Industria/soluciones/margen2.jpg",
         titulo: "Bandas termosoldables",
        
       },
       {
         id: 3,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
+        img: "/images/Industria/soluciones/margen3.jpg",
         titulo: "Bandas modulares",
        
       },
       {
         id: 4,
-        img: "/images/soluciones/bandas-termosoldables.jpg",
-        titulo: "Accesorios tecnicos ",
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
        
       },
 
+    ],
     
+    },
+
+
+
+
+
+     { 
+    id: 5,
+    tipo: "latas",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+
+
+    
+     { 
+    id: 6,
+    tipo: "tabacalera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+
+     { 
+    id: 7,
+    tipo: "llantera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+     { 
+    id: 8,
+    tipo: "chocolatera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+
+
+     { 
+    id: 9,
+    tipo: "panificadora",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+
+
+     { 
+    id: 10,
+    tipo: "tequilera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+
+
+
+      { 
+    id: 11,
+    tipo: "farmaceutica",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+    { 
+    id: 12,
+    tipo: "cartonera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
+    ],
+    
+    },
+
+
+
+    { 
+    id: 13,
+    tipo: "piedrera",
+    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+    ],
+
+
+    subtituloCondicion: "En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte capaces de mantener un flujo constante y un manejo controlado del producto, incluso en entornos de alta exigencia.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/operacion/banda.svg",
+        titulo: "Líneas de producción y ensamblaje",
+        descripcion: "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/operacion/empaque.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Soluciones que facilitan el manejo, ordenamiento y clasificación del producto.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/operacion/transporte.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/operacion/engrane.svg",
+        titulo: "Procesos de empaque y clasificación",
+        descripcion: "Equipos compatibles con sistemas automatizados y semiautomatizados.",
+      },
+    ],
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/soluciones/margen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      {
+        id: 2,
+        img: "/images/Industria/soluciones/margen2.jpg",
+        titulo: "Bandas termosoldables",
+       
+      },
+      {
+        id: 3,
+        img: "/images/Industria/soluciones/margen3.jpg",
+        titulo: "Bandas modulares",
+       
+      },
+      {
+        id: 4,
+        img: "/images/Industria/soluciones/margen4.jpg",
+        titulo: "Accesorios técnicos ",
+       
+      },
+
     ],
     
     },

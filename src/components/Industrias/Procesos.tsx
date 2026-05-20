@@ -2,20 +2,18 @@ import type { procesoTipo } from "../../types";
 
 type ProcesosProps = {
   data: procesoTipo[];
+  descripcion: string; // dinamico 
 };
 
-export default function Procesos({ data }: ProcesosProps) {
+export default function Procesos({ data, descripcion }: ProcesosProps) {
   return (
     <section className="w-full py-16 bg-white">
       <div>
 
-        {/* Descripción */}
+        {/* Descripción dinámica */}
         <div className="text-center max-w-7xl mx-auto mb-60 text-[20px]">
           <p className="text-[#2E6092] leading-relaxed">
-            La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo,
-            transformación y empaque de productos de origen agrícola. En este sector, el transporte interno
-            debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad,
-            incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.
+            {descripcion}
           </p>
         </div>
 
@@ -26,7 +24,6 @@ export default function Procesos({ data }: ProcesosProps) {
 
         {/* Sección de cartas dinámicas */}
         <div className="grid grid-cols-4 w-3/4 gap-0 mx-auto">
-
           {data.map(({ id, img, titulo }) => (
             <div
               key={id}
@@ -54,11 +51,9 @@ export default function Procesos({ data }: ProcesosProps) {
               </div>
             </div>
           ))}
-
         </div>
 
       </div>
     </section>
   );
 }
-

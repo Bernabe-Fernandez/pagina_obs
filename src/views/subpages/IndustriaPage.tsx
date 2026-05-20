@@ -31,15 +31,18 @@ export default function IndustriaPage() {
     procesos, 
     condiciones, 
     soluciones,
-     tipo,
-     subtitulo,
+    tipo,
+    descripcion,
+    subtitulo,
+    subtituloCondicion,
+    subtituloSolucion,
   } = data;
 
   return (
     <div>
-      <Procesos data={procesos}  />
-      <Condicion data={condiciones} subtitulo={subtitulo}  />
-      <Solucion data={soluciones} subtitulo={subtitulo} />
+      <Procesos data={procesos} descripcion={descripcion} />
+      <Condicion data={condiciones} subtitulo={subtituloCondicion}  />
+      <Solucion data={soluciones} subtitulo={subtituloSolucion}  />
       <Libro />
     </div>
   );
