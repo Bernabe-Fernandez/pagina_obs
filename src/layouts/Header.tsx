@@ -161,8 +161,13 @@ const headerConfig: Record<string, HeaderData>= {
       url_btn: "/contacto",
    },
 
+
+
+
+
     /*APARTADO INDUSTRIA*/
    
+
     "/industrias/confitera": {
       title: "CONFITERÍA  ",
       subtitle: "Soluciones de transporte para procesos de confitería que requieren precisión, continuidad y cuidado del producto.",
@@ -220,7 +225,7 @@ const headerConfig: Record<string, HeaderData>= {
 
       "/industrias/granos": {
       title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      subtitle: "Soluciones de transporte para el manejo de productos a granel en procesos de almacenamiento, transformación y distribución de granos.",
       image: "/images/backgrounds/headers/granos.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -229,8 +234,8 @@ const headerConfig: Record<string, HeaderData>= {
 
 
        "/industrias/latas": {
-      title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      title: "  Latas",
+      subtitle: "Soluciones de transporte industrial para el manejo y desplazamiento de envases metálicos en proceso de producción y empaque. ",
       image: "/images/backgrounds/headers/latas.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -239,8 +244,8 @@ const headerConfig: Record<string, HeaderData>= {
 
 
        "/industrias/llantera": {
-      title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      title: "LLANTERA",
+      subtitle: "Soluciones de transporte para procesos de manufactura, ensamble y manejo de productos en la industria llantera. ",
       image: "/images/backgrounds/headers/llantera.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -250,8 +255,8 @@ const headerConfig: Record<string, HeaderData>= {
 
       
        "/industrias/farmaceutica": {
-      title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      title: "FARMACÉUTICA",
+      subtitle: "Sistemas de transporte diseñados para procesos que requieren control, precisión y operación continua en entornos regulados.",
       image: "/images/backgrounds/headers/farma.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -262,8 +267,8 @@ const headerConfig: Record<string, HeaderData>= {
 
 
       "/industrias/cartonera": {
-      title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      title: "CARTONERA",
+      subtitle: "Sistemas de transporte adaptados a procesos de fabricación, armado y manejo de productos de cartón y empaques.",
       image: "/images/backgrounds/headers/cartonera.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -273,8 +278,8 @@ const headerConfig: Record<string, HeaderData>= {
 
 
        "/industrias/piedrera": {
-      title: "Granos",
-      subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
+      title: "PIEDRERA",
+      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
       image: "/images/backgrounds/headers/piedra.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
