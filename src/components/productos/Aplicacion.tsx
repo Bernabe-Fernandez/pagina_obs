@@ -19,7 +19,7 @@ export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: Apli
         tipo === "transportadores" || tipo === "proyectos" ? (
           <AplicacionesViewTwo 
             aplicaciones={aplicacionesTwo} 
-            tipo={tipo}   // ⭐ SE AGREGA ESTE PROP
+            tipo={tipo}   //  SE AGREGA ESTE PROP
           />
         ) : (
           <section className="w-full py-20 bg-white mt-20">

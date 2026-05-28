@@ -1,5 +1,5 @@
 import type { aplicacionesViewTwoTipo } from "../../types";
-import BotonCatalogo from "../Botones/BotonCatalogo"; // ⭐ Importación del botón
+import BotonCatalogo from "../Botones/BotonCatalogo"; // Importación del botón
 
 type AplicacionesViewTwoProps = {
   aplicaciones: aplicacionesViewTwoTipo[];

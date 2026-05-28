@@ -2,10 +2,13 @@ import type { procesoTipo } from "../../types";
 
 type ProcesosProps = {
   data: procesoTipo[];
-  descripcion: string; // dinamico 
+  descripcion: string; // dinámico
 };
 
 export default function Procesos({ data, descripcion }: ProcesosProps) {
+  const count = data.length;
+  const gridCol = `grid-cols-${count}`;
+
   return (
     <section className="w-full py-16 bg-white">
       <div>
@@ -23,7 +26,7 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
         </h2>
 
         {/* Sección de cartas dinámicas */}
-        <div className="grid grid-cols-4 w-3/4 gap-0 mx-auto">
+        <div className={`grid ${gridCol} w-3/4 gap-0 mx-auto`}>
           {data.map(({ id, img, titulo }) => (
             <div
               key={id}

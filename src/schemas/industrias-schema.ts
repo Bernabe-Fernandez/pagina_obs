@@ -29,7 +29,6 @@ export const industriaInfoBase = z.object({
 });
 
 
-
 //Esquema de Procesos.
 export const procesosBase = z.object({
   id: z.number(),
@@ -54,6 +53,14 @@ export const solucionBase = z.object({
 
 
 
+// Esquema de Soluciones (nuevo formato)
+export const solucionesNewBase = z.object({
+  id: z.number(),
+  img: z.string(),
+  titulo: z.string(),
+});
+
+
 // esquema completo para el tipo industria
 export const IndustriaBaseShema = z.object({
   id: z.number(),
@@ -61,6 +68,7 @@ export const IndustriaBaseShema = z.object({
   procesos: z.array(procesosBase),
   condiciones: z.array(condicionItemBase),
   soluciones: z.array(solucionBase),
+  solucionesNew: z.array(solucionesNewBase), 
   tipo: z.string(), 
   descripcion: z.string(), 
   subtituloCondicion: z.string(),

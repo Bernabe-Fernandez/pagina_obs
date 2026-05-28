@@ -70,8 +70,8 @@ export default function NavBar() {
 
                     <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-xl border rounded-lg p-6 w-80 md:w-[450px] z-50">
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-[15px] text-azulobs-600">
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/alimentos" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Agroalimentaria</NavLink></li>
+                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/verduras" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>verduras y legumbres</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/chocolatera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Chocolatera</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/confitera" className={({ isActive }) =>
@@ -96,6 +96,14 @@ export default function NavBar() {
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Piedrera</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/llantera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Llantera</NavLink></li>
+                         <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/textil" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Textilera</NavLink></li>
+                         <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/embutidos" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Embutidos</NavLink></li>
+                          <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/envasado" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Envasado pet</NavLink></li>
+                        <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/frutas" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Frutas</NavLink></li>
                         </ul>
                     </div>
                 </li>

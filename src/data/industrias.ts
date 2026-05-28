@@ -125,16 +125,17 @@ export const industriasData : industriasBase[] = [
 export const industriasPage : industriaTipo[] = [
     
     { 
+      
     id: 1,
-    tipo: "alimentos",
+    tipo: "verduras",
     descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
     titulo: "Industria chocolatera", 
 
     procesos: [
-      { id: 1, img: "/images/Industria/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
-      { id: 2, img: "/images/Industria/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
-      { id: 3, img: "/images/Industria/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
-      { id: 4, img: "/images/Industria/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+      { id: 1, img: "/images/Industria/verduras/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/verduras/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/verduras/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/verduras/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
     ],
 
 
@@ -169,7 +170,6 @@ export const industriasPage : industriaTipo[] = [
     ],
 
 
-
     subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
 
     soluciones: [
@@ -180,7 +180,6 @@ export const industriasPage : industriaTipo[] = [
         
       },
       
-
     ],
     
     },
@@ -328,8 +327,6 @@ export const industriasPage : industriaTipo[] = [
 
 
 
-
-    
      { 
     id: 4,
     tipo: "granos",
@@ -997,10 +994,248 @@ export const industriasPage : industriaTipo[] = [
         
       },
       
+    ],
+    
+    },
+
+
+
+     { 
+    id: 14,
+    tipo: "embutidos",
+    descripcion : "La industria piedrera opera en entornos exigentes donde se manejan materiales pesados y abrasivos. Los sistemas de transporte deben estar diseñados para soportar cargas elevadas y condiciones severas, garantizando continuidad operativa en procesos de extracción y transformación.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/embutidos/proceso/imagen1.jpg", titulo: "Transporte de material a granel  " },
+      { id: 2, img: "/images/Industria/embutidos/proceso/imagen2.jpg", titulo: "Transferencia de alta carga " },
+      { id: 3, img: "/images/Industria/embutidos/proceso/imagen3.jpg", titulo: "Alimentación de procesos " },
+    ],
+
+
+    subtituloCondicion: "En la industria piedrera, los sistemas de transporte deben operar de forma continua en entornos altamente exigentes, manejando cargas pesadas y materiales abrasivos sin comprometer la estabilidad ni la continuidad del proceso.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/piedrera/condicion/icono1.svg",
+        titulo: "Cargas pesadas",
+        descripcion: "Sistemas diseñados para el transporte de materiales de alto peso y gran volumen.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/piedrera/condicion/icono2.svg",
+        titulo: "Entornos exigentes",
+        descripcion: "Equipos capaces de operar en condiciones severas, con polvo, abrasión y uso intensivo.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/piedrera/condicion/icono3.svg",
+        titulo: "Operación continua",
+        descripcion: "Soluciones pensadas para procesos de trabajo ininterrumpidos, manteniendo un flujo constante y eficiente.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/piedrera/condicion/icono4.svg",
+        titulo: " Integración con maquinaria",
+        descripcion: "Compatibilidad con trituradoras, cribas y otros equipos utilizados en líneas de procesamiento.",
+      },
+    ],
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      
 
     ],
     
     },
+
+
+
+      { 
+    id: 15,
+    tipo: "frutas",
+    descripcion : "La industria piedrera opera en entornos exigentes donde se manejan materiales pesados y abrasivos. Los sistemas de transporte deben estar diseñados para soportar cargas elevadas y condiciones severas, garantizando continuidad operativa en procesos de extracción y transformación.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/frutas/proceso/imagen1.jpg", titulo: "Transporte de material a granel  " },
+      { id: 2, img: "/images/Industria/frutas/proceso/imagen2.jpg", titulo: "Transferencia de alta carga " },
+      { id: 3, img: "/images/Industria/frutas/proceso/imagen3.jpg", titulo: "Alimentación de procesos " },
+    ],
+
+
+    subtituloCondicion: "En la industria piedrera, los sistemas de transporte deben operar de forma continua en entornos altamente exigentes, manejando cargas pesadas y materiales abrasivos sin comprometer la estabilidad ni la continuidad del proceso.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/piedrera/condicion/icono1.svg",
+        titulo: "Cargas pesadas",
+        descripcion: "Sistemas diseñados para el transporte de materiales de alto peso y gran volumen.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/piedrera/condicion/icono2.svg",
+        titulo: "Entornos exigentes",
+        descripcion: "Equipos capaces de operar en condiciones severas, con polvo, abrasión y uso intensivo.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/piedrera/condicion/icono3.svg",
+        titulo: "Operación continua",
+        descripcion: "Soluciones pensadas para procesos de trabajo ininterrumpidos, manteniendo un flujo constante y eficiente.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/piedrera/condicion/icono4.svg",
+        titulo: " Integración con maquinaria",
+        descripcion: "Compatibilidad con trituradoras, cribas y otros equipos utilizados en líneas de procesamiento.",
+      },
+    ],
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      
+    ],
+    
+    },
+
+
+    { 
+    id: 16,
+    tipo: "textil",
+    descripcion : "La industria piedrera opera en entornos exigentes donde se manejan materiales pesados y abrasivos. Los sistemas de transporte deben estar diseñados para soportar cargas elevadas y condiciones severas, garantizando continuidad operativa en procesos de extracción y transformación.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/textil/proceso/imagen1.jpg", titulo: "Transporte de material a granel  " },
+      { id: 2, img: "/images/Industria/textil/proceso/imagen2.jpg", titulo: "Transferencia de alta carga " },
+      { id: 3, img: "/images/Industria/textil/proceso/imagen3.jpg", titulo: "Alimentación de procesos " },
+    ],
+
+
+    subtituloCondicion: "En la industria piedrera, los sistemas de transporte deben operar de forma continua en entornos altamente exigentes, manejando cargas pesadas y materiales abrasivos sin comprometer la estabilidad ni la continuidad del proceso.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/piedrera/condicion/icono1.svg",
+        titulo: "Cargas pesadas",
+        descripcion: "Sistemas diseñados para el transporte de materiales de alto peso y gran volumen.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/piedrera/condicion/icono2.svg",
+        titulo: "Entornos exigentes",
+        descripcion: "Equipos capaces de operar en condiciones severas, con polvo, abrasión y uso intensivo.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/piedrera/condicion/icono3.svg",
+        titulo: "Operación continua",
+        descripcion: "Soluciones pensadas para procesos de trabajo ininterrumpidos, manteniendo un flujo constante y eficiente.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/piedrera/condicion/icono4.svg",
+        titulo: " Integración con maquinaria",
+        descripcion: "Compatibilidad con trituradoras, cribas y otros equipos utilizados en líneas de procesamiento.",
+      },
+    ],
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      
+    ],
+    
+    },
+
+
+
+
+     { 
+    id: 17,
+    tipo: "envasado",
+    descripcion : "La industria piedrera opera en entornos exigentes donde se manejan materiales pesados y abrasivos. Los sistemas de transporte deben estar diseñados para soportar cargas elevadas y condiciones severas, garantizando continuidad operativa en procesos de extracción y transformación.",
+    titulo: "Industria chocolatera", 
+
+    procesos: [
+      { id: 1, img: "/images/Industria/envasado/proceso/imagen1.jpg", titulo: "Transporte de material a granel  " },
+      { id: 2, img: "/images/Industria/envasado/proceso/imagen2.jpg", titulo: "Transferencia de alta carga " },
+      { id: 3, img: "/images/Industria/envasado/proceso/imagen3.jpg", titulo: "Alimentación de procesos " },
+    ],
+
+
+    subtituloCondicion: "En la industria piedrera, los sistemas de transporte deben operar de forma continua en entornos altamente exigentes, manejando cargas pesadas y materiales abrasivos sin comprometer la estabilidad ni la continuidad del proceso.",
+    condiciones: [
+      {
+        id: 1,
+        icono: "/images/Industria/piedrera/condicion/icono1.svg",
+        titulo: "Cargas pesadas",
+        descripcion: "Sistemas diseñados para el transporte de materiales de alto peso y gran volumen.",
+      },
+      {
+        id: 2,
+        icono: "/images/Industria/piedrera/condicion/icono2.svg",
+        titulo: "Entornos exigentes",
+        descripcion: "Equipos capaces de operar en condiciones severas, con polvo, abrasión y uso intensivo.",
+      },
+
+      {
+        id: 3,
+        icono: "/images/Industria/piedrera/condicion/icono3.svg",
+        titulo: "Operación continua",
+        descripcion: "Soluciones pensadas para procesos de trabajo ininterrumpidos, manteniendo un flujo constante y eficiente.",
+      },
+
+      {
+        id: 4,
+        icono: "/images/Industria/piedrera/condicion/icono4.svg",
+        titulo: " Integración con maquinaria",
+        descripcion: "Compatibilidad con trituradoras, cribas y otros equipos utilizados en líneas de procesamiento.",
+      },
+    ],
+
+
+    subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
+    soluciones: [
+      {
+        id: 1,
+        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        titulo: "Bandas transportadoras",
+        
+      },
+      
+    ],
+    
+    },
+
+
 
 
 ]

@@ -70,15 +70,7 @@ const headerConfig: Record<string, HeaderData>= {
       url_btn: "/contacto",
    },
 
-   "/industrias/alimentos": {
-      title: "AGROALIMENTARIA",
-      subtitle:
-      "Soluciones de transporte diseñadas para el manejo eficiente de materias primas y productos en procesos agroalimentarios.",
-      text_btn: "Solicitar asesoría",
-      url_btn: "/contacto",
-      image: "/images/backgrounds/headers/agroalimentaria.jpg",
-   },
-
+  
      
    "/productos/transmision": {
       title: "BANDAS DE TRANSMISIÓN DE POTENCIA",
@@ -166,7 +158,20 @@ const headerConfig: Record<string, HeaderData>= {
 
 
     /*APARTADO INDUSTRIA*/
-   
+
+
+
+     "/industrias/verduras": {
+      title: "VERDURAS Y LEGUMBRES",
+      subtitle:
+      "Soluciones de transporte para el manejo para el manejo continuo y eficiente de productos frescos en aplicaciones agroindustriales. ",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      image: "/images/backgrounds/headers/verduras.jpg",
+   },
+
+
+
 
     "/industrias/confitera": {
       title: "CONFITERÍA  ",
@@ -186,7 +191,6 @@ const headerConfig: Record<string, HeaderData>= {
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
-
 
 
 
@@ -284,6 +288,48 @@ const headerConfig: Record<string, HeaderData>= {
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
+
+
+
+
+       "/industrias/textil": {
+      title: "TEXTILERA",
+      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      image: "/images/backgrounds/headers/textil.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      },
+
+
+    
+       "/industrias/embutidos": {
+      title: "EMBUTIDOS",
+      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      image: "/images/backgrounds/headers/embutido.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      },
+
+
+
+      "/industrias/frutas": {
+      title: "FRUTAS",
+      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      image: "/images/backgrounds/headers/fruta.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      },
+
+
+ 
+      "/industrias/envasado": {
+      title: "ENVASE PET",
+      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      image: "/images/backgrounds/headers/pet.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+      },
+
 
 
 };
