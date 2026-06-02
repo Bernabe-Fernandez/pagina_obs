@@ -156,6 +156,17 @@ const headerConfig: Record<string, HeaderData>= {
 
 
 
+   "/productos/herramientas": {
+      title: "HERRAMIENTAS INDUSTRIALES",
+      subtitle: "Herramientas y equipos diseñados para facilitar la instalación, empalme y mantenimiento de bandas industriales en planta.",
+      image: "/images/backgrounds/headers/herramienta.jpg",
+      text_btn: "Solicitar asesoría",
+      url_btn: "/contacto",
+   },
+
+
+
+
 
     /*APARTADO INDUSTRIA*/
 
@@ -294,7 +305,7 @@ const headerConfig: Record<string, HeaderData>= {
 
        "/industrias/textil": {
       title: "TEXTILERA",
-      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de materiales y productos en procesos textiles y de manufactura.",
       image: "/images/backgrounds/headers/textil.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -304,7 +315,7 @@ const headerConfig: Record<string, HeaderData>= {
     
        "/industrias/embutidos": {
       title: "EMBUTIDOS",
-      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      subtitle: "Soluciones de transporte adaptadas a procesos cárnicos que requieren continuidad operativa, higiene y control del producto.",
       image: "/images/backgrounds/headers/embutido.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -314,7 +325,7 @@ const headerConfig: Record<string, HeaderData>= {
 
       "/industrias/frutas": {
       title: "FRUTAS",
-      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de productos frescos en procesos industriales y de empaque.",
       image: "/images/backgrounds/headers/fruta.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
@@ -324,7 +335,7 @@ const headerConfig: Record<string, HeaderData>= {
  
       "/industrias/envasado": {
       title: "ENVASE PET",
-      subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
+      subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de envases PET en procesos de producción, llenado y empaque.",
       image: "/images/backgrounds/headers/pet.jpg",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",

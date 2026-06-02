@@ -54,11 +54,11 @@ export const solucionBase = z.object({
 
 
 // Esquema de Soluciones (nuevo formato)
-export const solucionesNewBase = z.object({
-  id: z.number(),
-  img: z.string(),
-  titulo: z.string(),
-});
+// export const solucionesNewBase = z.object({
+//   id: z.number(),
+//   img: z.string(),
+//   titulo: z.string(),
+// });
 
 
 // esquema completo para el tipo industria
@@ -67,8 +67,8 @@ export const IndustriaBaseShema = z.object({
   titulo:z.string(),
   procesos: z.array(procesosBase),
   condiciones: z.array(condicionItemBase),
-  soluciones: z.array(solucionBase),
-  solucionesNew: z.array(solucionesNewBase), 
+  soluciones: z.array(solucionBase).optional(),
+  url: z.string(),
   tipo: z.string(), 
   descripcion: z.string(), 
   subtituloCondicion: z.string(),

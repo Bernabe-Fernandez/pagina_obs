@@ -7,17 +7,19 @@ type ProcesosProps = {
 
 export default function Procesos({ data, descripcion }: ProcesosProps) {
   const count = data.length;
-  const gridCol = `grid-cols-${count}`;
+
+  // Condición para mantener tamaño y estructura sin deformar
+  const gridClasses =
+    count === 3
+      ? "grid grid-cols-3 w-[60%] mx-auto gap-0 justify-items-center"
+      : "grid grid-cols-4 w-[80%] mx-auto gap-0 justify-items-center";
 
   return (
     <section className="w-full py-16 bg-white">
       <div>
-
         {/* Descripción dinámica */}
         <div className="text-center max-w-7xl mx-auto mb-60 text-[20px]">
-          <p className="text-[#2E6092] leading-relaxed">
-            {descripcion}
-          </p>
+          <p className="text-[#2E6092] leading-relaxed">{descripcion}</p>
         </div>
 
         {/* Título */}
@@ -26,7 +28,7 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
         </h2>
 
         {/* Sección de cartas dinámicas */}
-        <div className={`grid ${gridCol} w-3/4 gap-0 mx-auto`}>
+        <div className={gridClasses}>
           {data.map(({ id, img, titulo }) => (
             <div
               key={id}
@@ -55,8 +57,8 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
 }
+

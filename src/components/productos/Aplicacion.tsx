@@ -16,7 +16,7 @@ export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: Apli
   return (
     <>
       {
-        tipo === "transportadores" || tipo === "proyectos" ? (
+        tipo === "transportadores" || tipo === "proyectos" || tipo === "herramientas" ? (
           <AplicacionesViewTwo 
             aplicaciones={aplicacionesTwo} 
             tipo={tipo}   //  SE AGREGA ESTE PROP

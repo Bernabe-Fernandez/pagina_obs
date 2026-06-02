@@ -22,7 +22,7 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
 
         {subtituloTipo && <p>{subtituloTipo}</p>}
 
-        {tipo === "proyectos" || tipo === "transportadores" ? (
+        {tipo === "proyectos" || tipo === "transportadores" || tipo === "herramientas"? (
           <TipoViewTwo condiciones={condiciones ?? []} tipo={tipo} />
         ) : (
           <>

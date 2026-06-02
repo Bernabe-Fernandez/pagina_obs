@@ -31,7 +31,7 @@ export default function IndustriaPage() {
     procesos, 
     condiciones, 
     soluciones,
-    solucionesNew, 
+    url,
     tipo,
     descripcion,
     subtitulo,
@@ -43,7 +43,7 @@ export default function IndustriaPage() {
     <div>
       <Procesos data={procesos} descripcion={descripcion} />
       <Condicion data={condiciones} subtitulo={subtituloCondicion}  />
-      <Solucion data={soluciones} subtitulo={subtituloSolucion}  dataNew={solucionesNew}/>
+      <Solucion data={soluciones} subtitulo={subtituloSolucion} url={url} />
       <Libro />
     </div>
   );

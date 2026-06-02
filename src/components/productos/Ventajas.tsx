@@ -19,7 +19,7 @@ export default function Ventajas({ tipo, subtitulo, ventajas }: VentajasProps) {
         </div>
 
       {
-        tipo === "proyectos" || tipo === "transportadores" ? (
+        tipo === "proyectos" || tipo === "transportadores" || tipo === "herramientas" ? (
           <VentajasViewTwo ventajas={ventajas}/>
         ) : (
           <VentajasViewOne ventajas={ventajas}/>

@@ -60,6 +60,8 @@ export default function NavBar() {
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Fabricación de transportadores</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/proyectos" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Proyectos Especiales</NavLink></li>
+                         <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/herramientas" className={({ isActive }) =>
+                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Herramientas industriales </NavLink></li>
                         </ul>
                     </div>
                 </li>
@@ -90,8 +92,6 @@ export default function NavBar() {
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Latas</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/cartonera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Cartonera</NavLink></li>
-                            <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/tabacalera" className={({ isActive }) =>
-                        `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Tabacalera</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/piedrera" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Piedrera</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/llantera" className={({ isActive }) =>

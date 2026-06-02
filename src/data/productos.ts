@@ -717,6 +717,8 @@ export const productosList: productoPage[] = [
     },
   },
 
+
+
   {
     id: 10,
      tipo: "proyectos",
@@ -811,19 +813,137 @@ export const productosList: productoPage[] = [
     descripcion:
       "Soporte durante las etapas clave del proyecto para asegurar una implementación correcta.",
    },
+   ],
+
+
+ industrias: {
+      id: 1,
+      subtitulo:
+        "Las bandas transportadoras se utilizan ampliamente en industrias como:",
+      opciones: [
+        "Alimentaria y bebidas",
+        "Empaque y transformación",
+        "Materiales y procesos pesados",
+        "Automotriz y manufactura",
+      ],
+    },
+  },
+  
+
+
+
+
+  
+  
+
+
+{
+    id: 11,
+    tipo: "herramientas",
+    subtitulo: "Las herramientas para bandas industriales son elementos de apoyo utilizados durante la instalación, ajuste y mantenimiento de sistemas de transporte. Su uso adecuado permite realizar trabajos más precisos, seguros y eficientes en planta, reduciendo errores y tiempos de paro.",
+    ventajas: [
+      {
+        id: 1,
+        img: "/images/productos/herramientas/ventajas/imagen1.jpg",
+        titulo: "APLICACIONES COMÚNES",
+        descripcion:
+          "Las herramientas se utilizan en distintas etapas del ciclo de vida de una banda, como:",
+        listaVentajas: [
+           "Instalación de bandas transportadoras y termosoldables.",
+           "Ajuste y alineación de sistemas.",
+           "Mantenimiento preventivo y correctivo.",
+           "Reemplazo de componentes y accesorios.",
+        ],
+      },
+
+      {
+        id: 2,
+        img: "/images/productos/herramientas/ventajas/imagen2.jpg",
+        titulo: "BENEFICIOS PRINCIPALES",
+        listaVentajas: [
+           "Mayor precisión en instalación y ajuste.",
+           "Reducción de tiempos de mantenimiento.",
+           "Mejora en la seguridad durante el trabajo.",
+           "Menor desgaste prematuro de bandas.",
+           "Optimización de recursos en planta.",
+        ],
+      },
+    ],
+
+    aplicacionesViewTwo: [
+      {
+        id: 1,
+        titulo: "Sistemas de transporte especiales",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen1.jpg",
+      },
+      {
+        id: 2,
+        titulo: "Modificaciones a equipos existentes",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen2.jpg",
+      },
+      {
+        id: 3,
+        titulo: "Soluciones para procesos complejos",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen3.jpg",
+      },
+      {
+        id: 4,
+        titulo: "Integraciones técnicas especificas ",
+        descripcion: "",
+        img: "/images/productos/proyectos/aplicacion/imagen4.jpg",
+      },
+    ],
+
+    tituloTipo: "",
+    
+
+    condiciones: [
+  {
+    id: 1,
+    icono: "/images/productos/proyectos/tipos/analisis.svg",
+    titulo: "Análisis del proceso",
+    descripcion:
+      "Evaluación de las condiciones reales de operación, producto y entorno para definir la solución más adecuada.",
+  },
+  {
+    id: 2,
+    icono: "/images/productos/proyectos/tipos/ingenieria.svg",
+    titulo: "Ingeniería aplicada",
+    descripcion:
+      "Desarrollo técnico enfocado en funcionalidad, eficiencia y compatibilidad con el sistema existente.",
+  },
+  {
+    id: 3,
+    icono: "/images/productos/proyectos/tipos/adaptabilidad.svg",
+    titulo: "Adaptabilidad operativa",
+    descripcion:
+      "Soluciones pensadas para ajustarse a cambios futuros en el proceso o en el tipo de producto.",
+  },
+  {
+    id: 4,
+    icono: "/images/productos/proyectos/tipos/acompañamiento.svg",
+    titulo: "Acompañamiento técnico",
+    descripcion:
+      "Soporte durante las etapas clave del proyecto para asegurar una implementación correcta.",
+   },
   ],
+ 
 
-
-
+    
     industrias: {
       id: 1,
       subtitulo:
         "Las bandas transportadoras se utilizan ampliamente en industrias como:",
       opciones: [
-        "Automotriz y manufactura",
+        "Alimentaria y bebidas",
         "Empaque y transformación",
-        "Alimentaria (en equipos específicos)",
+        "Materiales y procesos pesados",
+        "Automotriz y manufactura",
       ],
     },
   },
+  
 ];

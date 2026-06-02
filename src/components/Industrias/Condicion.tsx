@@ -13,12 +13,12 @@ export default function Condicion({ data, subtitulo }: CondicionProps) {
           CONDICIONES DE OPERACIÓN
         </h2>
 
-        {/* 👇 ahora este texto viene del prop */}
+        {/*  ahora este texto viene del prop */}
         <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
           {subtitulo}
         </p>
 
-        <div className="grid grid-cols-2 grid-rows-2 gap-10 w-4/5 mx-auto">
+        <div className="grid grid-cols-2 grid-rows-2 gap-40 w-4/5 mx-auto">
           {data.map(({ id, icono, titulo, descripcion }) => (
             <div key={id} className="flex flex-col items-center text-center">
               <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">
