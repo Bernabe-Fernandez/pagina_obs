@@ -44,6 +44,7 @@ export const aplicacionesViewTwoBase = z.object({
   titulo: z.string(),
   descripcion: z.string(),
   img: z.string(),
+  
 });
 
 
@@ -87,6 +88,7 @@ export const ProductoBaseSchema = z.object({
     condiciones: z.array(condicionBase).optional(),
     tipos:z.array(tiposBase).optional(),
     industrias:industriasBase,
+    url: z.string(), 
 
 });
 

@@ -1,15 +1,17 @@
 import type { aplicacionesViewTwoTipo } from "../../types";
-import BotonCatalogo from "../Botones/BotonCatalogo"; // Importación del botón
 
 type AplicacionesViewTwoProps = {
   aplicaciones: aplicacionesViewTwoTipo[];
   tipo: string;
+  url: string; //
 };
 
-export default function AplicacionesViewTwo({ aplicaciones, tipo }: AplicacionesViewTwoProps) {
+export default function AplicacionesViewTwo({ aplicaciones, tipo, url }: AplicacionesViewTwoProps) {
   const count = aplicaciones.length;
   const gridCol = `grid-cols-${count}`;
   const esProyecto = tipo === "proyectos";
+  const esHerramienta = tipo === "herramientas";
+   const esTransportadores = tipo === "transportadores";
 
   return (
     <div>
@@ -17,13 +19,17 @@ export default function AplicacionesViewTwo({ aplicaciones, tipo }: Aplicaciones
       <h2 className="text-3xl font-bold text-center text-azulobs-500 mt-40">
         {esProyecto
           ? "TIPOS DE PROYECTOS DESARROLLADOS"
+          : esHerramienta
+          ? "TIPOS DE HERRAMIENTAS"
           : "INDUSTRIAS DONDE SE APLICAN"}
       </h2>
 
       {/* Descripción */}
-      <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-6 mb-20 leading-relaxed md:text-[24px]">
+      <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-16 mb-20 leading-relaxed md:text-[24px]">
         {esProyecto
           ? "Analizamos cada proceso y sus condiciones reales de operación para desarrollar soluciones que mejoran la eficiencia y continuidad productiva."
+          : esHerramienta
+          ? "Contar con las herramientas adecuadas es fundamental para asegurar una correcta instalación, ajuste y mantenimiento de los sistemas de transporte. Cada tipo de herramienta cumple una función específica que impacta directamente en el desempeño, la seguridad y la vida útil de la banda."
           : "Cada sistema se diseña considerando variables como tipo de producto, flujo de trabajo, condiciones operativas, espacio disponible y nivel de automatización, lo que permite desarrollar soluciones adaptables a prácticamente cualquier sector industrial."}
       </p>
 
@@ -60,8 +66,25 @@ export default function AplicacionesViewTwo({ aplicaciones, tipo }: Aplicaciones
         ))}
       </div>
 
-      {/* ⭐ Botón al final (centrado) */}
-      <BotonCatalogo />
+      {/* BOTÓN FINAL (solo para proyectos y herramientas) */}
+      {(esProyecto || esHerramienta || esTransportadores) && url && (
+        <div className="mt-20 text-right pr-48">
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-azulobs-500 text-white px-14 py-2 rounded-full text-[18px] 
+            font-semibold shadow-[0_4px_15px_rgba(0,0,0,0.25)] 
+            transition duration-300 hover:bg-white
+            hover:text-azulobs-500 
+            hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
+            border border-transparent"
+          >
+            Ver opciones en el catálogo
+          </a>
+        </div>
+      )}
     </div>
   );
 }
+

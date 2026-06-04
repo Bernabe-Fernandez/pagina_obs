@@ -72,5 +72,6 @@ export const ProductosCards : productoCardBase[] = [
         alt:"banda-modulares",
         url:"/productos/bandas"
     },
+    
 
 ];

@@ -22,122 +22,52 @@ export default function Encuentro() {
         </p>
 
         {/* GRID DE IMÁGENES – ESTRUCTURA TIPO CATÁLOGO */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 gap-y-20 mt-10">
 
-          {/* Bandas transportadoras */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/banda-transportadora.jpg"
-                alt="Bandas transportadoras"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              BANDAS TRANSPORTADORAS
-            </p>
-          </div>
+          {/* Tarjetas */}
+          {[
+            { src: "/images/catalago/encontraras/transportadoras.png", titulo: "BANDAS TRANSPORTADORAS" },
+            { src: "/images/catalago/encontraras/termosoldable.png", titulo: "BANDAS TERMOSOLDABLES" },
+            { src: "/images/catalago/encontraras/potencia.png", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA" },
+            { src: "/images/catalago/encontraras/empujadores.png", titulo: "EMPUJADORES" },
+            { src: "/images/catalago/encontraras/grapa.png", titulo: "GRAPAS" },
+            { src: "/images/catalago/encontraras/guias.png", titulo: "GUÍAS DE ORIENTACIÓN" },
+            { src: "/images/catalago/encontraras/olanes.png", titulo: "OLANES" },
+            { src: "/images/catalago/encontraras/herramientas.png", titulo: "ACCESORIOS Y HERRAMIENTAS" },
+          ].map((item, index) => (
+            <div key={index} className="flex flex-col items-center text-center">
 
-          {/* Bandas termosoldables */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/banda-termosoldable.jpg"
-                alt="Bandas termosoldables"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              BANDAS TERMOSOLDABLES
-            </p>
-          </div>
+              {/* Imagen */}
+              <div className="w-full h-[210px] md:h-[220px] rounded-t-xl shadow-md relative">
+                <img
+                  src={item.src}
+                  alt={item.titulo}
+                  className="w-full h-full object-cover object-top"
+                />
 
-          {/* Bandas de transmisión de potencia */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/banda-potencia.jpg"
-                alt="Bandas de transmisión de potencia"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              BANDAS DE TRANSMISIÓN DE POTENCIA
-            </p>
-          </div>
+                {/* Recuadro azul con degradado SIN transparencia */}
+                <div className="
+                  absolute bottom-[-35px] 
+                  w-full h-[70px] 
+                  bg-gradient-to-b 
+                  from-[#6fbfff] 
+                  via-[#3b8cff] 
+                  to-[#2E6092] 
+                  flex items-center justify-center 
+                  rounded-b-xl shadow-md
+                ">
+                  <p className="text-white font-semibold text-[16px] uppercase leading-tight text-center px-2 drop-shadow-sm">
+                    {item.titulo}
+                  </p>
+                </div>
+              </div>
 
-          {/* Empujadores */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/empujadores.jpg"
-                alt="Empujadores"
-                className="w-full h-full object-cover"
-              />
             </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              EMPUJADORES
-            </p>
-          </div>
-
-          {/* Grapas */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/grapas.jpg"
-                alt="Grapas"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              GRAPAS
-            </p>
-          </div>
-
-          {/* Guías de orientación */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/guias.jpg"
-                alt="Guías de orientación"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              GUÍAS DE ORIENTACIÓN
-            </p>
-          </div>
-
-          {/* Olanes */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/olanes.jpg"
-                alt="Olanes"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              OLANES
-            </p>
-          </div>
-
-          {/* Accesorios y herramientas */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-full h-[180px] md:h-[200px] rounded-xl overflow-hidden shadow-md">
-              <img
-                src="/images/catalago/encontraras/accesorios.jpg"
-                alt="Accesorios y herramientas"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p className="text-[#2E6092] font-semibold mt-3 text-[16px] uppercase">
-              ACCESORIOS Y HERRAMIENTAS
-            </p>
-          </div>
+          ))}
 
         </div>
       </div>
     </section>
   );
 }
+

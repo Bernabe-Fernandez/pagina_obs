@@ -5,9 +5,10 @@ type AplicacionProps = {
   aplicaciones?: aplicacionesTipo;
   aplicacionesTwo?: aplicacionesViewTwoTipo[];
   tipo?: string;
+  url: string; //  AGREGA ESTO
 };
 
-export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: AplicacionProps) {
+export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo, url }: AplicacionProps) {
 
   if (!aplicacionesTwo) {
     aplicacionesTwo = [];
@@ -19,7 +20,8 @@ export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo }: Apli
         tipo === "transportadores" || tipo === "proyectos" || tipo === "herramientas" ? (
           <AplicacionesViewTwo 
             aplicaciones={aplicacionesTwo} 
-            tipo={tipo}   //  SE AGREGA ESTE PROP
+            tipo={tipo}
+            url={url}   
           />
         ) : (
           <section className="w-full py-20 bg-white mt-20">

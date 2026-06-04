@@ -83,6 +83,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+    url: "/images/catalagos/productos/bandas t/bandas.pdf", 
   },
 
   {
@@ -155,6 +156,7 @@ export const productosList: productoPage[] = [
         "Alimentaria (en equipos específicos)",
       ],
     },
+     url: "/images/catalagos/productos/transmision/potencia.pdf", 
   },
 
   {
@@ -223,7 +225,10 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+       url: "/images/catalagos/productos/guias/orientacion.pdf", 
   },
+
+
 
   {
     id: 4,
@@ -298,6 +303,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+    url: "/images/catalagos/productos/grapas/grapas.pdf", 
   },
 
 
@@ -407,6 +413,7 @@ export const productosList: productoPage[] = [
       "Transportadores que priorizan la precisión, el control del producto y la compatibilidad con ambientes regulados y procesos sensibles.",
    },
   ],
+    url: "/images/catalagos/productos/transportadores/completo.pdf", 
 },
 
 
@@ -487,7 +494,12 @@ export const productosList: productoPage[] = [
         "Manufactura",
       ],
     },
+      url: "/images/catalagos/productos/termosoldable/termosoldables.pdf",
   },
+
+
+
+
 
   {
     id: 7,
@@ -572,6 +584,7 @@ export const productosList: productoPage[] = [
         "Empaque y transformación",
       ],
     },
+     
   },
 
   {
@@ -647,6 +660,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+    url: "/images/catalagos/productos/olanes/olanes.pdf",
   },
 
   {
@@ -715,6 +729,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+     url: "/images/catalagos/productos/empujadores/empujadores.pdf",
   },
 
 
@@ -753,8 +768,10 @@ export const productosList: productoPage[] = [
         ],
       },
     ],
-
+ 
+   
     aplicacionesViewTwo: [
+      
       {
         id: 1,
         titulo: "Sistemas de transporte especiales",
@@ -827,6 +844,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+      url: "/images/catalagos/productos/proyectos/completo.pdf", 
   },
   
 
@@ -873,27 +891,27 @@ export const productosList: productoPage[] = [
     aplicacionesViewTwo: [
       {
         id: 1,
-        titulo: "Sistemas de transporte especiales",
+        titulo: "Herramientas manuales para instalación",
         descripcion: "",
-        img: "/images/productos/proyectos/aplicacion/imagen1.jpg",
+        img: "/images/productos/herramientas/tipos/imagen1.jpg",
       },
       {
         id: 2,
-        titulo: "Modificaciones a equipos existentes",
+        titulo: "Herramientas de ajuste y alineación",
         descripcion: "",
-        img: "/images/productos/proyectos/aplicacion/imagen2.jpg",
+        img: "/images/productos/herramientas/tipos/imagen2.jpg",
       },
       {
         id: 3,
-        titulo: "Soluciones para procesos complejos",
+        titulo: "Herramientas para empalme y mantenimiento",
         descripcion: "",
-        img: "/images/productos/proyectos/aplicacion/imagen3.jpg",
+        img: "/images/productos/herramientas/tipos/imagen3.jpg",
       },
       {
         id: 4,
-        titulo: "Integraciones técnicas especificas ",
+        titulo: "Herramientas especiales según aplicación",
         descripcion: "",
-        img: "/images/productos/proyectos/aplicacion/imagen4.jpg",
+        img: "/images/productos/herramientas/tipos/imagen4.jpg",
       },
     ],
 
@@ -903,31 +921,31 @@ export const productosList: productoPage[] = [
     condiciones: [
   {
     id: 1,
-    icono: "/images/productos/proyectos/tipos/analisis.svg",
-    titulo: "Análisis del proceso",
+    icono: "/images/productos/herramientas/aplicacion/icono1.svg",
+    titulo: "Instalación segura",
     descripcion:
-      "Evaluación de las condiciones reales de operación, producto y entorno para definir la solución más adecuada.",
+      "Herramientas diseñadas para facilitar el montaje correcto de bandas y componentes, reduciendo riesgos y errores durante la instalación.",
   },
   {
     id: 2,
-    icono: "/images/productos/proyectos/tipos/ingenieria.svg",
-    titulo: "Ingeniería aplicada",
+    icono: "/images/productos/herramientas/aplicacion/icono2.svg",
+    titulo: "Ajuste preciso",
     descripcion:
-      "Desarrollo técnico enfocado en funcionalidad, eficiencia y compatibilidad con el sistema existente.",
+      "Soluciones que permiten alinear y tensar adecuadamente el sistema, asegurando un funcionamiento estable y prolongando la vida útil de la banda.",
   },
   {
     id: 3,
-    icono: "/images/productos/proyectos/tipos/adaptabilidad.svg",
-    titulo: "Adaptabilidad operativa",
+    icono: "/images/productos/herramientas/aplicacion/icono3.svg",
+    titulo: "Mantenimiento eficiente",
     descripcion:
-      "Soluciones pensadas para ajustarse a cambios futuros en el proceso o en el tipo de producto.",
+      "Equipos pensados para intervenciones rápidas y controladas, optimizando tiempos de paro y facilitando las tareas de mantenimiento preventivo.",
   },
   {
     id: 4,
-    icono: "/images/productos/proyectos/tipos/acompañamiento.svg",
-    titulo: "Acompañamiento técnico",
+    icono: "/images/productos/herramientas/aplicacion/icono4.svg",
+    titulo: "Operación confiable",
     descripcion:
-      "Soporte durante las etapas clave del proyecto para asegurar una implementación correcta.",
+      "Herramientas que contribuyen a un desempeño constante del sistema, manteniendo la precisión y confiabilidad en la operación diaria.",
    },
   ],
  
@@ -944,6 +962,7 @@ export const productosList: productoPage[] = [
         "Automotriz y manufactura",
       ],
     },
+     url: "/images/catalagos/productos/herramientas/industriales.pdf", 
   },
   
 ];

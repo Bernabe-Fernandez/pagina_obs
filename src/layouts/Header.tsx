@@ -26,6 +26,8 @@ const headerConfig: Record<string, HeaderData>= {
     title:"Nosotros",
     subtitle:"Especialistas en soluciones industriales",
     image:"/images/backgrounds/headers/nosotros.jpg"
+
+
   },
   "/productos": {
     title: "Productos",
@@ -33,12 +35,13 @@ const headerConfig: Record<string, HeaderData>= {
     image: "/images/headers/products.jpg"
     },
   
+
     "/catalogo": {
     title: "CATÁLOGO",
     subtitle: "Soluciones en bandas transportadoras, transmisión y accesorios para aplicaciones industriales.",
     text_btn: "Contacta con un asesor",
     url_btn: "/contacto",
-    image: "/images/backgrounds/headers/catalogo.jpg",
+    image: "/images/backgrounds/headers/catalogo.png",
     
   },
 
@@ -59,6 +62,9 @@ const headerConfig: Record<string, HeaderData>= {
     image: "/images/backgrounds/headers/contacto.jpg",
   },
   
+
+
+
    
   /*APARTADO PRODUCTOS*/
     

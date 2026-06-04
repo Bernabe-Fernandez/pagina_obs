@@ -9,13 +9,13 @@ export default function Calidad() {
           {/* IMÁGENES */}
           <div className="space-y-6">
             <img
-              src="/images/nosotros/calidad/checar.jpg"
+              src="/images/nosotros/calidad/imagen1.jpg"
               alt="calidad 1"
               className="w-full h-80 object-cover rounded-xl shadow-md"
             />
 
             <img
-              src="/images/nosotros/calidad/equipo.jpg"
+              src="/images/nosotros/calidad/imagen2.jpg"
               alt="calidad 2"
               className="w-full h-80 object-cover rounded-xl shadow-md"
             />

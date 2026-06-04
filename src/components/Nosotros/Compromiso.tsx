@@ -15,14 +15,14 @@ export default function Compromiso() {
       id: 2,
       title: "VISIÓN",
       text: "Ser la marca líder en bandas transportadoras para la industria mexicana, generando valor en cada solución implementada con un proceso de innovación continua.",
-      image: "/images/nosotros/compromiso/vision.jpeg",
+      image: "/images/nosotros/compromiso/vision.jpg",
       icon: IconVision,
     },
     {
       id: 3,
       title: "FILOSOFÍA",
       text: "Resolver de forma rápida y eficiente los problemas de producción de nuestros clientes, garantizando calidad, la continuidad operativa y maximizando la eficiencia de sus procesos industriales.",
-      image: "/images/nosotros/compromiso/filosofia.jpeg",
+      image: "/images/nosotros/compromiso/filosofia.jpg",
       icon: IconFilosofia,
     },
   ];

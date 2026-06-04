@@ -5,7 +5,7 @@ type SolucionProps = {
   subtitulo: string;
   data: solucionTipo[];
   tipo: string;
-  url: string; // ✅ nuevo prop agregado
+  url: string; // nuevo prop agregado
 };
 
 export default function Solucion({ subtitulo, data, url }: SolucionProps) {

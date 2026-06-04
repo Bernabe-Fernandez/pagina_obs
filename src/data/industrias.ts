@@ -92,6 +92,15 @@ export const industriasData : industriasBase[] = [
         altura:"alta"
     },
     {
+        id:13,
+        titulo:"verduras y legumbres",
+        descripcion: "Higiene, inocuidad  y manejo continuo.",
+        img:"/images/home/industrias/verduras.jpg",
+        url:"/industrias/verduras",
+        alt:"img-agroalimentaria",
+        altura:"ancha"
+    },
+       {
         id:11,
         titulo:"llantera",
         descripcion: "Carga pesada y procesos industriales.",
@@ -100,23 +109,41 @@ export const industriasData : industriasBase[] = [
         alt:"img-llantera",
         altura:null
     },
-    {
-        id:12,
-        titulo:"tabacalera",
-        descripcion: "Procesos delicados y alta repetibilidad.",
-        img:"/images/home/industrias/tabacalera.jpg",
-        url:"/industrias/tabacalera",
-        alt:"img-tabacalera",
-        altura:null
+     {
+        id:14,
+        titulo:"frutas",
+        descripcion: "Procesos húmedos y manejo cuidadoso.",
+        img:"/images/home/industrias/frutas.jpg",
+        url:"/industrias/frutas",
+        alt:"img-agroalimentaria",
+        altura:"null"
     },
     {
-        id:13,
-        titulo:"agroalimentaria",
-        descripcion: "Higiene, humedad y manejo continuo.",
-        img:"/images/home/industrias/agroalimentaria.jpg",
-        url:"/industrias/agroalimentaria",
+        id:15,
+        titulo:"envase pet",
+        descripcion: "Producción continua y alto volumen.",
+        img:"/images/home/industrias/pet.jpg",
+        url:"/industrias/envasado",
         alt:"img-agroalimentaria",
-        altura:"ancha"
+        altura:"null"
+    },
+    {
+        id:16,
+        titulo:"textilera",
+        descripcion: "Control de procesos y repetibilidad.",
+        img:"/images/home/industrias/textil.jpg",
+        url:"/industrias/textil",
+        alt:"img-agroalimentaria",
+        altura:"null"
+    },
+    {
+        id:17,
+        titulo:"embutidos",
+        descripcion: "Procesos sanitarios y manejo continuo.",
+        img:"/images/home/industrias/embutido.jpg",
+        url:"/industrias/embutidos",
+        alt:"img-agroalimentaria",
+        altura:"null"
     }
 ]
 

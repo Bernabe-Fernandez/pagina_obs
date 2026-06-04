@@ -29,7 +29,7 @@ export default function TipoViewTwo({ condiciones, tipo }: TipoViewTwoProps) {
         )}
 
         {/* GRID DE ELEMENTOS */}
-        <div className="grid grid-cols-2 grid-rows-2 gap-10 w-4/5 mx-auto">
+        <div className="grid grid-cols-2 grid-rows-2 gap-40 w-4/5 mx-auto">
           {condiciones.map((item) => (
             <div key={item.id} className="flex flex-col items-center text-center">
               <div className="w-24 h-24 rounded-full bg-azulobs-500 flex items-center justify-center mb-6">

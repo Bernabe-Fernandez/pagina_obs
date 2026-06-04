@@ -26,12 +26,13 @@ export default function BandasPage() {
     if (!producto) return null;
 
     const {
-      id,
+      
       tipo,  
       subtitulo,
       ventajas,
       aplicaciones,
       aplicacionesViewTwo,
+      url,
       condiciones,
       tituloTipo,
       subtituloTipo,
@@ -44,10 +45,10 @@ export default function BandasPage() {
     <div>
       
       <Ventajas tipo={tipo} subtitulo={subtitulo} ventajas={ventajas} />
-      <Aplicacion aplicaciones={aplicaciones} tipo={tipo} aplicacionesTwo={aplicacionesViewTwo} />
-      <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} condiciones={condiciones} tipo={tipo}/>
+      <Aplicacion aplicaciones={aplicaciones} tipo={tipo} aplicacionesTwo={aplicacionesViewTwo}  url={url} />
+      <Tipos tituloTipo={tituloTipo} subtituloTipo={subtituloTipo} tipos={tipos} condiciones={condiciones} tipo={tipo}  url={url} />
       {
-        (tipo != "transportadores" && tipo != "fabricacion" && tipo != "proyectos") && (
+        (tipo != "transportadores" && tipo != "fabricacion" && tipo != "proyectos" && tipo != "herramientas") && (
            <Industria tipo={tipo} industrias={industrias} />
         ) 
       }

@@ -1,6 +1,5 @@
 import type { tiposTipo , condicionTipo } from "../../types";
 import TipoViewTwo from "../../components/sections/TipoViewTwo";
-import BotonCatalogo from "../Botones/BotonCatalogo"; //  Importación del botón
 
 type TiposProps = {
   subtituloTipo?: string;
@@ -8,25 +7,35 @@ type TiposProps = {
   tipos?: tiposTipo[];
   condiciones?: condicionTipo[];
   tipo: string;
+  url: string; 
 };
 
-export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, tipo }: TiposProps) {
+export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, tipo, url }: TiposProps) {
+
+  // Plantilla especial que NO debe mostrar botón
+  const usaPlantillaDos =
+    tipo === "proyectos" ||
+    tipo === "transportadores" ||
+    tipo === "herramientas";
+
   return (
     <section className="w-full py-20 bg-white">
-      <div className="w-3/4 mx-auto">
+      <div className="w-3/4 mx-auto flex flex-col items-end">
 
         {/* TÍTULO */}
-        <h2 className="text-3xl font-bold text-blue-900 mb-36 mt-28">
+        <h2 className="text-3xl font-bold text-blue-900 mb-36 mt-28 w-full">
           {tituloTipo}
         </h2>
 
-        {subtituloTipo && <p>{subtituloTipo}</p>}
+        {subtituloTipo && <p className="w-full">{subtituloTipo}</p>}
 
-        {tipo === "proyectos" || tipo === "transportadores" || tipo === "herramientas"? (
+        {/* PLANTILLA ESPECIAL (SIN BOTÓN) */}
+        {usaPlantillaDos ? (
           <TipoViewTwo condiciones={condiciones ?? []} tipo={tipo} />
         ) : (
           <>
-            <div className="space-y-16">
+            {/* GRID DE CARTAS */}
+            <div className="space-y-16 w-full">
               {Array.isArray(tipos) &&
                 tipos.map((tipo) => (
                   <div
@@ -47,16 +56,27 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
                   </div>
                 ))}
             </div>
+
+            {/* BOTÓN FINAL (solo cuando NO es TipoViewTwo) */}
+            <div className="mt-20 text-right pr-[1px] translate-x-[40px]">
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-azulobs-500 text-white px-16 py-2 rounded-full text-[18px] 
+                font-semibold shadow-[0_4px_15px_rgba(0,0,0,0.25)] 
+                transition duration-300 hover:bg-white
+                hover:text-azulobs-500 
+                hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)]
+                border border-transparent"
+              >
+                Ver opciones en el catálogo
+              </a>
+            </div>
           </>
         )}
 
       </div>
-
-      {/* Mostrar botón SOLO cuando NO sea TipoViewTwo */}
-      {!(tipo === "proyectos" || tipo === "transportadores") && (
-        <BotonCatalogo />
-      )}
-
     </section>
   );
 }
