@@ -5,7 +5,7 @@ export default function Servicios() {
     <section className="w-full bg-white py-10 px-4 sm:px-6 mt-20 sm:mt-28">
 
       {/* Contenedor de tarjetas */}
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         {/* Título */}
         <h2 className="text-center text-2xl sm:text-3xl font-bold text-blue-900 mb-14 sm:mb-20 tracking-wide">
@@ -18,33 +18,52 @@ export default function Servicios() {
             <div
               key={service.id}
               className="
-                grid grid-cols-1 md:grid-cols-2 
+                grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2
                 bg-white rounded-2xl shadow-sm border border-gray-200 
                 overflow-hidden hover:shadow-md transition duration-300
               "
             >
               {/* Imagen */}
-              <div className="h-40 sm:h-48 md:h-full">
+              <div className="h-40 sm:h-48 md:h-56 lg:h-full">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center md:object-fill"
                 />
               </div>
 
               {/* Contenido */}
-              <div className="p-5 sm:p-6 flex items-center">
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between w-full gap-4 sm:gap-6">
+              <div
+                className={`p-5 sm:p-6 flex items-center md:items-stretch lg:items-center ${
+                  service.title.includes("layout")
+                    ? "md:h-[230px]" // corrige el exceso de altura del botón en tablet
+                    : "md:h-[240px]"
+                } lg:h-auto`}
+              >
+                <div className="
+                  flex flex-col sm:flex-row items-start sm:items-start
+                  justify-center md:justify-between lg:justify-between w-full
+                  gap-4 sm:gap-6 md:gap-8 md:h-full
+                ">
 
                   {/* Texto */}
-                  <p className="text-[#2E6092] text-base sm:text-lg font-medium leading-snug max-w-full sm:max-w-[250px]">
+                  <p
+                    className="
+                      text-[#2E6092]
+                      text-base sm:text-lg font-medium leading-snug
+                      max-w-full sm:max-w-[300px] md:max-w-[280px]
+                      text-left
+                      md:flex-1 md:flex md:items-start md:justify-start
+                      lg:flex lg:items-center lg:justify-start
+                    "
+                  >
                     {service.title}
                   </p>
 
                   {/* Botón */}
                   <button
                     className="
-                      w-full sm:w-[170px] h-10
+                      w-full sm:w-[170px] md:w-[180px] lg:w-[170px] h-11
                       flex items-center justify-center
                       bg-white text-azulobs-500
                       rounded-full
@@ -53,6 +72,7 @@ export default function Servicios() {
                       transition-all duration-300
                       hover:bg-azulobs-500 hover:text-white
                       focus:outline-none focus:ring-0 focus:border-transparent
+                      md:self-center lg:self-center
                     "
                   >
                     Conoce más
@@ -66,8 +86,7 @@ export default function Servicios() {
       </div>
 
       {/* Botón Ver catálogo completo */}
-      <div className="flex justify-center sm:justify-end mt-16 sm:mt-24 pr-0 sm:pr-10 mb-20">
-
+      <div className="flex justify-center lg:justify-end mt-16 sm:mt-24 pr-0 lg:pr-10 mb-20">
         <a
           href="/catalogo"
           className="
@@ -89,3 +108,10 @@ export default function Servicios() {
     </section>
   );
 }
+
+
+
+
+
+
+
