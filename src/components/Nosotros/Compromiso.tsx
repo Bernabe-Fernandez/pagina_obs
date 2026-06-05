@@ -1,6 +1,6 @@
-const IconMision = "/images/nosotros/compromiso/libro.svg";        // libro
-const IconVision = "/images/nosotros/compromiso/vision.svg";       // cohete
-const IconFilosofia = "/images/nosotros/compromiso/auriculares.svg"; // auriculares
+const IconMision = "/images/nosotros/compromiso/libro.svg";
+const IconVision = "/images/nosotros/compromiso/vision.svg";
+const IconFilosofia = "/images/nosotros/compromiso/auriculares.svg";
 
 export default function Compromiso() {
   const CompromisoData = [
@@ -27,59 +27,62 @@ export default function Compromiso() {
     },
   ];
 
-  
   return (
-    <section className="w-full bg-white py-16 px-6">
+    <section className="w-full bg-white py-14 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-center text-3xl font-bold text-[#2E6092] tracking-wide">
+        {/* TÍTULO */}
+        <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2E6092] tracking-wide">
           NUESTRO COMPROMISO
         </h2>
 
-        <p className="text-center text-[#2E6092] max-w-6xl mx-auto mt-12 mb-16 leading-relaxed text-[20px] md:text-[22px]">
-          Trabajamos bajo un compromiso constante con la calidad, la seguridad y la continuidad operativa, aportando valor a nuestros clientes, socios comerciales y al desarrollo de la industria nacional.
+        {/* DESCRIPCIÓN */}
+        <p className="text-center text-[#2E6092] max-w-5xl mx-auto mt-8 sm:mt-12 mb-12 sm:mb-16 leading-relaxed 
+        text-[17px] sm:text-[19px] md:text-[20px]">
+          Trabajamos bajo un compromiso constante con la calidad, la seguridad y la continuidad operativa, 
+          aportando valor a nuestros clientes, socios comerciales y al desarrollo de la industria nacional.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 sm:gap-8 md:gap-6">
           {CompromisoData.map((item) => (
             <div
               key={item.id}
               className="bg-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 relative pb-10"
             >
 
-              {/* Imagen */}
-              <div className="w-full h-70 relative">
+              {/* IMAGEN */}
+              <div className="w-full h-56 sm:h-64 md:h-70 relative">
                 <img
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover rounded-t-2xl"
                 />
 
-
-              {/* ICONO FLOTANTE */}
-              <div className="absolute left-6 -bottom-16 w-40 h-40 z-5">
-               <img
-                 src={item.icon}
-                 alt="icono"
-                 className="w-full h-full object-contain"
-               />
-            </div>
-          </div>
+                {/* ICONO FLOTANTE */}
+                <div className="absolute left-4 sm:left-6 -bottom-14 sm:-bottom-16 w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 z-10">
+                  <img
+                    src={item.icon}
+                    alt="icono"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
 
               {/* TEXTO */}
-              <div className="text-center px-6 pt-24 pb-8">
+              <div className="text-center px-4 sm:px-6 pt-20 sm:pt-24 pb-8">
 
-
-                  {/* TITULO */}
-                <h3 className="text-[22px]  font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] mb-2">
+                {/* TÍTULO */}
+                <h3 className="text-[20px] sm:text-[22px] font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] mb-2">
                   {item.title}
-                   </h3>
-  
-                   {/* TEXTO */}
-               <p className="text-[#2E6092] leading-relaxed text-[18px]">
-                 {item.text}
-                  </p>
-            </div>
+                </h3>
+
+                {/* DESCRIPCIÓN */}
+                <p className="text-[#2E6092] leading-relaxed text-[16px] sm:text-[17px] md:text-[18px]">
+                  {item.text}
+                </p>
+
+              </div>
             </div>
           ))}
         </div>

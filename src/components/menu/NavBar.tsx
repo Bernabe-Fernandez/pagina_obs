@@ -38,7 +38,7 @@ export default function NavBar() {
                 <li className="relative group p-2 hover:bg-azulobs-600 hover:text-white">
                     <span className="cursor-pointer">Productos</span>
 
-                    <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-xl border rounded-lg p-6 w-80 md:w-[450px] z-50">
+                    <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-xl border rounded-lg p-6 w-80 md:w-[600px] z-50">
                         <ul className="grid grid-cols-1 md:grid-cols-3 gap-2 text-[15px] text-azulobs-600">
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/productos/bandas" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>Bandas transportadoras</NavLink></li>
@@ -70,8 +70,8 @@ export default function NavBar() {
                 <li className="relative group p-2 hover:bg-azulobs-600 hover:text-white">
                     <span className="cursor-pointer">Industrias</span>
 
-                    <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-xl border rounded-lg p-6 w-80 md:w-[450px] z-50">
-                        <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 text-[15px] text-azulobs-600">
+                    <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-xl border rounded-lg p-6 w-80 md:w-[600px] z-50">
+                        <ul className="grid grid-cols-1 md:grid-cols-3 gap-2 text-[15px] text-azulobs-600">
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/verduras" className={({ isActive }) =>
                         `${isActive ? "text-azulobs-700 hover:text-white font-bold border-b-2 border-azulobs-600" : ""}`}>verduras y legumbres</NavLink></li>
                             <li className="hover:bg-azulobs-600 hover:text-white p-1"><NavLink to="/industrias/chocolatera" className={({ isActive }) =>
