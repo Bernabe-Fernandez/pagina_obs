@@ -28,7 +28,7 @@ export default function Servicios() {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover object-center md:object-fill"
+                  className="w-full h-full object-cover object-center md:object-cover md:scale-100"
                 />
               </div>
 
@@ -36,8 +36,8 @@ export default function Servicios() {
               <div
                 className={`p-5 sm:p-6 flex items-center md:items-stretch lg:items-center ${
                   service.title.includes("layout")
-                    ? "md:h-[230px]" // corrige el exceso de altura del botón en tablet
-                    : "md:h-[240px]"
+                    ? "md:h-[220px]"
+                    : "md:h-[230px]"
                 } lg:h-auto`}
               >
                 <div className="
@@ -49,13 +49,13 @@ export default function Servicios() {
                   {/* Texto */}
                   <p
                     className="
-                      text-[#2E6092]
-                      text-base sm:text-lg font-medium leading-snug
-                      max-w-full sm:max-w-[300px] md:max-w-[280px]
-                      text-left
-                      md:flex-1 md:flex md:items-start md:justify-start
-                      lg:flex lg:items-center lg:justify-start
-                    "
+                        text-[#2E6092]
+                           text-base sm:text-lg md:text-[13.5px] lg:text-lg font-medium leading-snug
+                           max-w-full sm:max-w-[300px] md:max-w-[280px]
+                           text-left
+                           md:flex-1 md:flex md:items-start md:justify-start
+                           lg:flex lg:items-center lg:justify-start
+                          "
                   >
                     {service.title}
                   </p>
@@ -86,28 +86,36 @@ export default function Servicios() {
       </div>
 
       {/* Botón Ver catálogo completo */}
-      <div className="flex justify-center lg:justify-end mt-16 sm:mt-24 pr-0 lg:pr-10 mb-20">
-        <a
-          href="/catalogo"
-          className="
-            w-[220px] h-11 flex items-center justify-center
-            bg-white text-azulobs-500
-            rounded-full
-            shadow-[0_4px_10px_rgba(0,0,0,0.25)]
-            font-medium text-sm
-            transition-all duration-300
-            hover:bg-azulobs-500 hover:text-white
-            focus:outline-none focus:ring-0 focus:border-transparent
-            sm:-translate-x-60
-          "
-        >
-          Ver catálogo completo
-        </a>
-      </div>
+      <div
+  className="
+    flex justify-center sm:justify-center md:justify-end lg:justify-end
+    mt-16 sm:mt-24 pr-0 lg:pr-[9.5rem] mb-20
+  
+  "
+>
+  <a
+    href="/catalogo"
+    className="
+      w-[220px] h-11 flex items-center justify-center
+      bg-white text-azulobs-500
+      rounded-full
+      shadow-[0_4px_10px_rgba(0,0,0,0.25)]
+      font-medium text-sm
+      transition-all duration-300
+      hover:bg-azulobs-500 hover:text-white
+      focus:outline-none focus:ring-0 focus:border-transparent
+      sm:-translate-x-60 md:-translate-x-0 lg:translate-x-[60]
+    "
+  >
+    Ver catálogo completo
+  </a>
+</div>
+    
 
     </section>
   );
 }
+
 
 
 
