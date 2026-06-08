@@ -19,6 +19,11 @@ export default function Calidad() {
               alt="calidad 2"
               className="w-full h-80 object-cover rounded-xl shadow-md"
             />
+
+            {/* TEXTO FINAL CENTRADO — DEBAJO DE LAS IMÁGENES */}
+            <p className="text-[#2E6092] text-center text-[16px] sm:text-[17px] md:text-[18px] mt-10">
+              Política de Privacidad | Términos de Uso | Aviso Legal
+            </p>
           </div>
 
           {/* TEXTO A LA DERECHA */}
@@ -42,15 +47,6 @@ export default function Calidad() {
             </a>
           </div>
         </div>
-
-        {/* TEXTO FINAL CENTRADO — FUERA DEL GRID */}
-        <div className="w-full flex justify-center mt-16 -ml-80">
-  <p className="text-[#2E6092] text-center text-[18px]">
-    Política de Privacidad | Términos de Uso | Aviso Legal
-  </p>
-</div>
-
-
 
       </div>
     </section>

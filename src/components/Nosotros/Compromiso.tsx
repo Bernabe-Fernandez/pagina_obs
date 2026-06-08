@@ -82,7 +82,7 @@ export default function Compromiso() {
 
                 {/* DESCRIPCIÓN */}
                 <p className="text-[#2E6092] leading-relaxed 
-                text-[16px] sm:text-[17px] md:text-[13.5px] lg:text-[20px] md:leading-snug">
+                text-[20px] sm:text-[20px] md:text-[13.5px] lg:text-[20px] md:leading-snug">
                   {item.text}
                 </p>
 

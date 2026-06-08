@@ -494,7 +494,7 @@ export const productosList: productoPage[] = [
         "Manufactura",
       ],
     },
-      url: "/images/catalagos/productos/termosoldable/termosoldables.pdf",
+      url: "/images/catalagos/productos/termosoldable/termosoldable.pdf",
   },
 
 
@@ -584,7 +584,7 @@ export const productosList: productoPage[] = [
         "Empaque y transformación",
       ],
     },
-     
+     url: "/images/catalagos/productos/modulares/modular.pdf",
   },
 
   {
