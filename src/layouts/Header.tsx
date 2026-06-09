@@ -25,7 +25,7 @@ const headerConfig: Record<string, HeaderData>= {
   "/nosotros": {
     title:"Nosotros",
     subtitle:"Especialistas en soluciones industriales",
-    image:"/images/backgrounds/headers/nosotros.jpg"
+    image:"/images/backgrounds/headers/nosotros.jpeg"
 
 
   },

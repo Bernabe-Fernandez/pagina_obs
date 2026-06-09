@@ -14,7 +14,7 @@ export default function Servicios() {
 
         {/* Cards */}
         <div className="space-y-6 sm:space-y-8">
-          {services.map((service) => (
+          {services.map((service, index) => (
             <div
               key={service.id}
               className="
@@ -62,6 +62,12 @@ export default function Servicios() {
 
                   {/* Botón */}
                   <button
+                    onClick={() => {
+                      if (index === 0) window.location.href = "/productos/transportadores";
+                      if (index === 1) window.location.href = "/productos/herramientas";
+                      if (index === 2) window.location.href = "/productos/transportadores";
+                      if (index === 3) window.location.href = "/productos/proyectos";
+                    }}
                     className="
                       w-full sm:w-[170px] md:w-[180px] lg:w-[170px] h-11
                       flex items-center justify-center
@@ -87,30 +93,28 @@ export default function Servicios() {
 
       {/* Botón Ver catálogo completo */}
       <div
-  className="
-    flex justify-center sm:justify-center md:justify-end lg:justify-end
-    mt-16 sm:mt-24 pr-0 lg:pr-[9.5rem] mb-20
-  
-  "
->
-  <a
-    href="/catalogo"
-    className="
-      w-[220px] h-11 flex items-center justify-center
-      bg-white text-azulobs-500
-      rounded-full
-      shadow-[0_4px_10px_rgba(0,0,0,0.25)]
-      font-medium text-sm
-      transition-all duration-300
-      hover:bg-azulobs-500 hover:text-white
-      focus:outline-none focus:ring-0 focus:border-transparent
-      sm:-translate-x-60 md:-translate-x-0 lg:translate-x-[60]
-    "
-  >
-    Ver catálogo completo
-  </a>
-</div>
-    
+        className="
+          flex justify-center sm:justify-center md:justify-end lg:justify-end
+          mt-16 sm:mt-24 pr-0 lg:pr-[9.5rem] mb-20
+        "
+      >
+        <a
+          href="/catalogo"
+          className="
+            w-[220px] h-11 flex items-center justify-center
+            bg-white text-azulobs-500
+            rounded-full
+            shadow-[0_4px_10px_rgba(0,0,0,0.25)]
+            font-medium text-sm
+            transition-all duration-300
+            hover:bg-azulobs-500 hover:text-white
+            focus:outline-none focus:ring-0 focus:border-transparent
+            sm:-translate-x-60 md:-translate-x-0 lg:translate-x-[60]
+          "
+        >
+          Ver catálogo completo
+        </a>
+      </div>
 
     </section>
   );

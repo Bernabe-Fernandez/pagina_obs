@@ -160,11 +160,11 @@ export default function Zona() {
                       </div>
 
                       <div className="flex items-start gap-2">
-  <Icon path={mdiEmail} size={0.9} className="text-azulobs-500 shrink-0 mt-[2px]" />
-  <p className="text-azulobs-400 break-all whitespace-normal leading-tight w-[180px]">
-    {c.correo}
-  </p>
-</div>
+                         <Icon path={mdiEmail} size={0.9} className="text-azulobs-500 shrink-0 mt-[2px]" />
+                         <p className="text-azulobs-400 break-all whitespace-normal leading-tight w-[180px]">
+                         {c.correo}
+                         </p>
+                        </div>
                     </div>
                   ))}
                 </div>
