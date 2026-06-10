@@ -3,13 +3,14 @@ import type { solucionTipo } from "../../types";
 
 type SolucionProps = {
   subtitulo: string;
-  data: solucionTipo[];
-  tipo: string;
+  data: solucionTipo[] | undefined;
   url: string; // nuevo prop agregado
 };
 
 export default function Solucion({ subtitulo, data, url }: SolucionProps) {
-  
+    if(!data){
+      data = [];
+    }
 
   // Determinar clases dinámicas según cantidad de imágenes
   const gridClasses =

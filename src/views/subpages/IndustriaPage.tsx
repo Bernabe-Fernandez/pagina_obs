@@ -32,9 +32,7 @@ export default function IndustriaPage() {
     condiciones, 
     soluciones,
     url,
-    tipo,
     descripcion,
-    subtitulo,
     subtituloCondicion,
     subtituloSolucion,
   } = data;
