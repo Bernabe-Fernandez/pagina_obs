@@ -5,7 +5,7 @@ type AplicacionProps = {
   aplicaciones?: aplicacionesTipo;
   aplicacionesTwo?: aplicacionesViewTwoTipo[];
   tipo?: string;
-  url: string; //  AGREGA ESTO
+  url: string; 
 };
 
 export default function Aplicacion({ aplicaciones, aplicacionesTwo, tipo, url }: AplicacionProps) {
