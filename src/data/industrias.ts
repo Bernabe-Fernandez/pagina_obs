@@ -155,7 +155,7 @@ export const industriasPage : industriaTipo[] = [
       
     id: 1,
     tipo: "verduras",
-    descripcion : "La industria agroalimentaria abarca una amplia variedad de procesos relacionados con el manejo, transformación y empaque de productos de origen agrícola. En este sector, el transporte interno debe garantizar un flujo continuo del producto sin comprometer su calidad, frescura o integridad, incluso en entornos donde la humedad, el polvo y los residuos orgánicos están presentes de forma constante.",
+    descripcion : "La industria de verduras y legumbres requiere procesos de transporte eficientes y continuos para mantener el flujo adecuado del producto durante las distintas etapas de operación. En este entorno, es fundamental preservar la integridad del producto incluso en condiciones donde la humedad y los residuos orgánicos están presentes de forma constante.",
     titulo: "Industria chocolatera", 
     url: "/images/catalagos/industria/verduras/legumbres.pdf",
     
