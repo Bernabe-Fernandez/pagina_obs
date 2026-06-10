@@ -9,8 +9,6 @@ import Industria from "../../components/productos/Industria";
 import Catal from "../../components/productos/Catal";
 import { useParams } from "react-router-dom";
 import { productosList } from "../../data/productos";
-import { TbViewportShort } from "react-icons/tb";
-import TipoViewTwo from "../../components/sections/TipoViewTwo";
 
 export default function BandasPage() {
 
