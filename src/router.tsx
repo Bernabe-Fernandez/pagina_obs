@@ -16,7 +16,7 @@ import ScrollToTop from "./components/utilities/ScrollToTop";
 export default function AppRouter() {
   return (
     <>
-        <BrowserRouter>
+        <BrowserRouter basename="/paginaObs/"> 
             <ScrollToTop />
             <Routes>
                 {/* rutas para la pagina web */}
