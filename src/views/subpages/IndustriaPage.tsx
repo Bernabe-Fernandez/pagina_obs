@@ -31,7 +31,6 @@ export default function IndustriaPage() {
     procesos, 
     condiciones, 
     soluciones,
-    
     url,
     descripcion,
     subtituloCondicion,
