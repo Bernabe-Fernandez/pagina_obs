@@ -1,4 +1,5 @@
-import { useState } from "react";
+import axios from "axios";
+import { useRef, useState } from "react";
 
 
 export default function FormularioTrabajo() {
@@ -9,6 +10,9 @@ export default function FormularioTrabajo() {
         mensaje: "",
         cv: null as File | null
     });
+
+    const fileInputRef = useRef<HTMLInputElement>(null);
+
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
@@ -28,9 +32,82 @@ export default function FormularioTrabajo() {
         }
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log(form);
+        try {
+
+            if (!form.nombre.trim()) {
+                throw new Error("Ingrese su nombre");
+            }
+
+            if (!form.correo.trim()) {
+                throw new Error("Ingrese su correo");
+            }
+
+            if (!form.telefono.trim()) {
+                throw new Error("Ingrese su teléfono");
+            }
+
+            if (!form.mensaje.trim()) {
+                throw new Error("Ingrese un mensaje");
+            }
+
+            if (!form.cv) {
+                throw new Error("Adjunte su currículum");
+            }
+
+            // Validar PDF
+            if (form.cv.type !== "application/pdf") {
+                throw new Error("El currículum debe ser PDF");
+            }
+
+            // Validar tamaño (5 MB)
+            const maxSize = 5 * 1024 * 1024;
+
+            if (form.cv.size > maxSize) {
+                throw new Error(
+                    "El archivo excede los 5 MB permitidos"
+                );
+            }
+
+            const formData = new FormData();
+
+            formData.append("nombre", form.nombre);
+            formData.append("correo", form.correo);
+            formData.append("telefono", form.telefono);
+            formData.append("mensaje", form.mensaje);
+            formData.append("curriculum", form.cv);
+
+            const response = await axios.post(
+                "http://localhost:8080/backend-obspw/vacantes.php",
+                formData
+            );
+
+            console.log(response.data);
+
+            alert(response.data.mensaje);
+
+            // Limpiar formulario
+             setForm({
+                nombre: "",
+                correo: "",
+                telefono: "",
+                mensaje: "",
+                cv: null
+            });
+
+            if (fileInputRef.current) {
+                fileInputRef.current.value = "";
+            }
+
+         } catch (error: any) {
+
+            const mensaje =
+                error?.response?.data?.mensaje ||
+                error.message;
+
+            alert(mensaje);
+        }
     };
 
 
@@ -75,6 +152,7 @@ export default function FormularioTrabajo() {
             <input
                 type="file"
                 name="cv"
+                ref={fileInputRef}
                 onChange={handleFile}
                 className="border border-blue-200 rounded-lg px-4 py-3 file:border-0 file:bg-transparent file:text-blue-700"
             />
