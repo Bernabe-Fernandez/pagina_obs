@@ -88,7 +88,7 @@ export default function FormularioTrabajo() {
             alert(response.data.mensaje);
 
             // Limpiar formulario
-             setForm({
+            setForm({
                 nombre: "",
                 correo: "",
                 telefono: "",
@@ -100,7 +100,7 @@ export default function FormularioTrabajo() {
                 fileInputRef.current.value = "";
             }
 
-         } catch (error: any) {
+        } catch (error: any) {
 
             const mensaje =
                 error?.response?.data?.mensaje ||
