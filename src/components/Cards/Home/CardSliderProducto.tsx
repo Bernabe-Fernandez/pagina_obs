@@ -22,28 +22,30 @@ export default function CardSliderProducto({ title, descripcion, image, alt, url
       {/* Overlay degradado */}
       <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 via-blue-800/40 to-transparent" />
 
-      {/* Contenido */}
-      <div className="absolute inset-0 p-6 text-white flex flex-col justify-end">
-        <div className="flex flex-col">
-          
-          <h3 className="text-xl font-semibold mb-2 capitalize h-[48px] flex items-center">
-            {title}
-          </h3>
+      {/* Contenido CENTRADO Y BOTÓN ALINEADO */}
+      <div className="absolute inset-0 p-6 pt-52 text-white flex flex-col items-center text-center">
 
-          <p className="text-base opacity-90 mb-4 h-[150px] overflow-hidden font-semibold">
-            {descripcion}
-          </p>
+        <h3 className="text-xl font-semibold mb-2 capitalize">
+          {title}
+        </h3>
 
-          <div className="w-full flex justify-end">
-            <Link 
-              to={url}
-              className="bg-white text-blue-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition">
-              Ver más
-            </Link>
-          </div>
+        <p className="text-base opacity-90 mb-4 font-semibold">
+          {descripcion}
+        </p>
 
+        {/* Alineacion de botones */}
+        <div className="mt-auto">
+          <Link 
+            to={url}
+            className="bg-white text-blue-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition"
+          >
+            Ver más
+          </Link>
         </div>
+
       </div>
     </div>
   )
 }
+
+
