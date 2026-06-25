@@ -351,125 +351,155 @@ const headerConfig: Record<string, HeaderData>= {
 
 };
 
-
-export default function Header() {
-
- //leemos la ruta actual
+ export default function Header() {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
-  // estado del video
   const [videoEnded, setVideoEnded] = useState(false);
   const [videoKey, setVideoKey] = useState(0);
+
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const headerRef = useRef<HTMLDivElement | null>(null);
 
-  //colocamos la configuracion inicial y la por defecto
   const config = headerConfig[location.pathname] ?? {
     title: "Omnibandas",
     subtitle: "",
-    image: "/images/headers/default.jpg"
+    image: "/images/headers/default.jpg",
   };
 
-  
-  const headerHeight = config.height ?? "h-96 md:h-[430px] lg:h-[500px]";
+  // 🔹 Altura responsive corregida
+  const headerHeight =
+    config.height ??
+    "h-[220px] sm:h-[320px] md:h-[430px] lg:h-[500px]";
 
+  // Reiniciar video cuando el header vuelve a ser visible
   useEffect(() => {
     if (!isHome) return;
+
+    const currentHeader = headerRef.current;
+    if (!currentHeader) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // 🔥 reinicio REAL
           setVideoEnded(false);
-          setVideoKey(prev => prev + 1);
+          setVideoKey((prev) => prev + 1);
         }
       },
-      {
-        threshold: 0.6
-      }
+      { threshold: 0.6 }
     );
 
-    if (headerRef.current) {
-      observer.observe(headerRef.current);
-    }
+    observer.observe(currentHeader);
 
     return () => {
-      if (headerRef.current) {
-        observer.unobserve(headerRef.current);
-      }
+      observer.unobserve(currentHeader);
     };
   }, [isHome]);
 
+  // Reiniciar video al cambiar de ruta
   useEffect(() => {
-    if (isHome) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (!isHome) return;
+
+    const timer = setTimeout(() => {
       setVideoEnded(false);
-      setVideoKey(prev => prev + 1); // 🔥 fuerza reconstrucción del video
-    }
-  }, [location.pathname]);
+      setVideoKey((prev) => prev + 1);
+    }, 0);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [isHome, location.pathname]);
 
   return (
     <header
       ref={headerRef}
-      className={`h-96 ${headerHeight} relative flex items-center text-white overflow-hidden mb-14`}
+      className={`${headerHeight} relative flex items-center text-white overflow-hidden mb-14`}
     >
-
+      {/* Fondo */}
       <div className="absolute inset-0">
-
         {/* VIDEO */}
         {isHome && (
-          <video
-            key={videoKey}
-            ref={videoRef}
-            className={`w-full h-full object-cover absolute inset-0 ${
-              videoEnded ? "opacity-0" : "opacity-100"
-            }`}
-            autoPlay
-            muted
-            playsInline
-            onEnded={() => setVideoEnded(true)}
-          >
-            <source src="/images/backgrounds/video/logoanimacion2.mp4" type="video/mp4" />
-          </video>
+          <div className="absolute inset-0 w-full h-full overflow-hidden">
+            <video
+              key={videoKey}
+              ref={videoRef}
+              className={`
+                w-full h-full
+                object-cover object-center
+                transition-opacity duration-700
+                ${videoEnded ? "opacity-0" : "opacity-100"}
+              `}
+              autoPlay
+              muted
+              playsInline
+              loop
+              onEnded={() => setVideoEnded(true)}
+            >
+              <source
+                src="/images/backgrounds/video/logoanimacion2.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
         )}
 
         {/* IMAGEN */}
         <div
-          className={`w-full h-full bg-no-repeat bg-center bg-cover md:bg-[length:100%] absolute inset-0 ${
-            isHome
-              ? videoEnded
-                ? "opacity-100"
-                : "opacity-0"
-              : "opacity-100"
-          }`}
-          style={{
-            backgroundImage: `url(${config.image})`,
-            // filter: "brightness(0.85)"
-          }}
+          className={`
+            absolute inset-0 w-full h-full
+            bg-cover bg-center bg-no-repeat
+            transition-opacity duration-700
+            ${
+              isHome
+                ? videoEnded
+                  ? "opacity-100"
+                  : "opacity-0"
+                : "opacity-100"
+            }
+          `}
+          style={{ backgroundImage: `url(${config.image})` }}
         />
-
       </div>
 
       {/* Degradado */}
-      {
-        !isHome && (
-          <div className="absolute inset-0 bg-gradient-to-bl from-blue-950/90 via-blue-900/70 to-blue-800/65"></div>
-        )
-      }
+      {!isHome && (
+        <div className="absolute inset-0 bg-gradient-to-bl from-blue-950/90 via-blue-900/70 to-blue-800/65" />
+      )}
 
       {/* Contenido */}
-      <div className="relative z-10 w-full h-full px-8 py-10 flex flex-col justify-between mx-auto lg:mx-24">
-
-        {/* Arriba */}
-        <div className="border-t-2 border-white/70 w-full mb-3 mt-5">
-          <div className="max-w-3xl pt-3 lg:max-w-4xl lg:pt-12">
-            <h1 className="text-5xl md:text-5xl lg:text-5xl font-bold leading-tight uppercase">
+      <div
+        className="
+          relative z-10 w-full h-full
+          flex flex-col justify-between
+          px-4 sm:px-6 md:px-8 py-6 md:py-10
+          mx-auto lg:mx-24
+          text-center md:text-left
+        "
+      >
+        {/* Encabezado */}
+        <div className="border-t-2 border-white/70 w-full mt-3 md:mt-5 mb-3">
+          <div className="max-w-[90%] sm:max-w-xl md:max-w-3xl lg:max-w-4xl mx-auto md:mx-0 pt-2 md:pt-4 lg:pt-12">
+            <h1
+              className="
+                text-2xl sm:text-3xl md:text-4xl lg:text-5xl
+                font-bold leading-tight uppercase
+                text-center md:text-left
+                px-2 sm:px-4
+              "
+            >
               {config.title}
             </h1>
 
             {config.subtitle && (
-              <p className="mt-2 text-md md:text-lg lg:text-4xl text-white/90">
+              <p
+                className="
+                  mt-2
+                  text-xs sm:text-sm md:text-base lg:text-2xl
+                  text-white/90
+                  text-center md:text-left
+                  px-2 sm:px-4
+                "
+              >
                 {config.subtitle}
               </p>
             )}
@@ -478,17 +508,22 @@ export default function Header() {
 
         {/* Botón */}
         {config.text_btn && (
-          <div className="flex justify-end">
+          <div className="flex justify-center md:justify-end mt-4 md:mt-0">
             <Link
-              to={config.url_btn ?? '/'}
-              className="bg-white/75 text-blue-900 font-semibold px-4 lg:px-6 py-1.5 rounded-3xl hover:bg-blue-100 transition shadow-lg text-[17px]">
+              to={config.url_btn ?? "/"}
+              className="
+                bg-white/75 text-blue-900 font-semibold
+                px-4 md:px-5 lg:px-6 py-1.5
+                rounded-3xl hover:bg-blue-100
+                transition shadow-lg
+                text-sm md:text-base lg:text-[17px]
+              "
+            >
               {config.text_btn}
             </Link>
           </div>
         )}
-
       </div>
-
     </header>
-  )
+  );
 }

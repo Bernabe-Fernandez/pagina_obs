@@ -21,22 +21,23 @@ export default function Encuentro() {
           soluciones en proyectos especiales.
         </p>
 
-        {/* GRID DE IMÁGENES – ESTRUCTURA TIPO CATÁLOGO */}
+        {/* GRID DE IMÁGENES */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 gap-y-20 mt-10">
-
-          {/* Tarjetas */}
           {[
-            { src: "/images/catalago/encontraras/transportadoras.png", titulo: "BANDAS TRANSPORTADORAS" },
-            { src: "/images/catalago/encontraras/termosoldable.png", titulo: "BANDAS TERMOSOLDABLES" },
-            { src: "/images/catalago/encontraras/potencia.png", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA" },
-            { src: "/images/catalago/encontraras/empujadores.png", titulo: "EMPUJADORES" },
-            { src: "/images/catalago/encontraras/grapa.png", titulo: "GRAPAS" },
-            { src: "/images/catalago/encontraras/guias.png", titulo: "GUÍAS DE ORIENTACIÓN" },
-            { src: "/images/catalago/encontraras/olanes.png", titulo: "OLANES" },
-            { src: "/images/catalago/encontraras/herramientas.png", titulo: "ACCESORIOS Y HERRAMIENTAS" },
+            { src: "/images/catalago/encontraras/transportadoras.png", titulo: "BANDAS TRANSPORTADORAS", url: "/productos/bandas" },
+            { src: "/images/catalago/encontraras/termosoldable.png", titulo: "BANDAS TERMOSOLDABLES", url: "/productos/termosoldables" },
+            { src: "/images/catalago/encontraras/potencia.png", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA", url: "/productos/transmision" },
+            { src: "/images/catalago/encontraras/empujadores.png", titulo: "EMPUJADORES", url: "/productos/empujadores" },
+            { src: "/images/catalago/encontraras/grapa.png", titulo: "GRAPAS", url: "/productos/grapas" },
+            { src: "/images/catalago/encontraras/guias.png", titulo: "GUÍAS DE ORIENTACIÓN", url: "/productos/guias" },
+            { src: "/images/catalago/encontraras/olanes.png", titulo: "OLANES", url: "/productos/olanes" },
+            { src: "/images/catalago/encontraras/herramientas.png", titulo: "ACCESORIOS Y HERRAMIENTAS", url: "/productos/herramientas" },
           ].map((item, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-
+            <a
+              key={index}
+              href={item.url}
+              className="flex flex-col items-center text-center group transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]"
+            >
               {/* Imagen */}
               <div className="w-full h-[210px] md:h-[220px] rounded-t-xl shadow-md relative">
                 <img
@@ -45,7 +46,7 @@ export default function Encuentro() {
                   className="w-full h-full object-cover object-top"
                 />
 
-                {/* Recuadro azul con degradado SIN transparencia */}
+                {/* Recuadro azul con degradado */}
                 <div className="
                   absolute bottom-[-35px] 
                   w-full h-[70px] 
@@ -55,19 +56,19 @@ export default function Encuentro() {
                   to-[#2E6092] 
                   flex items-center justify-center 
                   rounded-b-xl shadow-md
+                  transition-all duration-300 group-hover:brightness-110
                 ">
                   <p className="text-white font-semibold text-[16px] uppercase leading-tight text-center px-2 drop-shadow-sm">
                     {item.titulo}
                   </p>
                 </div>
               </div>
-
-            </div>
+            </a>
           ))}
-
         </div>
       </div>
     </section>
   );
 }
+
 

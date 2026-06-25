@@ -20,6 +20,14 @@ export default function TipoViewTwo({ condiciones, tipo }: TipoViewTwoProps) {
           <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
             Los proyectos especiales permiten responder a requerimientos operativos particulares mediante el diseño y desarrollo de soluciones de transporte adaptadas a cada proceso.
           </p>
+        ) : tipo === "herramientas" ? (
+          <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
+            Durante la instalación y el mantenimiento de un sistema de transporte, el uso de herramientas adecuadas es fundamental para trabajar con precisión, seguridad y eficiencia. Cada tipo de herramienta cumple una función específica dentro del proceso y contribuye al correcto desempeño del sistema.
+          </p>
+        ) : tipo === "transportadores" ? (
+          <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
+            Más allá de estos sectores, la fabricación de transportadores puede adaptarse a cualquier industria que requiera mover, posicionar, acumular o controlar productos dentro de su proceso, independientemente de su forma, tamaño o condiciones de operación.
+          </p>
         ) : (
           <p className="text-center text-[20px] text-[#2E6092] max-w-6xl mx-auto leading-relaxed mb-36">
             En la industria agroalimentaria, las condiciones de operación requieren sistemas de transporte
@@ -49,4 +57,5 @@ export default function TipoViewTwo({ condiciones, tipo }: TipoViewTwoProps) {
     </section>
   );
 }
+
 

@@ -19,21 +19,22 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
 
   return (
     <section className="w-full py-20 bg-white">
-      <div className="w-3/4 mx-auto flex flex-col items-end">
+      {/*  Contenedor principal */}
+      <div className="w-3/4 mx-auto flex flex-col lg:items-end items-center">
 
-        {/* 🔹 TÍTULO */}
+        {/*  TÍTULO */}
         <h2 className="text-3xl font-bold text-blue-900 mb-36 mt-28 w-full">
           {tituloTipo}
         </h2>
 
         {subtituloTipo && <p className="w-full">{subtituloTipo}</p>}
 
-        {/* 🔹 PLANTILLA ESPECIAL (SIN BOTÓN) */}
+        {/*  PLANTILLA ESPECIAL (SIN BOTÓN) */}
         {usaPlantillaDos ? (
           <TipoViewTwo condiciones={condiciones ?? []} tipo={tipo} />
         ) : (
           <>
-            {/* 🔹 GRID DE CARTAS */}
+            {/* GRID DE CARTAS */}
             <div className="space-y-16 w-full">
               {Array.isArray(tipos) &&
                 tipos.map((tipo) => (
@@ -67,19 +68,19 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
                         lg:w-[700px] lg:h-[120px]
                         max-lg:w-[350px] max-lg:h-[100px]
                         mx-auto lg:mx-0 mt-4
+                         transition-transform duration-500 hover:scale-105 hover:translate-y-1
                       "
                     />
                   </div>
                 ))}
             </div>
 
-            {/* 🔹 BOTÓN FINAL */}
+            {/*  BOTÓN FINAL */}
             <div
               className="
                 mt-20
-                lg:text-right lg:translate-x-[40px]
-                md:flex md:justify-center md:translate-x-0
-                sm:flex sm:justify-center sm:translate-x-0
+                lg:text-right lg:translate-x-[14px]
+                text-center translate-x-0
               "
             >
               <a
@@ -94,10 +95,10 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
                   border border-transparent
                   text-[18px]
                   px-16 py-2
-                  md:px-14 md:py-2
-                  sm:px-10 sm:py-2
-                  md:mt-8 sm:mt-8
-                  sm:w-[250px]
+                  sm:px-12 sm:py-2 sm:w-[250px]
+                  md:px-14 md:py-2 md:w-[300px]
+                  lg:px-20 lg:py-2 lg:w-[400px]
+                  mx-auto block
                 "
               >
                 Ver opciones en el catálogo
@@ -109,4 +110,6 @@ export default function Tipos({ tituloTipo, subtituloTipo, tipos, condiciones, t
     </section>
   );
 }
+
+
 

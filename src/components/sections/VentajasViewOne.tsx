@@ -4,13 +4,15 @@ type VentajasViewOneProps = {
   ventajas: ventajasTipo[];
 };
 
-export default function VentajasViewOne({ ventajas }: VentajasViewOneProps) {
+export default function VentajasViewOne({
+  ventajas,
+}: VentajasViewOneProps) {
   const count = ventajas.length;
 
   // Mantiene tu lógica original intacta
   const widthClass =
     count === 3
-      ? "w-[55%]"
+      ? "w-[90%] sm:w-[85%] md:w-[80%] lg:w-[60%]"
       : count === 4
       ? "w-3/4"
       : count === 5
@@ -33,7 +35,7 @@ export default function VentajasViewOne({ ventajas }: VentajasViewOneProps) {
       : count === 4
       ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
       : count === 3
-      ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3"
+      ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3"
       : "grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4";
 
   return (
@@ -51,24 +53,31 @@ export default function VentajasViewOne({ ventajas }: VentajasViewOneProps) {
           <div
             key={index}
             className={`bg-white shadow-md rounded-lg overflow-hidden ${scaleClass}
-              transition-transform duration-300 hover:scale-[1.03] hover:shadow-lg /* 🔹 Efecto dinámico */
+              transition-transform duration-300 hover:scale-[1.03] hover:shadow-lg
+              
+              ${
+                count === 3 && index === 2
+                  ? "md:col-span-2 md:w-[45%] md:mx-auto lg:col-span-1 lg:w-auto"
+                  : ""
+              }
             `}
           >
             <div className="w-full relative">
               <img
                 src={ventaja.img}
                 className="
-                  w-full 
-                  h-[180px] sm:h-[200px] md:h-[300px] lg:h-full /* 🔹 iPad: alarga las cartas */
+                  w-full
+                  h-[180px] sm:h-[200px] md:h-[300px] lg:h-full
                   object-cover object-bottom
                 "
+                alt={ventaja.titulo}
               />
 
               {/* Recuadro azul transparente */}
               <div
                 className="
-                  absolute bottom-0 w-full 
-                  h-[70px] sm:h-[80px] md:h-[100px] lg:h-[80px] /* 🔹 iPad: recuadro azul más alto */
+                  absolute bottom-0 w-full
+                  h-[70px] sm:h-[80px] md:h-[100px] lg:h-[80px]
                   bg-gradient-to-b
                   from-[#3b8cff]/80 via-[#3b8cff]/40 to-[#3b8cff]/70
                   flex items-center justify-center
@@ -76,7 +85,7 @@ export default function VentajasViewOne({ ventajas }: VentajasViewOneProps) {
               >
                 <h3
                   className="
-                    font-semibold text-white 
+                    font-semibold text-white
                     text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]
                     leading-tight drop-shadow-md px-4 sm:px-6 text-center
                   "

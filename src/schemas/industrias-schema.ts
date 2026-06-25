@@ -49,6 +49,7 @@ export const solucionBase = z.object({
   id: z.number(),
   img: z.string(),
   titulo: z.string(),
+   url: z.string(),
 });
 
 

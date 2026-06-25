@@ -15,7 +15,7 @@ export const industriasData : industriasBase[] = [
         titulo:"confitería",
         descripcion: "Bandas para procesos de chicle, caramelo macizo, chocolate.",
         img:"/images/home/industrias/confiteria.jpg",
-        url:"/industrias/confiteria",
+        url:"/industrias/confitera",
         alt:"img-confiteria",
         altura:null
     },
@@ -208,7 +208,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/soluciones/soli.jpg",
         titulo: "Bandas transportadoras",
-      
+        url: "/productos/bandas", 
       },
       
     ],
@@ -269,6 +269,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/soluciones/soli.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas", 
         
       },
       
@@ -331,24 +332,28 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/embotelladora/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
         
       },
       {
         id: 2,
         img: "/images/Industria/embotelladora/solucion/imagen2.jpg",
         titulo: "Empujadores",
+        url: "/productos/empujadores",
        
       },
       {
         id: 3,
         img: "/images/Industria/embotelladora/solucion/imagen3.jpg",
         titulo: "Olanes",
+        url: "/productos/olanes",
        
       },
       {
         id: 4,
         img: "/images/Industria/embotelladora/solucion/imagen4.jpg",
         titulo: "Guías",
+        url: "/productos/guias",
        
       },
 
@@ -412,7 +417,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/granos/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
-        
+        url: "/productos/bandas",
       },
       
     ],
@@ -475,6 +480,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/latas/solucion/margen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
         
       },
     
@@ -536,6 +542,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/llantera/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
         
       },
       
@@ -601,7 +608,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/chocolatera/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
-        
+        url: "/productos/bandas",
       },
 
     ],
@@ -664,13 +671,14 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/panificadora/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
-        
+        url: "/productos/bandas",
       },
+
       {
         id: 2,
         img: "/images/Industria/panificadora/solucion/imgen2.jpg",
         titulo: "Bandas termosoldables",
-       
+        url: "/productos/termosoldables",
       },
       
        
@@ -733,7 +741,8 @@ export const industriasPage : industriaTipo[] = [
       {
         id: 1,
         img: "/images/Industria/tequilera/solucion/imagen1.jpg",
-        titulo: "Bandas transportadoras",      
+        titulo: "Bandas transportadoras", 
+        url: "/productos/bandas",     
       },
 
     ],
@@ -798,7 +807,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/farmaceutica/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
-        
+        url: "/productos/bandas",
       },
       
 
@@ -861,19 +870,21 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/cartonera/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
         
       },
       {
         id: 2,
         img: "/images/Industria/cartonera/solucion/imagen2.jpg",
         titulo: "Bandas termosoldables",
+        url: "/productos/termosoldables",
        
       },
       {
         id: 3,
         img: "/images/Industria/cartonera/solucion/imagen3.jpg",
         titulo: "Bandas de transmisión ",
-       
+        url: "/productos/transmision",
       },
      
 
@@ -936,6 +947,7 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/piedrera/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
         
       },
       
@@ -996,10 +1008,21 @@ export const industriasPage : industriaTipo[] = [
     subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
     soluciones: [
       
-        { id: 1, img: "/images/Industria/embutidos/solucion/imagen1.jpg", titulo: "Bandas transportadoras " },
-        { id: 2, img: "/images/Industria/embutidos/solucion/imagen2.jpg", titulo: "Bandas termosoldables " },
+        { id: 1, img: "/images/Industria/embutidos/solucion/imagen1.jpg", 
+          titulo: "Bandas transportadoras",
+          url: "/productos/bandas",
+      
+      },
+
+
+        { id: 2, img: "/images/Industria/embutidos/solucion/imagen2.jpg", 
+          titulo: "Bandas termosoldables " ,
+          url: "/productos/termosoldables",
+
+      },
     ],
     
+
     },
 
 
@@ -1055,6 +1078,8 @@ export const industriasPage : industriaTipo[] = [
         id: 1,
         img: "/images/Industria/piedrera/solucion/imagen1.jpg",
         titulo: "Bandas transportadoras",
+        url: "/productos/bandas",
+      
         
       },
       
@@ -1113,7 +1138,8 @@ export const industriasPage : industriaTipo[] = [
       {
         id: 1,
         img: "/images/Industria/textil/solucion/banda.jpg",
-        titulo: "Bandas de transmisión",        
+        titulo: "Bandas de transmisión",  
+           url: "/productos/transmision",      
       },
       
     ],
@@ -1122,9 +1148,7 @@ export const industriasPage : industriaTipo[] = [
 
 
 
-    
-
-
+  
      { 
     id: 17,
     tipo: "envasado",
@@ -1174,10 +1198,25 @@ export const industriasPage : industriaTipo[] = [
 
     subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
      soluciones: [
-      { id: 1, img: "/images/Industria/envasado/solucion/imagen1.jpg", titulo: "Bandas transportadoras " },
-      { id: 2, img: "/images/Industria/envasado/solucion/imagen2.jpg", titulo: "Empujadores " },
-      { id: 3, img: "/images/Industria/envasado/solucion/imagen3.jpg", titulo: "Olanes" },
-      { id: 4, img: "/images/Industria/envasado/solucion/imagen4.jpg", titulo: "Guías" },
+      { id: 1, img: "/images/Industria/envasado/solucion/imagen1.jpg", 
+        titulo: "Bandas transportadoras ",
+        url: "/productos/bandas",
+      },
+
+      { id: 2, img: "/images/Industria/envasado/solucion/imagen2.jpg",
+         titulo: "Empujadores ",
+         url: "/productos/empujadores",
+      },
+
+      { id: 3, img: "/images/Industria/envasado/solucion/imagen3.jpg", 
+       titulo: "Olanes" ,
+       url: "/productos/olanes",
+      },
+
+      { id: 4, img: "/images/Industria/envasado/solucion/imagen4.jpg", 
+        titulo: "Guías",
+        url: "/productos/guias",
+       },
     ],
     
     },
