@@ -88,12 +88,12 @@ export default function AplicacionesViewTwo({ aplicaciones, tipo, url }: Aplicac
             target="_blank"
             rel="noopener noreferrer"
             className="bg-azulobs-500 text-white px-14 py-2 rounded-full text-[18px]
-    font-semibold flex items-center justify-center text-center
-    shadow-[0_4px_15px_rgba(0,0,0,0.25)]
-    transition duration-300 hover:bg-white hover:text-azulobs-500
-    hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)] border border-transparent
-    sm:px-10 sm:text-[14px] sm:leading-[1.3] sm:h-[50px]
-    md:px-12 md:text-[16px]"
+            font-semibold flex items-center justify-center text-center
+            shadow-[0_4px_15px_rgba(0,0,0,0.25)]
+            transition duration-300 hover:bg-white hover:text-azulobs-500
+            hover:shadow-[0_6px_20px_rgba(0,0,0,0.35)] border border-transparent
+            sm:px-10 sm:text-[14px] sm:leading-[1.3] sm:h-[50px]
+            md:px-12 md:text-[16px]"
           >
             Ver opciones en el catálogo
           </a>
