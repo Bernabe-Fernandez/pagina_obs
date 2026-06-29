@@ -27,7 +27,7 @@ export default function FormularioContacto() {
 
       // Enviar datos al backend (JSON CORRECTO)
       const response = await axios.post(
-        "http://localhost:80/obsforms/contactos.php",
+        "https://api.omnibandas.com/contactos.php",
         form,
         {
           headers: {

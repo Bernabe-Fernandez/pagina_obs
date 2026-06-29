@@ -49,7 +49,7 @@ export default function FormularioTrabajo() {
             formData.append("curriculum", form.cv);
 
             const response = await axios.post(
-                "http://localhost:80/obsforms/vacantes.php",
+                "https://api.omnibandas.com/vacantes.php",
                 formData
             );
 
