@@ -9,14 +9,14 @@ import IconRespeto from "/images/nosotros/valores/respeto.svg";
 import IconUrgencia from "/images/nosotros/valores/sentido de urgencia.svg";
 
 //importación de imágenes de fondo//
-import BgHonestidad from "/images/nosotros/valores/honestidad.jpg";
-import BgEmpatia from "/images/nosotros/valores/empatia.jpg";
-import BgCompanierismo from "/images/nosotros/valores/companierismo.jpg";
-import BgResponsabilidad from "/images/nosotros/valores/responsabilidad.jpg";
-import BgPerseverancia from "/images/nosotros/valores/perseverancia.jpg";
-import BgComunicacion from "/images/nosotros/valores/comunicacion.jpg";
-import BgRespeto from "/images/nosotros/valores/respeto.jpg";
-import BgUrgencia from "/images/nosotros/valores/sentido de urgencia.jpg";
+import BgHonestidad from "/images/nosotros/valores/honestidad.webp";
+import BgEmpatia from "/images/nosotros/valores/empatia.webp";
+import BgCompanierismo from "/images/nosotros/valores/compañerismo.webp";
+import BgResponsabilidad from "/images/nosotros/valores/responsabilidad.webp";
+import BgPerseverancia from "/images/nosotros/valores/perseverancia.webp";
+import BgComunicacion from "/images/nosotros/valores/comunicacion.webp";
+import BgRespeto from "/images/nosotros/valores/respeto.webp";
+import BgUrgencia from "/images/nosotros/valores/sentido de urgencia.webp";
 
 export default function Valores() {
   const valores = [

@@ -12,22 +12,22 @@ export default function Industria({ tipo, industrias }: IndustriaProps) {
       {/* IMÁGENES DE FONDO */}
       <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-4 ">
         <img
-          src="/images/bandas/Industrias/alimento.jpg"
+          src="/images/bandas/Industrias/alimento.webp"
           className="w-full h-full object-cover"
           alt="Industria alimentaria"
         />
         <img
-          src="/images/bandas/Industrias/empaque.jpg"
+          src="/images/bandas/Industrias/empaque.webp"
           className="w-full h-full object-cover"
           alt="Industria de empaque"
         />
         <img
-          src="/images/bandas/Industrias/pesado.jpg"
+          src="/images/bandas/Industrias/pesado.webp"
           className="w-full h-full object-cover"
           alt="Materiales pesados"
         />
         <img
-          src="/images/bandas/Industrias/auto.jpg"
+          src="/images/bandas/Industrias/auto.webp"
           className="w-full h-full object-cover"
           alt="Industria automotriz"
         />

@@ -15,7 +15,7 @@ export default function Resultados() {
 
         {/* Imagen de fondo */}
         <div 
-            className="absolute inset-0 bg-[url('/images/home/servicios.jpg')] bg-cover bg-center"
+            className="absolute inset-0 bg-[url('/images/home/servis.webp')] bg-cover bg-center"
         />
 
         {/* Overlay azul */}

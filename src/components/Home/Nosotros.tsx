@@ -14,7 +14,7 @@ export default function Nosotros() {
             {/* IMAGEN */}
             <div className="w-full h-[250px] sm:h-[350px] md:h-[450px] overflow-hidden rounded-2xl shadow-lg">
                 <img
-                    src="/images/home/nosotros.jpg"
+                    src="/images/home/nosotros.webp"
                     alt="nuestro-equipo"
                     className="w-full h-full object-cover object-center"
                 />

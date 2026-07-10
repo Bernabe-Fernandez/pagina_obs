@@ -5,7 +5,7 @@ export const industriasData : industriasBase[] = [
         id:1,
         titulo:"cartonera",
         descripcion: "Bandas para procesos de corrugado, flexografía, impresión, troquelado, alfombras aspirantes.",
-        img:"/images/home/industrias/cartonera.jpg",
+        img:"/images/home/industrias/cartonera.webp",
         url:"/industrias/cartonera",
         alt:"img-cartonera",
         altura:"alta",
@@ -14,7 +14,7 @@ export const industriasData : industriasBase[] = [
         id:2,
         titulo:"confitería",
         descripcion: "Bandas para procesos de chicle, caramelo macizo, chocolate.",
-        img:"/images/home/industrias/confiteria.jpg",
+        img:"/images/home/industrias/confiteria.webp",
         url:"/industrias/confitera",
         alt:"img-confiteria",
         altura:null
@@ -23,7 +23,7 @@ export const industriasData : industriasBase[] = [
         id:3,
         titulo:"farmacéutica",
         descripcion: "Bandas para procesos de cuartos limpios, medicamentos y envasado.",
-        img:"/images/home/industrias/farmaceutica.jpg",
+        img:"/images/home/industrias/farmaceutica.webp",
         url:"/industrias/farmaceutica",
         alt:"img-farmaceutica",
         altura:null
@@ -32,7 +32,7 @@ export const industriasData : industriasBase[] = [
         id:4,
         titulo:"tequilera",
         descripcion: "Bandas para procesos primarios, salida de hornos, envasado y paletizado.",
-        img:"/images/home/industrias/tequilera.jpg",
+        img:"/images/home/industrias/tequilera.webp",
         url:"/industrias/tequilera",
         alt:"img-tequilera",
         altura:null
@@ -41,7 +41,7 @@ export const industriasData : industriasBase[] = [
         id:5,
         titulo:"panificadora",
         descripcion: "Bandas para proceso de horneado, masa, boleado, inyección, enfriado y empacado.",
-        img:"/images/home/industrias/panificadora.jpg",
+        img:"/images/home/industrias/panificadora.webp",
         url:"/industrias/panificadora",
         alt:"img-panificadora",
         altura:"alta"
@@ -50,7 +50,7 @@ export const industriasData : industriasBase[] = [
         id:6,
         titulo:"granos",
         descripcion: "Bandas para procesos de elevación con canjulones, transporte horizontal a granel y envasado.",
-        img:"/images/home/industrias/granos.jpg",
+        img:"/images/home/industrias/granos.webp",
         url:"/industrias/granos",
         alt:"img-granos",
         altura:null
@@ -59,7 +59,7 @@ export const industriasData : industriasBase[] = [
         id:7,
         titulo:"chocolatera",
         descripcion: "Bandas para procesos de entrampado, túneles fríos, selección y empacado.",
-        img:"/images/home/industrias/chocolatera.jpg",
+        img:"/images/home/industrias/chocolatera.webp",
         url:"/industrias/chocolatera",
         alt:"img-chocolatera",
         altura:null
@@ -68,7 +68,7 @@ export const industriasData : industriasBase[] = [
         id:8,
         titulo:"embotelladora",
         descripcion: "Bandas para procesos desde despaletizado, lavado, etiquetado, envasado, empacado y paletizado.",
-        img:"/images/home/industrias/embotelladora.jpg",
+        img:"/images/home/industrias/embotelladora.webp",
         url:"/industrias/embotelladora",
         alt:"img-embotelladora",
         altura:"ancha"
@@ -77,7 +77,7 @@ export const industriasData : industriasBase[] = [
         id:9,
         titulo:"latas",
         descripcion: "Bandas para procesos de troquelado, horneado, pintado, elevadores magnéticos, transporte elevado y producto final.",
-        img:"/images/home/industrias/latas.jpg",
+        img:"/images/home/industrias/latas.webp",
         url:"/industrias/latas",
         alt:"img-latas",
         altura:null
@@ -86,7 +86,7 @@ export const industriasData : industriasBase[] = [
         id:10,
         titulo:"piedrera",
         descripcion: "Impacto, peso y condiciones severas.",
-        img:"/images/home/industrias/piedrera.jpg",
+        img:"/images/home/industrias/piedrera.webp",
         url:"/industrias/piedrera",
         alt:"img-piedrera",
         altura:"alta"
@@ -95,7 +95,7 @@ export const industriasData : industriasBase[] = [
         id:13,
         titulo:"verduras y legumbres",
         descripcion: "Higiene, inocuidad  y manejo continuo.",
-        img:"/images/home/industrias/verduras.jpg",
+        img:"/images/home/industrias/verduras.webp",
         url:"/industrias/verduras",
         alt:"img-agroalimentaria",
         altura:"ancha"
@@ -104,7 +104,7 @@ export const industriasData : industriasBase[] = [
         id:11,
         titulo:"llantera",
         descripcion: "Carga pesada y procesos industriales.",
-        img:"/images/home/industrias/llantera.jpg",
+        img:"/images/home/industrias/llantera.webp",
         url:"/industrias/llantera",
         alt:"img-llantera",
         altura:null
@@ -113,7 +113,7 @@ export const industriasData : industriasBase[] = [
         id:14,
         titulo:"frutas",
         descripcion: "Procesos húmedos y manejo cuidadoso.",
-        img:"/images/home/industrias/frutas.jpg",
+        img:"/images/home/industrias/frutas.webp",
         url:"/industrias/frutas",
         alt:"img-agroalimentaria",
         altura:"null"
@@ -122,7 +122,7 @@ export const industriasData : industriasBase[] = [
         id:15,
         titulo:"envase pet",
         descripcion: "Producción continua y alto volumen.",
-        img:"/images/home/industrias/pet.jpg",
+        img:"/images/home/industrias/pet.webp",
         url:"/industrias/envasado",
         alt:"img-agroalimentaria",
         altura:"null"
@@ -131,7 +131,7 @@ export const industriasData : industriasBase[] = [
         id:16,
         titulo:"textilera",
         descripcion: "Control de procesos y repetibilidad.",
-        img:"/images/home/industrias/textil.jpg",
+        img:"/images/home/industrias/textil.webp",
         url:"/industrias/textil",
         alt:"img-agroalimentaria",
         altura:"null"
@@ -140,7 +140,7 @@ export const industriasData : industriasBase[] = [
         id:17,
         titulo:"embutidos",
         descripcion: "Procesos sanitarios y manejo continuo.",
-        img:"/images/home/industrias/embutido.jpg",
+        img:"/images/home/industrias/embutido.webp",
         url:"/industrias/embutidos",
         alt:"img-agroalimentaria",
         altura:"null"
@@ -161,10 +161,10 @@ export const industriasPage : industriaTipo[] = [
     
 
     procesos: [
-      { id: 1, img: "/images/Industria/verduras/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
-      { id: 2, img: "/images/Industria/verduras/proceso/imagen2.jpg", titulo: "Transferencia entre etapas de proceso  " },
-      { id: 3, img: "/images/Industria/verduras/proceso/imagen3.jpg", titulo: "Alimentación de líneas de producción  " },
-      { id: 4, img: "/images/Industria/verduras/proceso/imagen4.jpg", titulo: "Manejo previo y posterior al empaque" },
+      { id: 1, img: "/images/Industria/verduras/proceso/imagen1.webp", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/verduras/proceso/imagen2.webp", titulo: "Transferencia entre etapas de proceso  " },
+      { id: 3, img: "/images/Industria/verduras/proceso/imagen3.webp", titulo: "Alimentación de líneas de producción  " },
+      { id: 4, img: "/images/Industria/verduras/proceso/imagen4.webp", titulo: "Manejo previo y posterior al empaque" },
     ],
 
 
@@ -206,7 +206,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/soluciones/soli.jpg",
+        img: "/images/Industria/soluciones/soli.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas", 
       },
@@ -225,9 +225,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/confiteria/confiteria.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/confiteria/proceso/imagen1.jpg", titulo: "Transporte de piezas pequeñas " },
-      { id: 2, img: "/images/Industria/confiteria/proceso/imagen2.jpg", titulo: "Clasificación y alineación" },
-      { id: 3, img: "/images/Industria/confiteria/proceso/imagen3.jpg", titulo: "Transferencia a líneas de empaque" },
+      { id: 1, img: "/images/Industria/confiteria/proceso/imagen1.webp", titulo: "Transporte de piezas pequeñas " },
+      { id: 2, img: "/images/Industria/confiteria/proceso/imagen.webp", titulo: "Clasificación y alineación" },
+      { id: 3, img: "/images/Industria/confiteria/proceso/imagen3.webp", titulo: "Transferencia a líneas de empaque" },
     ],
 
 
@@ -267,7 +267,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/soluciones/soli.jpg",
+        img: "/images/Industria/soluciones/soli.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas", 
         
@@ -287,9 +287,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/embotelladora/envasado.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/embotelladora/proceso/imagen1.jpg", titulo: "Transporte de envases vacíos y llenos" },
-      { id: 2, img: "/images/Industria/embotelladora/proceso/imagen2.jpg", titulo: "Acumulación y transferencia" },
-      { id: 3, img: "/images/Industria/embotelladora/proceso/imagen3.jpg", titulo: "Integración con llenado y etiquetado " },
+      { id: 1, img: "/images/Industria/embotelladora/proceso/imagen1.webp", titulo: "Transporte de envases vacíos y llenos" },
+      { id: 2, img: "/images/Industria/embotelladora/proceso/imagen2.webp", titulo: "Acumulación y transferencia" },
+      { id: 3, img: "/images/Industria/embotelladora/proceso/imagn3.webp", titulo: "Integración con llenado y etiquetado " },
       
     ],
 
@@ -330,28 +330,28 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/embotelladora/solucion/imagen1.jpg",
+        img: "/images/Industria/embotelladora/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
         
       },
       {
         id: 2,
-        img: "/images/Industria/embotelladora/solucion/imagen2.jpg",
+        img: "/images/Industria/embotelladora/solucion/imagen2.webp",
         titulo: "Empujadores",
         url: "/productos/empujadores",
        
       },
       {
         id: 3,
-        img: "/images/Industria/embotelladora/solucion/imagen3.jpg",
+        img: "/images/Industria/embotelladora/solucion/imagen3.webp",
         titulo: "Olanes",
         url: "/productos/olanes",
        
       },
       {
         id: 4,
-        img: "/images/Industria/embotelladora/solucion/imagen4.jpg",
+        img: "/images/Industria/embotelladora/solucion/imagen4.webp",
         titulo: "Guías",
         url: "/productos/guias",
        
@@ -373,9 +373,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/granos/granos.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/granos/proceso/imagen1.jpg", titulo: "Transporte de producto a granel" },
-      { id: 2, img: "/images/Industria/granos/proceso/imagen2.jpg", titulo: "Alimentos de procesos" },
-      { id: 3, img: "/images/Industria/granos/proceso/imagen3.jpg", titulo: "Transporte continuo" },
+      { id: 1, img: "/images/Industria/granos/proceso/imagen1.webp", titulo: "Transporte de producto a granel" },
+      { id: 2, img: "/images/Industria/granos/proceso/imagen2.webp", titulo: "Alimentos de procesos" },
+      { id: 3, img: "/images/Industria/granos/proceso/imagen3.webp", titulo: "Transporte continuo" },
     ],
 
 
@@ -415,7 +415,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/granos/solucion/imagen1.jpg",
+        img: "/images/Industria/granos/solucion/magen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
       },
@@ -436,9 +436,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/latas/envase.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/latas/proceso/imagen1.jpg", titulo: "Transporte de envases vacíos  " },
-      { id: 2, img: "/images/Industria/latas/proceso/imagen2.jpg", titulo: "Acumulación y transferencia " },
-      { id: 3, img: "/images/Industria/latas/proceso/imagen3.jpg", titulo: "Integración con líneas de llenado " },
+      { id: 1, img: "/images/Industria/latas/proceso/imagen1.webp", titulo: "Transporte de envases vacíos  " },
+      { id: 2, img: "/images/Industria/latas/proceso/imagen2.webp", titulo: "Acumulación y transferencia " },
+      { id: 3, img: "/images/Industria/latas/proceso/imagen3.webp", titulo: "Integración con líneas de llenado " },
     ],
 
 
@@ -478,7 +478,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/latas/solucion/margen1.jpg",
+        img: "/images/Industria/latas/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
         
@@ -498,9 +498,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/llantera/llantera.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/llantera/proceso/imagen1.jpg", titulo: "Transporte de componentes" },
-      { id: 2, img: "/images/Industria/llantera/proceso/imagen2.jpg", titulo: "Transferencia ente estaciones" },
-      { id: 3, img: "/images/Industria/llantera/proceso/imagen3.jpg", titulo: " Manejo de producto terminado " },
+      { id: 1, img: "/images/Industria/llantera/proceso/imagen1.webp", titulo: "Transporte de componentes" },
+      { id: 2, img: "/images/Industria/llantera/proceso/imagen2.webp", titulo: "Transferencia ente estaciones" },
+      { id: 3, img: "/images/Industria/llantera/proceso/imagen3.webp", titulo: " Manejo de producto terminado " },
     ],
 
 
@@ -540,7 +540,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/llantera/solucion/imagen1.jpg",
+        img: "/images/Industria/llantera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
         
@@ -563,9 +563,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/chocolate/chocolatera.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/chocolatera/proceso/imagen1.jpg", titulo: "Transporte de producto moldeado o recubierto" },
-      { id: 2, img: "/images/Industria/chocolatera/proceso/imagen2.jpg", titulo: "Transferencia entre enfriado, decoración y empaque " },
-      { id: 3, img: "/images/Industria/chocolatera/proceso/imagen3.jpg", titulo: "Manejo de piezas delicadas" },
+      { id: 1, img: "/images/Industria/chocolatera/proceso/imagen1.webp", titulo: "Transporte de producto moldeado o recubierto" },
+      { id: 2, img: "/images/Industria/chocolatera/proceso/imagen2.webp", titulo: "Transferencia entre enfriado, decoración y empaque " },
+      { id: 3, img: "/images/Industria/chocolatera/proceso/imagen3 .webp", titulo: "Manejo de piezas delicadas" },
     
     ],
 
@@ -606,7 +606,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/chocolatera/solucion/imagen1.jpg",
+        img: "/images/Industria/chocolatera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
       },
@@ -627,9 +627,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/pani/panificadora.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/panificadora/proceso/imagen1.jpg", titulo: "Transporte entre horneado, enfriado y empaque" },
-      { id: 2, img: "/images/Industria/panificadora/proceso/imagen2.jpg", titulo: "Manejo de producto en línea " },
-      { id: 3, img: "/images/Industria/panificadora/proceso/imagen3.jpg", titulo: "Transferencias sincronizadas " },
+      { id: 1, img: "/images/Industria/panificadora/proceso/imagen1.webp", titulo: "Transporte entre horneado, enfriado y empaque" },
+      { id: 2, img: "/images/Industria/panificadora/proceso/imagen2.webp", titulo: "Manejo de producto en línea " },
+      { id: 3, img: "/images/Industria/panificadora/proceso/imagen3.webp", titulo: "Transferencias sincronizadas " },
     ],
 
 
@@ -669,14 +669,14 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/panificadora/solucion/imagen1.jpg",
+        img: "/images/Industria/panificadora/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
       },
 
       {
         id: 2,
-        img: "/images/Industria/panificadora/solucion/imgen2.jpg",
+        img: "/images/Industria/panificadora/solucion/imagen2.webp",
         titulo: "Bandas termosoldables",
         url: "/productos/termosoldables",
       },
@@ -698,9 +698,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/tequilera/tequilera.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/tequilera/proceso/imagen1.jpg", titulo: "Recepción y manejo de materia prima " },
-      { id: 2, img: "/images/Industria/tequilera/proceso/imagen2.jpg", titulo: "Control de calidad" },
-      { id: 3, img: "/images/Industria/tequilera/proceso/imagen3.jpg", titulo: "Transporte de botellas " },   
+      { id: 1, img: "/images/Industria/tequilera/proceso/imagen1.webp", titulo: "Recepción y manejo de materia prima " },
+      { id: 2, img: "/images/Industria/tequilera/proceso/imagen2.webp", titulo: "Control de calidad" },
+      { id: 3, img: "/images/Industria/tequilera/proceso/imagen3.webp", titulo: "Transporte de botellas " },   
     ],
 
 
@@ -740,7 +740,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/tequilera/solucion/imagen1.jpg",
+        img: "/images/Industria/tequilera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras", 
         url: "/productos/bandas",     
       },
@@ -762,9 +762,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/farmaceutica/farmacia.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/farmaceutica/proceso/imagen1.jpg", titulo: "Transporte producto unitario " },
-      { id: 2, img: "/images/Industria/farmaceutica/proceso/imagen2.jpg", titulo: "Transferencias controladas " },
-      { id: 3, img: "/images/Industria/farmaceutica/proceso/imagen3.jpg", titulo: "Integración con procesos de empaque" },
+      { id: 1, img: "/images/Industria/farmaceutica/proceso/imagen1.webp", titulo: "Transporte producto unitario " },
+      { id: 2, img: "/images/Industria/farmaceutica/proceso/imagen2.webp", titulo: "Transferencias controladas " },
+      { id: 3, img: "/images/Industria/farmaceutica/proceso/imagen3.webp", titulo: "Integración con procesos de empaque" },
       
     ],
 
@@ -805,7 +805,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/farmaceutica/solucion/imagen1.jpg",
+        img: "/images/Industria/farmaceutica/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
       },
@@ -826,9 +826,9 @@ export const industriasPage : industriaTipo[] = [
 
 
     procesos: [
-      { id: 1, img: "/images/Industria/cartonera/proceso/imagen1.jpg", titulo: "Transporte de laminas" },
-      { id: 2, img: "/images/Industria/cartonera/proceso/imagen2.jpg", titulo: "Armado de cajas" },
-      { id: 3, img: "/images/Industria/cartonera/proceso/imagen3.jpg", titulo: "Transferencia a empaque final" },
+      { id: 1, img: "/images/Industria/cartonera/proceso/imagen1.webp", titulo: "Transporte de laminas" },
+      { id: 2, img: "/images/Industria/cartonera/proceso/imagen2.webp", titulo: "Armado de cajas" },
+      { id: 3, img: "/images/Industria/cartonera/proceso/imagen3.webp", titulo: "Transferencia a empaque final" },
     ],
 
 
@@ -868,21 +868,21 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/cartonera/solucion/imagen1.jpg",
+        img: "/images/Industria/cartonera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
         
       },
       {
         id: 2,
-        img: "/images/Industria/cartonera/solucion/imagen2.jpg",
+        img: "/images/Industria/cartonera/solucion/imagen2.webp",
         titulo: "Bandas termosoldables",
         url: "/productos/termosoldables",
        
       },
       {
         id: 3,
-        img: "/images/Industria/cartonera/solucion/imagen3.jpg",
+        img: "/images/Industria/cartonera/solucion/imagen3.webp",
         titulo: "Bandas de transmisión ",
         url: "/productos/transmision",
       },
@@ -904,9 +904,9 @@ export const industriasPage : industriaTipo[] = [
 
 
     procesos: [
-      { id: 1, img: "/images/Industria/piedrera/proceso/imagen1.jpg", titulo: "Transporte de material a granel  " },
-      { id: 2, img: "/images/Industria/piedrera/proceso/imagen2.jpg", titulo: "Transferencia de alta carga " },
-      { id: 3, img: "/images/Industria/piedrera/proceso/imagen3.jpg", titulo: "Alimentación de procesos " },
+      { id: 1, img: "/images/Industria/piedrera/proceso/imagen1.webp", titulo: "Transporte de material a granel  " },
+      { id: 2, img: "/images/Industria/piedrera/proceso/imagen2.webp", titulo: "Transferencia de alta carga " },
+      { id: 3, img: "/images/Industria/piedrera/proceso/imagen3.webp", titulo: "Alimentación de procesos " },
     ],
 
 
@@ -945,7 +945,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        img: "/images/Industria/piedrera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
         
@@ -968,9 +968,9 @@ export const industriasPage : industriaTipo[] = [
 
 
     procesos: [
-      { id: 1, img: "/images/Industria/embutidos/proceso/imagen1.jpg", titulo: "Manejo de producto procesado" },
-      { id: 2, img: "/images/Industria/embutidos/proceso/imagen2.jpg", titulo: "Transferencia entre procesos" },
-      { id: 3, img: "/images/Industria/embutidos/proceso/imagen3.jpg", titulo: "Preparación para empaque" },
+      { id: 1, img: "/images/Industria/embutidos/proceso/imagen1.webp", titulo: "Manejo de producto procesado" },
+      { id: 2, img: "/images/Industria/embutidos/proceso/imagen2.webp", titulo: "Transferencia entre procesos" },
+      { id: 3, img: "/images/Industria/embutidos/proceso/imagen3.webp", titulo: "Preparación para empaque" },
     ],
 
 
@@ -1008,14 +1008,14 @@ export const industriasPage : industriaTipo[] = [
     subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
     soluciones: [
       
-        { id: 1, img: "/images/Industria/embutidos/solucion/imagen1.jpg", 
+        { id: 1, img: "/images/Industria/embutidos/solucion/imagen1.webp", 
           titulo: "Bandas transportadoras",
           url: "/productos/bandas",
       
       },
 
 
-        { id: 2, img: "/images/Industria/embutidos/solucion/imagen2.jpg", 
+        { id: 2, img: "/images/Industria/embutidos/solucion/imagen2.webp", 
           titulo: "Bandas termosoldables " ,
           url: "/productos/termosoldables",
 
@@ -1035,9 +1035,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/frutas/frutas.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/frutas/proceso/imagen1.jpg", titulo: "Manejo de producto fresco" },
-      { id: 2, img: "/images/Industria/frutas/proceso/imagen2.jpg", titulo: "Transferencia entre procesos" },
-      { id: 3, img: "/images/Industria/frutas/proceso/imagen3.jpg", titulo: "Preparación para empaque" },
+      { id: 1, img: "/images/Industria/frutas/proceso/imagen1.webp", titulo: "Manejo de producto fresco" },
+      { id: 2, img: "/images/Industria/frutas/proceso/imagen2.webp", titulo: "Transferencia entre procesos" },
+      { id: 3, img: "/images/Industria/frutas/proceso/imagen3.webp", titulo: "Preparación para empaque" },
     ],
 
 
@@ -1076,7 +1076,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/piedrera/solucion/imagen1.jpg",
+        img: "/images/Industria/piedrera/solucion/imagen1.webp",
         titulo: "Bandas transportadoras",
         url: "/productos/bandas",
       
@@ -1096,9 +1096,9 @@ export const industriasPage : industriaTipo[] = [
     url: "/images/catalagos/industria/textilera/textil.pdf",
 
     procesos: [
-      { id: 1, img: "/images/Industria/textil/proceso/imagen1.jpg", titulo: "Transporte de materiales" },
-      { id: 2, img: "/images/Industria/textil/proceso/imagen2.jpg", titulo: "Transferencia entre procesos" },
-      { id: 3, img: "/images/Industria/textil/proceso/imagen3.jpg", titulo: "Manejo previo a transformación " },
+      { id: 1, img: "/images/Industria/textil/proceso/image1.webp", titulo: "Transporte de materiales" },
+      { id: 2, img: "/images/Industria/textil/proceso/imagen2.webp", titulo: "Transferencia entre procesos" },
+      { id: 3, img: "/images/Industria/textil/proceso/imagen3.webp", titulo: "Manejo previo a transformación " },
     ],
 
 
@@ -1137,7 +1137,7 @@ export const industriasPage : industriaTipo[] = [
     soluciones: [
       {
         id: 1,
-        img: "/images/Industria/textil/solucion/banda.jpg",
+        img: "/images/Industria/textil/solucion/banda.webp",
         titulo: "Bandas de transmisión",  
            url: "/productos/transmision",      
       },
@@ -1159,9 +1159,9 @@ export const industriasPage : industriaTipo[] = [
 
 
     procesos: [
-      { id: 1, img: "/images/Industria/envasado/proceso/imagen1.jpg", titulo: "Transporte de envases " },
-      { id: 2, img: "/images/Industria/envasado/proceso/imagen2.jpg", titulo: "Transferencia entre procesos" },
-      { id: 3, img: "/images/Industria/envasado/proceso/imagen3.jpg", titulo: "Preparación de empaque" },
+      { id: 1, img: "/images/Industria/envasado/proceso/imagen1.webp", titulo: "Transporte de envases " },
+      { id: 2, img: "/images/Industria/envasado/proceso/imagen2.webp", titulo: "Transferencia entre procesos" },
+      { id: 3, img: "/images/Industria/envasado/proceso/imagen3.webp", titulo: "Preparación de empaque" },
     ],
 
 
@@ -1198,22 +1198,22 @@ export const industriasPage : industriaTipo[] = [
 
     subtituloSolucion: "Configuraciones y productos comúnmente en procesos de esta industria.",  
      soluciones: [
-      { id: 1, img: "/images/Industria/envasado/solucion/imagen1.jpg", 
+      { id: 1, img: "/images/Industria/envasado/solucion/imagen1.webp", 
         titulo: "Bandas transportadoras ",
         url: "/productos/bandas",
       },
 
-      { id: 2, img: "/images/Industria/envasado/solucion/imagen2.jpg",
+      { id: 2, img: "/images/Industria/envasado/solucion/imagen2.webp",
          titulo: "Empujadores ",
          url: "/productos/empujadores",
       },
 
-      { id: 3, img: "/images/Industria/envasado/solucion/imagen3.jpg", 
+      { id: 3, img: "/images/Industria/envasado/solucion/imagen3.webp", 
        titulo: "Olanes" ,
        url: "/productos/olanes",
       },
 
-      { id: 4, img: "/images/Industria/envasado/solucion/imagen4.jpg", 
+      { id: 4, img: "/images/Industria/envasado/solucion/imagen4.webp", 
         titulo: "Guías",
         url: "/productos/guias",
        },

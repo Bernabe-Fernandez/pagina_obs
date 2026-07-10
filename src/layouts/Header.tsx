@@ -41,14 +41,14 @@ const headerConfig: Record<string, HeaderData>= {
     subtitle: "Soluciones en bandas transportadoras, transmisión y accesorios para aplicaciones industriales.",
     text_btn: "Contacta con un asesor",
     url_btn: "/contacto",
-    image: "/images/backgrounds/headers/catalogo.png",
+    image: "/images/backgrounds/headers/catalago.webp",
     
   },
 
   "/bolsa_trabajo": {
     title: "Bolsa de Trabajo",
     subtitle: "Forma parte de un equipo especializado en soluciones industriales, enfocado en la mejora continua y el trabajo colaborativo.",
-    image: "/images/backgrounds/headers/trabajo.jpg",
+    image: "/images/backgrounds/headers/trabajo.webp",
     text_btn:"Contactar con Recursos Humanos",
     url_btn:"/bolsa_trabajo#formulario",
   },
@@ -59,7 +59,7 @@ const headerConfig: Record<string, HeaderData>= {
     subtitle: "Nuestro equipo está disponible para atender su requerimiento.",
     text_btn: "Contactar con un asesor",
     url_btn: "/contacto#formulario",
-    image: "/images/backgrounds/headers/contacto.jpg",
+    image: "/images/backgrounds/headers/contacto.webp",
   },
   
 
@@ -71,7 +71,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/bandas": {
       title: "BANDAS TRANSPORTADORAS",
       subtitle: "Soluciones confiables para el transporte continuo de productos en líneas de producción procesamiento y empaque",
-      image: "/images/backgrounds/headers/banda.jpg",
+      image: "/images/backgrounds/headers/banda.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -81,7 +81,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/transmision": {
       title: "BANDAS DE TRANSMISIÓN DE POTENCIA",
       subtitle: "Soluciones diseñadas para transmitir movimiento con precisión, sincronización y confiabilidad en procesos industriales.",
-      image: "/images/backgrounds/headers/bandatransmicion.jpg",
+      image: "/images/backgrounds/headers/bandatransmicion.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -90,7 +90,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/guias": {
       title: "GUÍAS DE ORIENTACIÓN ",
       subtitle: "Componentes diseñados para dirigir, estabilizar y optimizar el funcionamiento de las bandas industriales.",
-      image: "/images/backgrounds/headers/guias.jpg",
+      image: "/images/backgrounds/headers/guias.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -99,7 +99,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/grapas": {
       title: "GRAPAS",
       subtitle: "Soluciones de unión diseñadas para asegurar continuidad operativa y facilitar el mantenimiento de bandas transportadoras.",
-      image: "/images/backgrounds/headers/grapa.jpg",
+      image: "/images/backgrounds/headers/grapa.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -108,7 +108,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/transportadores": {
       title: "FABRICACIÓN DE TRANSPORTADORES",
       subtitle: "Diseño y fabricación de sistemas de transporte adaptados a las necesidades específicas de cada proceso industrial.",
-      image: "/images/backgrounds/headers/fabricacion.jpg",
+      image: "/images/backgrounds/headers/fabricacion.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -117,7 +117,7 @@ const headerConfig: Record<string, HeaderData>= {
   "/productos/termosoldables": {
       title: "BANDAS TERMOSOLDABLES",
       subtitle: "Soluciones versátiles para sistemas de transporte continuo, adaptables a diferentes configuraciones y condiciones de operación.",
-      image: "/images/backgrounds/headers/termosoldable.jpg",
+      image: "/images/backgrounds/headers/termosoldable.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -126,7 +126,7 @@ const headerConfig: Record<string, HeaderData>= {
      "/productos/modulares": {
       title: "BANDAS MODULARES",
       subtitle: "Soluciones modulares diseñadas para procesos que requieren higiene, flexibilidad y resistencia en el transporte de productos.",
-      image: "/images/backgrounds/headers/modular.jpg",
+      image: "/images/backgrounds/headers/modular.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -135,7 +135,7 @@ const headerConfig: Record<string, HeaderData>= {
      "/productos/olanes": {
       title: "OLANES",
       subtitle: "Accesorios diseñados para facilitar el arrastre, posicionamiento y control de productos en sistemas de transporte.",
-      image: "/images/backgrounds/headers/olanes.jpg",
+      image: "/images/backgrounds/headers/olanes.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -144,7 +144,7 @@ const headerConfig: Record<string, HeaderData>= {
     "/productos/empujadores": {
       title: "EMPUJADORES",
       subtitle: "Accesorios diseñados para separar, posicionar y dirigir productos durante el transporte en bandas industriales.",
-      image: "/images/backgrounds/headers/empujadores.jpg",
+      image: "/images/backgrounds/headers/empujadores.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -165,7 +165,7 @@ const headerConfig: Record<string, HeaderData>= {
    "/productos/herramientas": {
       title: "HERRAMIENTAS INDUSTRIALES",
       subtitle: "Herramientas y equipos diseñados para facilitar la instalación, empalme y mantenimiento de bandas industriales en planta.",
-      image: "/images/backgrounds/headers/herramienta.jpg",
+      image: "/images/backgrounds/headers/herrmienta.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
    },
@@ -184,7 +184,7 @@ const headerConfig: Record<string, HeaderData>= {
       "Soluciones de transporte para el manejo para el manejo continuo y eficiente de productos frescos en aplicaciones agroindustriales. ",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
-      image: "/images/backgrounds/headers/verduras.jpg",
+      image: "/images/backgrounds/headers/verduras.webp",
    },
 
 
@@ -193,7 +193,7 @@ const headerConfig: Record<string, HeaderData>= {
     "/industrias/confitera": {
       title: "CONFITERÍA  ",
       subtitle: "Soluciones de transporte para procesos de confitería que requieren precisión, continuidad y cuidado del producto.",
-      image: "/images/backgrounds/headers/confiteria.jpg",
+      image: "/images/backgrounds/headers/confteria.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -204,7 +204,7 @@ const headerConfig: Record<string, HeaderData>= {
     "/industrias/embotelladora": {
       title: "EMBOTELLADORA",
       subtitle: "Soluciones de transporte industrial para el manejo estable y continuo de envases en líneas de embotellado y empaque.",
-      image: "/images/backgrounds/headers/embotelladora.jpg",
+      image: "/images/backgrounds/headers/embotelladora.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -216,7 +216,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/chocolatera": {
       title: "CHOCOLATERA",
       subtitle: "Sistemas de transporte adaptados al manejo controlado de productos sensibles en procesos de fabricación y transformación de chocolate.",
-      image: "/images/backgrounds/headers/chocolatera.jpg",
+      image: "/images/backgrounds/headers/chocolatera.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -226,7 +226,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/panificadora": {
       title: "PANIFICADORA",
       subtitle: "Sistemas de transporte diseñados para líneas de producción continua en procesos de panificación y productos horneados.",
-      image: "/images/backgrounds/headers/panificadora.jpg",
+      image: "/images/backgrounds/headers/panificadora.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -237,7 +237,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/tequilera": {
       title: "TEQUILERA",
       subtitle: "Sistemas de transporte adaptados a los procesos de producción, envasado y manejo de la industria tequilera.",
-      image: "/images/backgrounds/headers/tequilera.jpg",
+      image: "/images/backgrounds/headers/tequilera.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -247,7 +247,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/granos": {
       title: "Granos",
       subtitle: "Soluciones de transporte para el manejo de productos a granel en procesos de almacenamiento, transformación y distribución de granos.",
-      image: "/images/backgrounds/headers/granos.jpg",
+      image: "/images/backgrounds/headers/granos.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -257,7 +257,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/latas": {
       title: "  Latas",
       subtitle: "Soluciones de transporte industrial para el manejo y desplazamiento de envases metálicos en proceso de producción y empaque. ",
-      image: "/images/backgrounds/headers/latas.jpg",
+      image: "/images/backgrounds/headers/latas.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -267,7 +267,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/llantera": {
       title: "LLANTERA",
       subtitle: "Soluciones de transporte para procesos de manufactura, ensamble y manejo de productos en la industria llantera. ",
-      image: "/images/backgrounds/headers/llantera.jpg",
+      image: "/images/backgrounds/headers/llantera.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -278,7 +278,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/farmaceutica": {
       title: "FARMACÉUTICA",
       subtitle: "Sistemas de transporte diseñados para procesos que requieren control, precisión y operación continua en entornos regulados.",
-      image: "/images/backgrounds/headers/farma.jpg",
+      image: "/images/backgrounds/headers/farma.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -290,7 +290,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/cartonera": {
       title: "CARTONERA",
       subtitle: "Sistemas de transporte adaptados a procesos de fabricación, armado y manejo de productos de cartón y empaques.",
-      image: "/images/backgrounds/headers/cartonera.jpg",
+      image: "/images/backgrounds/headers/cartonera.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       }, 
@@ -301,7 +301,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/piedrera": {
       title: "PIEDRERA",
       subtitle: "Sistemas de transporte industrial diseñados para el manejo de materiales pesados y abrasivos en proceso de extracción y transformación.",
-      image: "/images/backgrounds/headers/piedra.jpg",
+      image: "/images/backgrounds/headers/piedra.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -312,7 +312,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/textil": {
       title: "TEXTILERA",
       subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de materiales y productos en procesos textiles y de manufactura.",
-      image: "/images/backgrounds/headers/textil.jpg",
+      image: "/images/backgrounds/headers/textil.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -322,7 +322,7 @@ const headerConfig: Record<string, HeaderData>= {
        "/industrias/embutidos": {
       title: "EMBUTIDOS",
       subtitle: "Soluciones de transporte adaptadas a procesos cárnicos que requieren continuidad operativa, higiene y control del producto.",
-      image: "/images/backgrounds/headers/embutido.jpg",
+      image: "/images/backgrounds/headers/embutido.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -332,7 +332,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/frutas": {
       title: "FRUTAS",
       subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de productos frescos en procesos industriales y de empaque.",
-      image: "/images/backgrounds/headers/fruta.jpg",
+      image: "/images/backgrounds/headers/fruta.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -367,10 +367,10 @@ const headerConfig: Record<string, HeaderData>= {
     image: "/images/headers/default.jpg",
   };
 
-  // 🔹 Altura responsive corregida
+  // Altura responsive corregida
   const headerHeight =
     config.height ??
-    "h-[220px] sm:h-[320px] md:h-[430px] lg:h-[500px]";
+    "h-[280px] sm:h-[320px] md:h-[430px] lg:h-[500px]";
 
   // Reiniciar video cuando el header vuelve a ser visible
   useEffect(() => {

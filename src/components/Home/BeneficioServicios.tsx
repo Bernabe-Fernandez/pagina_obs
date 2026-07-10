@@ -65,7 +65,7 @@ export default function BeneficioServicios() {
       {/* LADO DERECHO */}
       <div className="flex justify-center items-center mt-10 md:mt-0">
         <img 
-          src="/images/home/servicios.jpg" 
+          src="/images/home/servicios.webp" 
           alt="nuestros-servicios" 
           className="w-full max-h-[600px] max-w-sm sm:max-w-md md:max-w-lg rounded-2xl shadow-lg"
         />

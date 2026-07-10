@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Icon from "@mdi/react";
 import { mdiAccount, mdiPhone, mdiEmail } from "@mdi/js";
 
 const zonas = [
   {
     nombre: "Zona Norte",
-    img: "/images/zona/cartas/contacto1.jpg",
+    img: "/images/zona/cartas/contacto1.webp",
     icon: "/images/zona/cartas/nortee.svg",
     contactos: [
       {
@@ -18,7 +18,7 @@ const zonas = [
   },
   {
     nombre: "Zona Bajío",
-    img: "/images/zona/cartas/contacto2.jpg",
+    img: "/images/zona/cartas/coctacto2.webp",
     icon: "/images/zona/cartas/bajio.svg",
     contactos: [
       {
@@ -37,7 +37,7 @@ const zonas = [
   },
   {
     nombre: "Zona Occidente",
-    img: "/images/zona/cartas/contacto3.jpg",
+    img: "/images/zona/cartas/contacto3.webp",
     icon: "/images/zona/cartas/occidentee.svg",
     contactos: [
       {
@@ -50,7 +50,7 @@ const zonas = [
   },
   {
     nombre: "Zona Centro",
-    img: "/images/zona/cartas/contacto4.jpg",
+    img: "/images/zona/cartas/contacto4.webp",
     icon: "/images/zona/cartas/centroo.svg",
     contactos: [
       {
@@ -63,7 +63,7 @@ const zonas = [
   },
   {
     nombre: "Zona Pacífico",
-    img: "/images/zona/cartas/contacto5.jpg",
+    img: "/images/zona/cartas/contacto5.webp",
     icon: "/images/zona/cartas/pacificoo.svg",
     contactos: [
       {
@@ -93,6 +93,24 @@ export default function Zona() {
     });
   };
 
+  // ⭐ Cerrar todas las cartas al hacer clic fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+
+      // Si NO se hizo clic dentro de una carta o botón
+      if (!target.closest(".zona-card") && !target.closest(".contact-button")) {
+        setAbierto(Array(zonas.length).fill(false));
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <section className="w-full py-16 bg-white">
       <h2 className="text-center text-4xl font-bold text-azulobs-600 mb-10 mt-40">
@@ -108,15 +126,14 @@ export default function Zona() {
         {zonas.map((zona, index) => (
           <div
             key={index}
-            className={`bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl border border-gray-200 flex flex-col transition-all duration-700 ${
+            className={`zona-card bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl border border-gray-200 flex flex-col transition-all duration-700 ${
               abierto[index] ? "transform -translate-y-2" : "transform translate-y-0"
             }`}
-            style={{ height: abierto[index] ? "620px" : "360px", 
-                transition: "height 0.45s ease"
-            }} // 🔹 Altura uniforme al expandirse
+            style={{
+              height: abierto[index] ? "620px" : "360px",
+              transition: "height 0.45s ease",
+            }}
           >
-
-
             {/* IMAGEN */}
             <div className="relative h-[230px] w-full overflow-hidden bg-blue-900">
               <img
@@ -137,7 +154,6 @@ export default function Zona() {
                   {zona.nombre}
                 </h3>
 
-                {/* ANIMACIÓN SUAVE DE CONTACTOS */}
                 <div
                   className={`transition-all duration-700 ease-in-out overflow-hidden ${
                     abierto[index] ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
@@ -160,11 +176,11 @@ export default function Zona() {
                       </div>
 
                       <div className="flex items-start gap-2">
-                         <Icon path={mdiEmail} size={0.9} className="text-azulobs-500 shrink-0 mt-[2px]" />
-                         <p className="text-azulobs-400 break-all whitespace-normal leading-tight w-[180px]">
-                         {c.correo}
-                         </p>
-                        </div>
+                        <Icon path={mdiEmail} size={0.9} className="text-azulobs-500 shrink-0 mt-[2px]" />
+                        <p className="text-azulobs-400 break-all whitespace-normal leading-tight w-[180px]">
+                          {c.correo}
+                        </p>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -173,27 +189,12 @@ export default function Zona() {
               {/* BOTÓN */}
               <div
                 className={`flex transition-all duration-500 ${
-                abierto[index] ? "justify-end" : "justify-center"
+                  abierto[index] ? "justify-end" : "justify-center"
                 } mt-auto mb-4 absolute bottom-5 left-0 w-full px-5`}
-                >
-
+              >
                 <button
                   onClick={() => toggleZona(index)}
-                  className="
-                    px-4
-                    py-1
-                    text-[15px]
-                    font-semibold
-                    rounded-xl
-                    bg-azulobs-500
-                    text-white
-                    shadow-sm
-                    transition-all
-                    duration-300
-                    hover:bg-white
-                    hover:text-azulobs-500
-                    hover:shadow-[0_6px_14px_rgba(0,0,0,0.35)]
-                  "
+                  className="contact-button px-4 py-1 text-[15px] font-semibold rounded-xl bg-azulobs-500 text-white shadow-sm transition-all duration-300 hover:bg-white hover:text-azulobs-500 hover:shadow-[0_6px_14px_rgba(0,0,0,0.35)]"
                 >
                   Contactar
                 </button>
@@ -205,5 +206,4 @@ export default function Zona() {
     </section>
   );
 }
-
 

@@ -11,31 +11,31 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/bandas/cuadros/cereales.jpg",
+        img: "/images/bandas/cuadros/cereales.webp",
         titulo: "Transporte continuo y estable",
       },
 
       {
         id: 2,
-        img: "/images/bandas/cuadros/carnes.jpg",
+        img: "/images/bandas/cuadros/carnes.webp",
         titulo: "Versatilidad de configuración ",
       },
 
       {
         id: 3,
-        img: "/images/bandas/cuadros/ban.jpg",
+        img: "/images/bandas/cuadros/ban.webp",
         titulo: "Reducción de paros de producción ",
       },
 
       {
         id: 4,
-        img: "/images/bandas/cuadros/cajas.jpg",
+        img: "/images/bandas/cuadros/cajas.webp",
         titulo: "Mejora la eficiencia del proceso",
       },
     ],
     aplicaciones: {
       id: 2,
-      img: "/images/bandas/aplicacion/cajas.jpg",
+      img: "/images/bandas/aplicacion/cajas.webp",
       aplicaciones: [
         "Líneas de producción y ensamblaje",
         "Procesos de empaque y clasificación",
@@ -50,25 +50,25 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Bandas planas (PU / PVC / plásticas)",
         subtituloTipo: "Bandas planas",
-        img: "/images/bandas/Tipos/banda1.jpg",
+        img: "/images/bandas/Tipos/banda1.webp",
       },
       {
         id: 2,
         titulo: "Bandas con perfiles (Empujadores)",
         subtituloTipo: "Bandas con perfiles",
-        img: "/images/bandas/Tipos/banda2.jpg",
+        img: "/images/bandas/Tipos/banda2.webp",
       },
       {
         id: 3,
         titulo: "Bandas con guías de alineación",
         subtituloTipo: "Bandas con guías",
-        img: "/images/bandas/Tipos/banda3.jpg",
+        img: "/images/bandas/Tipos/banda3.webp",
       },
       {
         id: 4,
         titulo: "Bandas especiales por aplicación",
         subtituloTipo: "Bandas especiales",
-        img: "/images/bandas/Tipos/banda4.jpg",
+        img: "/images/bandas/Tipos/banda4.webp",
       },
     ],
 
@@ -94,28 +94,28 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/transmision/Ventajas/imagen1.jpg",
+        img: "/images/productos/transmision/Ventajas/imagen1.webp",
         titulo: "Transmisión precisa y sincronizada",
       },
       {
         id: 2,
-        img: "/images/productos/transmision/Ventajas/imagen2.jpg",
+        img: "/images/productos/transmision/Ventajas/imagen2.webp",
         titulo: "Alta eficiencia en el movimiento ",
       },
       {
         id: 3,
-        img: "/images/productos/transmision/Ventajas/imagen3.jpg",
+        img: "/images/productos/transmision/Ventajas/imagen3.webp",
         titulo: "Reducción de desplazamientos",
       },
       {
         id: 4,
-        img: "/images/productos/transmision/Ventajas/imagen4.jpg",
+        img: "/images/productos/transmision/Ventajas/imagen4.webp",
         titulo: "Versatilidad de configuración  ",
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/transmision/Aplicaciones/imagen1.jpg",
+      img: "/images/productos/transmision/Aplicaciones/imagen1.webp",
       aplicaciones: [
         "Sistemas automatizados y maquinaria industrial ",
         "Líneas de manufactura y ensamblaje",
@@ -130,19 +130,19 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Bandas dentadas",
         subtituloTipo: "Bandas dentadas",
-        img: "/images/productos/transmision/Tipos/banda1.jpg",
+        img: "/images/productos/transmision/Tipos/banda1.webp",
       },
       {
         id: 2,
         titulo: "Bandas sincrónicas",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/transmision/Tipos/banda2.jpg",
+        img: "/images/productos/transmision/Tipos/banda2.webp",
       },
       {
         id: 3,
         titulo: "Banda doble dentadas ",
         subtituloTipo: "Banda doble dentadas ",
-        img: "/images/productos/transmision/Tipos/banda3.jpg",
+        img: "/images/productos/transmision/Tipos/banda3.webp",
       },
     ],
 
@@ -167,28 +167,28 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/orientacion/ventajas/imagen1.jpg",
+        img: "/images/productos/orientacion/ventajas/imagen1.webp",
         titulo: "Mejor alineación de la banda ",
       },
       {
         id: 2,
-        img: "/images/productos/orientacion/ventajas/imagen2.jpg",
+        img: "/images/productos/orientacion/ventajas/imagen2.webp",
         titulo: "Mayor estabilidad del producto",
       },
       {
         id: 3,
-        img: "/images/productos/orientacion/ventajas/imagen3.jpg",
+        img: "/images/productos/orientacion/ventajas/imagen3.webp",
         titulo: "Menor mantenimiento correctivo",
       },
       {
         id: 4,
-        img: "/images/productos/orientacion/ventajas/imagen4.jpg",
+        img: "/images/productos/orientacion/ventajas/imagen4.webp",
         titulo: "Optimalización del desempeño del sistema",
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/orientacion/aplicacion/imagen1.jpg",
+      img: "/images/productos/orientacion/aplicacion/imagen1.webp",
       aplicaciones: [
         "Líneas de producción y ensamblaje",
         "Procesos de empaque y clasificación",
@@ -203,14 +203,14 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Guías de PVC",
         subtituloTipo: "Banda doble dentadas ",
-        img: "/images/productos/orientacion/tipos/imagen1.jpg",
+        img: "/images/productos/orientacion/tipos/imagen1.webp",
       },
 
       {
         id: 2,
         titulo: "Guías de Uretano",
         subtituloTipo: "Banda doble dentadas ",
-        img: "/images/productos/orientacion/tipos/imagen2.jpg",
+        img: "/images/productos/orientacion/tipos/imagen2.webp",
       },
     ],
 
@@ -238,35 +238,35 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/grapas/ventajas/grapa1.jpg",
+        img: "/images/productos/grapas/ventajas/grapa1.webp",
         titulo: "Instalación rápida y sencilla ",
       },
       {
         id: 2,
-        img: "/images/productos/grapas/ventajas/grapa2.jpg",
+        img: "/images/productos/grapas/ventajas/grapa2.webp",
         titulo: "Reducción de tiempos muertos ",
       },
       {
         id: 3,
-        img: "/images/productos/grapas/ventajas/grapa3.jpg",
+        img: "/images/productos/grapas/ventajas/grapa3.webp",
         titulo: "Facilitan el mantenimiento correctivo",
       },
       {
         id: 4,
-        img: "/images/productos/grapas/ventajas/grapa4.jpg",
+        img: "/images/productos/grapas/ventajas/grapa4.webp",
         titulo: "Adaptables a distintos tipos de banda ",
       },
 
       {
         id: 5,
-        img: "/images/productos/grapas/ventajas/grapa5.jpg",
+        img: "/images/productos/grapas/ventajas/grpa5.webp",
         titulo: "Solución práctica para continuidad operativa",
       },
     ],
 
     aplicaciones: {
       id: 3,
-      img: "/images/productos/grapas/aplicacion/imagen1.jpg",
+      img: "/images/productos/grapas/aplicacion/imagen1.webp",
       aplicaciones: [
         "Empalmes de bandas transportadoras",
         "Reparaciones rápidas en sitio",
@@ -281,14 +281,14 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Grapas de alambre ",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/grapas/tipos/grapa1.jpg",
+        img: "/images/productos/grapas/tipos/grapa1.webp",
       },
 
       {
         id: 2,
         titulo: "Grapas tipo bisagra ",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/grapas/tipos/grapa2.jpg",
+        img: "/images/productos/grapas/tipos/grapa2.webp",
       },
     ],
 
@@ -316,7 +316,7 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/F transportadores/ventajas/imagen1.jpg",
+        img: "/images/productos/F transportadores/ventajas/imgen1.webp",
         titulo: "APLICACIONES COMUNES",
         descripcion:
           "La fabricación de transportadores es ideal para procesos como:",
@@ -330,7 +330,7 @@ export const productosList: productoPage[] = [
 
       {
         id: 2,
-        img: "/images/productos/F transportadores/ventajas/imagen2.jpg",
+        img: "/images/productos/F transportadores/ventajas/imagen2.webp",
         titulo: "BENEFICIOS PRINCIPALES",
         listaVentajas: [
           "Soluciones adaptadas al proceso específico.",
@@ -347,25 +347,25 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Sistemas de transporte especiales",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen1.jpg",
+        img: "/images/productos/F transportadores/aplicacion/imagen1.webp",
       },
       {
         id: 2,
         titulo: "Modificaciones a equipos existentes",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen2.jpg",
+        img: "/images/productos/F transportadores/aplicacion/imagen2.webp",
       },
       {
         id: 3,
         titulo: "Soluciones para procesos complejos",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen3.jpg",
+        img: "/images/productos/F transportadores/aplicacion/imagen3.webp",
       },
       {
         id: 4,
         titulo: "Integraciones técnicas especificas ",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen4.jpg",
+        img: "/images/productos/F transportadores/aplicacion/imagen4.webp",
       },
     ],
 
@@ -427,23 +427,23 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/termosoldables/ventajas/imagen1.jpg",
+        img: "/images/productos/termosoldables/ventajas/imagen1.webp",
         titulo: "Versatilidad de configuración ",
       },
       {
         id: 2,
-        img: "/images/productos/termosoldables/ventajas/imagen2.jpg",
+        img: "/images/productos/termosoldables/ventajas/imagen2.webp",
         titulo: "Fácil instalación y ajuste de sitio ",
       },
       {
         id: 3,
-        img: "/images/productos/termosoldables/ventajas/imagen3.jpg",
+        img: "/images/productos/termosoldables/ventajas/imagen3.webp",
         titulo: "Buena resistencia a la abrasión y desgaste  ",
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/termosoldables/aplicacion/imagen1.jpg",
+      img: "/images/productos/termosoldables/aplicacion/imagen1.webp",
       aplicaciones: [
         "Líneas de producción y empaque",
         "Transporte de productos a granel unitarios",
@@ -458,28 +458,28 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Bandas planas (PU / PVC / plásticas  )",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda1.jpg",
+        img: "/images/bandas/Tipos/banda1.webp",
       },
 
       {
         id: 2,
         titulo: "Bandas con perfiles (Empujadores)",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda2.jpg",
+        img: "/images/bandas/Tipos/banda2.webp",
       },
 
       {
         id: 3,
         titulo: "Bandas con guías de alineación",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda3.jpg",
+        img: "/images/bandas/Tipos/banda3.webp",
       },
 
       {
         id: 4,
         titulo: "Bandas especiales por aplicación ",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda4.jpg",
+        img: "/images/bandas/Tipos/banda4.webp",
       },
     ],
 
@@ -509,39 +509,39 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/modulares/ventajas/imagen1.jpg",
+        img: "/images/productos/modulares/ventajas/imagen1.webp",
         titulo: "Diseño modular flexible",
         listaVentajas: [],
       },
       {
         id: 2,
-        img: "/images/productos/modulares/ventajas/imagen2.jpg",
+        img: "/images/productos/modulares/ventajas/imagen2.webp",
         titulo: "Fácil mantenimiento y reemplazo de módulos",
         listaVentajas: [],
       },
       {
         id: 3,
-        img: "/images/productos/modulares/ventajas/imagen3.jpg",
+        img: "/images/productos/modulares/ventajas/imagen3.webp",
         titulo: "Alta resistencia al desgaste",
         listaVentajas: [],
       },
 
       {
         id: 4,
-        img: "/images/productos/modulares/ventajas/imagen4.jpg",
+        img: "/images/productos/modulares/ventajas/imagen4.webp",
         titulo: "Adecuadas para procesos higiénicos  ",
         listaVentajas: [],
       },
       {
         id: 5,
-        img: "/images/productos/modulares/ventajas/imagen5.jpg",
+        img: "/images/productos/modulares/ventajas/imagen5.webp",
         titulo: "Versatilidad de configuración ",
         listaVentajas: [],
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/modulares/aplicacion/imagen1.jpg",
+      img: "/images/productos/modulares/aplicacion/imagen1.webp",
       aplicaciones: [
         "Transporte de productos en la industria alimentaria y de bebidas",
         "Líneas de procesamiento y empaque",
@@ -556,21 +556,21 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Bandas modulares planas",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/modulares/tipos/imagen1.jpg",
+        img: "/images/productos/modulares/tipos/imagen1.webp",
       },
 
       {
         id: 2,
         titulo: "Bandas modulares con arrastre ",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/modulares/tipos/imagen2.jpg",
+        img: "/images/productos/modulares/tipos/imagen2.webp",
       },
 
       {
         id: 3,
         titulo: "Bandas modulares especiales (según aplicación)",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/modulares/tipos/imagen3.jpg",
+        img: "/images/productos/modulares/tipos/imagen3.webp",
       },
     ],
 
@@ -595,28 +595,28 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/olanes/ventajas/imagen1.jpg",
+        img: "/images/productos/olanes/ventajas/imagen1.webp",
         titulo: "Mejor control del producto transportado",
       },
       {
         id: 2,
-        img: "/images/productos/olanes/ventajas/imagen2.jpg",
+        img: "/images/productos/olanes/ventajas/imagen2.webp",
         titulo: "Optimización en sistemas inclinados",
       },
       {
         id: 3,
-        img: "/images/productos/olanes/ventajas/imagen3.jpg",
+        img: "/images/productos/olanes/ventajas/imagen3.webp",
         titulo: "Reducción de pérdidas y deslizamientos ",
       },
       {
         id: 4,
-        img: "/images/productos/olanes/ventajas/imagen4.jpg",
+        img: "/images/productos/olanes/ventajas/imagen4.webp",
         titulo: "Adaptación a diferentes tipos de banda ",
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/olanes/aplicacion/imagen1.jpg",
+      img: "/images/productos/olanes/aplicacion/imagen1.webp",
       aplicaciones: [
         "Transporte inclinado o vertical",
         "Arrastre de productos a granel",
@@ -631,21 +631,21 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Bandas dentadas",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/olanes/tipos/imagen1.jpg",
+        img: "/images/productos/olanes/tipos/imagen1.webp",
       },
 
       {
         id: 2,
         titulo: "Bandas sincronicas",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/olanes/tipos/imagen2.jpg",
+        img: "/images/productos/olanes/tipos/imagen2.webp",
       },
 
       {
         id: 3,
         titulo: "Bandas doble dentadas",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/olanes/tipos/imagen3.jpg",
+        img: "/images/productos/olanes/tipos/imagen3.webp",
       },
     ],
 
@@ -663,6 +663,8 @@ export const productosList: productoPage[] = [
     url: "/images/catalagos/productos/olanes/olanes.pdf",
   },
 
+
+
   {
     id: 9,
     tipo: "empujadores",
@@ -671,28 +673,28 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/empujadores/ventajas/imagen1.jpg",
+        img: "/images/productos/empujadores/ventajas/imagen1.webp",
         titulo: "Transporte continuo y estable",
       },
       {
         id: 2,
-        img: "/images/productos/empujadores/ventajas/imagen2.jpg",
+        img: "/images/productos/empujadores/ventajas/imagen2.webp",
         titulo: "Versatilidad de configuración",
       },
       {
         id: 3,
-        img: "/images/productos/empujadores/ventajas/imagen3.jpg",
+        img: "/images/productos/empujadores/ventajas/imagen3.webp",
         titulo: "Reducción de paros de producción ",
       },
       {
         id: 4,
-        img: "/images/productos/empujadores/ventajas/imagen4.jpg",
+        img: "/images/productos/empujadores/ventajas/imagen4.webp",
         titulo: "Mejora en la eficiencia del proceso ",
       },
     ],
     aplicaciones: {
       id: 3,
-      img: "/images/productos/empujadores/aplicacion/imagen1.jpg",
+      img: "/images/productos/empujadores/aplicacion/imagen1.webp",
       aplicaciones: [
         "Separación y espaciamiento de productos",
         "Clasificación en líneas de producción",
@@ -707,14 +709,14 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Empujadores rectos ",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/empujadores/tipos/imagen1.jpg",
+        img: "/images/productos/empujadores/tipos/imagen1.webp",
       },
 
       {
         id: 2,
         titulo: "Empujadores especiales según aplicación",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/empujadores/tipos/imagen2.jpg",
+        img: "/images/productos/empujadores/tipos/imagen2.webp",
       },
     ],
 
@@ -862,7 +864,7 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/herramientas/ventajas/imagen1.jpg",
+        img: "/images/productos/herramientas/ventajas/imagen1.webp",
         titulo: "APLICACIONES COMÚNES",
         descripcion:
           "Las herramientas se utilizan en distintas etapas del ciclo de vida de una banda, como:",
@@ -876,7 +878,7 @@ export const productosList: productoPage[] = [
 
       {
         id: 2,
-        img: "/images/productos/herramientas/ventajas/imagen2.jpg",
+        img: "/images/productos/herramientas/ventajas/imagen2.webp",
         titulo: "BENEFICIOS PRINCIPALES",
         listaVentajas: [
            "Mayor precisión en instalación y ajuste.",
@@ -893,25 +895,25 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Herramientas manuales para instalación",
         descripcion: "",
-        img: "/images/productos/herramientas/tipos/imagen1.jpg",
+        img: "/images/productos/herramientas/tipos/imagen1.webp",
       },
       {
         id: 2,
         titulo: "Herramientas de ajuste y alineación",
         descripcion: "",
-        img: "/images/productos/herramientas/tipos/imagen2.jpg",
+        img: "/images/productos/herramientas/tipos/imagen2.webp",
       },
       {
         id: 3,
         titulo: "Herramientas para empalme y mantenimiento",
         descripcion: "",
-        img: "/images/productos/herramientas/tipos/imagen3.jpg",
+        img: "/images/productos/herramientas/tipos/imagen3.webp",
       },
       {
         id: 4,
         titulo: "Herramientas especiales según aplicación",
         descripcion: "",
-        img: "/images/productos/herramientas/tipos/imagen4.jpg",
+        img: "/images/productos/herramientas/tipos/imagen4.webp",
       },
     ],
 

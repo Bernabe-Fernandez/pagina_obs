@@ -32,11 +32,9 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
     <section className="w-full py-16 bg-white">
       <div>
         {/* Descripción */}
-        <div className="text-center max-w-7xl mx-auto mb-60 text-[20px]">
-          <p className="text-[#2E6092] leading-relaxed">
-            {descripcion}
-          </p>
-        </div>
+        <div className="text-center max-w-6xl mx-auto mb-60 px-4 sm:px-6 text-[18px] sm:text-[22px] md:text-[24px]">
+             <p className="text-[#2E6092] leading-relaxed">{descripcion}</p>
+       </div>
 
         {/* Título */}
         <h2 className="text-3xl font-bold text-center text-azulobs-500 mb-20">
@@ -114,7 +112,7 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
             </div>
           ))}
         </div>
-      </div>
+       </div>
     </section>
   );
 }

@@ -24,14 +24,14 @@ export default function Encuentro() {
         {/* GRID DE IMÁGENES */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 gap-y-20 mt-10">
           {[
-            { src: "/images/catalago/encontraras/transportadoras.png", titulo: "BANDAS TRANSPORTADORAS", url: "/productos/bandas" },
-            { src: "/images/catalago/encontraras/termosoldable.png", titulo: "BANDAS TERMOSOLDABLES", url: "/productos/termosoldables" },
-            { src: "/images/catalago/encontraras/potencia.png", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA", url: "/productos/transmision" },
-            { src: "/images/catalago/encontraras/empujadores.png", titulo: "EMPUJADORES", url: "/productos/empujadores" },
-            { src: "/images/catalago/encontraras/grapa.png", titulo: "GRAPAS", url: "/productos/grapas" },
-            { src: "/images/catalago/encontraras/guias.png", titulo: "GUÍAS DE ORIENTACIÓN", url: "/productos/guias" },
-            { src: "/images/catalago/encontraras/olanes.png", titulo: "OLANES", url: "/productos/olanes" },
-            { src: "/images/catalago/encontraras/herramientas.png", titulo: "ACCESORIOS Y HERRAMIENTAS", url: "/productos/herramientas" },
+            { src: "/images/catalago/encontraras/transportadoras.webp", titulo: "BANDAS TRANSPORTADORAS", url: "/productos/bandas" },
+            { src: "/images/catalago/encontraras/termosoldables.webp", titulo: "BANDAS TERMOSOLDABLES", url: "/productos/termosoldables" },
+            { src: "/images/catalago/encontraras/potencia.webp", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA", url: "/productos/transmision" },
+            { src: "/images/catalago/encontraras/empujadores.webp", titulo: "EMPUJADORES", url: "/productos/empujadores" },
+            { src: "/images/catalago/encontraras/grapa.webp", titulo: "GRAPAS", url: "/productos/grapas" },
+            { src: "/images/catalago/encontraras/guias.webp", titulo: "GUÍAS DE ORIENTACIÓN", url: "/productos/guias" },
+            { src: "/images/catalago/encontraras/olanes.webp", titulo: "OLANES", url: "/productos/olanes" },
+            { src: "/images/catalago/encontraras/herramientas.webp", titulo: "ACCESORIOS Y HERRAMIENTAS", url: "/productos/herramientas" },
           ].map((item, index) => (
             <a
               key={index}

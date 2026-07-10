@@ -16,7 +16,7 @@ export default function Manual() {
         {/* COLUMNA IZQUIERDA: MANUAL */}
         <div className="w-full flex justify-center lg:translate-x-[40px]">
           <img
-            src="/images/catalago/manual/catalogo.jpg"
+            src="/images/catalago/manual/catalago.webp"
             alt="manual omnibandas"
             className="
               w-full max-w-[950px] 

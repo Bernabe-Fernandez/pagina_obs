@@ -17,7 +17,7 @@ export default function Libro() {
           {/* COLUMNA IZQUIERDA */}
           <div className="w-full flex justify-center">
             <img
-              src="/images/catalago/manual/catalogo.jpg"
+              src="/images/catalago/manual/catalago.webp"
               alt="manual omnibandas"
               className="w-full max-w-[220px] md:max-w-[320px] lg:max-w-md rounded-3xl shadow-lg object-cover mb-8 md:mb-12 lg:mb-40"
               style={{

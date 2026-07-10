@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useRef, useState } from "react";
+import Swal from "sweetalert2";
 
 export default function FormularioTrabajo() {
     const [form, setForm] = useState({
@@ -49,11 +50,21 @@ export default function FormularioTrabajo() {
             formData.append("curriculum", form.cv);
 
             const response = await axios.post(
-                "https://api.omnibandas.com/vacantes.php",
+                "http://localhost/obsforms/vacantes.php",
+                 //* "https://api.omnibandas.com/vacantes.php", 
                 formData
             );
 
-            alert(response.data.mensaje);
+            // ⭐ SweetAlert2 — Éxito (idéntico a Contacto)
+            Swal.fire({
+                title: "Datos enviados correctamente",
+                text: response.data.mensaje,
+                icon: "success",
+                confirmButtonText: "Aceptar",
+                confirmButtonColor: "#1e3a8a",
+                background: "#f8fafc",
+                color: "#1e3a8a"
+            });
 
             setForm({
                 nombre: "",
@@ -67,7 +78,17 @@ export default function FormularioTrabajo() {
 
         } catch (error: any) {
             const mensaje = error?.response?.data?.mensaje || error.message;
-            alert(mensaje);
+
+            // ⭐ SweetAlert2 — Error (idéntico a Contacto)
+            Swal.fire({
+                title: "Error",
+                text: mensaje,
+                icon: "error",
+                confirmButtonText: "Cerrar",
+                confirmButtonColor: "#b91c1c",
+                background: "#fef2f2",
+                color: "#7f1d1d"
+            });
         }
     };
 
@@ -168,4 +189,3 @@ export default function FormularioTrabajo() {
         </form>
     );
 }
-

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 export default function FormularioContacto() {
   const [form, setForm] = useState({
@@ -16,42 +17,61 @@ export default function FormularioContacto() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      // Validaciones
-      if (!form.nombre.trim()) throw new Error("Ingrese su nombre");
-      if (!form.correo.trim()) throw new Error("Ingrese su correo");
-      if (!form.telefono.trim()) throw new Error("Ingrese su teléfono");
-      if (!form.mensaje.trim()) throw new Error("Ingrese un mensaje");
-      if (!form.empresa.trim()) throw new Error("Ingrese su empresa");
+  e.preventDefault();
+  try {
+    // Validaciones
+    if (!form.nombre.trim()) throw new Error("Ingrese su nombre");
+    if (!form.correo.trim()) throw new Error("Ingrese su correo");
+    if (!form.telefono.trim()) throw new Error("Ingrese su teléfono");
+    if (!form.mensaje.trim()) throw new Error("Ingrese un mensaje");
+    if (!form.empresa.trim()) throw new Error("Ingrese su empresa");
 
-      // Enviar datos al backend (JSON CORRECTO)
-      const response = await axios.post(
-        "https://api.omnibandas.com/contactos.php",
-        form,
-        {
-          headers: {
-            "Content-Type": "application/json"
-          }
+    // Enviar datos al backend
+    const response = await axios.post(
+      "http://localhost/obsforms/contactos.php",
+      form,
+      {
+        headers: {
+          "Content-Type": "application/json"
         }
-      );
+      }
+    );
 
-      alert(response.data.mensaje);
+    // SweetAlert2 - Éxito (mensaje actualizado)
+    Swal.fire({
+      title: "Datos enviados correctamente",
+      text: response.data.mensaje,
+      icon: "success",
+      confirmButtonText: "Aceptar",
+      confirmButtonColor: "#1e3a8a",
+      background: "#f8fafc",
+      color: "#1e3a8a"
+    });
 
-      // Limpiar formulario
-      setForm({
-        nombre: "",
-        correo: "",
-        telefono: "",
-        empresa: "",
-        mensaje: ""
-      });
+    // Limpiar formulario
+    setForm({
+      nombre: "",
+      correo: "",
+      telefono: "",
+      empresa: "",
+      mensaje: ""
+    });
 
-    } catch (error: any) {
-      const mensaje = error?.response?.data?.mensaje || error.message;
-      alert(mensaje);
-    }
-  };
+  } catch (error: any) {
+    const mensaje = error?.response?.data?.mensaje || error.message;
+
+    // SweetAlert2 - Error
+    Swal.fire({
+      title: "Error",
+      text: mensaje,
+      icon: "error",
+      confirmButtonText: "Cerrar",
+      confirmButtonColor: "#b91c1c",
+      background: "#fef2f2",
+      color: "#7f1d1d"
+    });
+  }
+};
 
   return (
     <div className="w-full bg-white p-6 rounded-2xl border border-blue-900/20 shadow-[0_0_20px_rgba(30,58,138,0.25)] flex flex-col justify-start">
@@ -121,3 +141,4 @@ export default function FormularioContacto() {
     </div>
   );
 }
+

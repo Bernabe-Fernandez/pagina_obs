@@ -43,7 +43,7 @@ export default function Caracteristicas() {
                     flex
                 ">
                     <img 
-                        src="/images/trabajo/caracteristicas.jpg" 
+                        src="/images/trabajo/caracteristicas.webp" 
                         alt="Equipo de trabajo Omnibandas"
                         className="
                             w-full
