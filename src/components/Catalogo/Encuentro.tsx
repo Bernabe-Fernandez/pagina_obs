@@ -25,7 +25,7 @@ export default function Encuentro() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 gap-y-20 mt-10">
           {[
             { src: "/images/catalago/encontraras/transportadoras.webp", titulo: "BANDAS TRANSPORTADORAS", url: "/productos/bandas" },
-            { src: "/images/catalago/encontraras/termosoldables.webp", titulo: "BANDAS TERMOSOLDABLES", url: "/productos/termosoldables" },
+            { src: "/images/catalago/encontraras/termosoldable.webp", titulo: "BANDAS TERMOSOLDABLES", url: "/productos/termosoldables" },
             { src: "/images/catalago/encontraras/potencia.webp", titulo: "BANDAS DE TRANSMISIÓN DE POTENCIA", url: "/productos/transmision" },
             { src: "/images/catalago/encontraras/empujadores.webp", titulo: "EMPUJADORES", url: "/productos/empujadores" },
             { src: "/images/catalago/encontraras/grapa.webp", titulo: "GRAPAS", url: "/productos/grapas" },

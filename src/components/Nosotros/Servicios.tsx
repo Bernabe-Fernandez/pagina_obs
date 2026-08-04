@@ -17,12 +17,13 @@ export default function Servicios() {
           {services.map((service, index) => (
             <div
               key={service.id}
-              className="
-                grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2
-                bg-white rounded-2xl shadow-sm border border-gray-200 
-                overflow-hidden hover:shadow-md transition duration-300
-              "
-            >
+               className="
+               grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2
+               bg-white rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.15)] border border-gray-200 
+                overflow-hidden transition-all duration-300
+               hover:shadow-[0_8px_25px_rgba(0,0,0,0.35)] hover:scale-[1.02]
+               "
+              >
               {/* Imagen */}
               <div className="h-40 sm:h-48 md:h-56 lg:h-full">
                 <img
@@ -91,30 +92,29 @@ export default function Servicios() {
         </div>
       </div>
 
-      {/* Botón Ver catálogo completo */}
       <div
         className="
-          flex justify-center sm:justify-center md:justify-end lg:justify-end
-          mt-16 sm:mt-24 pr-0 lg:pr-[9.5rem] mb-20
+         max-w-6xl mx-auto flex justify-center md:justify-end
+         mt-16 sm:mt-24 mb-20
         "
       >
         <a
-          href="/catalogo"
-          className="
-            w-[220px] h-11 flex items-center justify-center
-            bg-white text-azulobs-500
-            rounded-full
-            shadow-[0_4px_10px_rgba(0,0,0,0.25)]
-            font-medium text-sm
-            transition-all duration-300
-            hover:bg-azulobs-500 hover:text-white
-            focus:outline-none focus:ring-0 focus:border-transparent
-            sm:-translate-x-60 md:-translate-x-0 lg:translate-x-[60]
-          "
-        >
-          Ver catálogo completo
-        </a>
-      </div>
+         href="/catalogo"
+         className="
+         w-[220px] h-11 flex items-center justify-center
+        bg-white text-azulobs-500
+        rounded-full
+        shadow-[0_4px_10px_rgba(0,0,0,0.25)]
+        font-medium text-sm
+        transition-all duration-300
+        hover:bg-azulobs-500 hover:text-white
+        focus:outline-none focus:ring-0 focus:border-transparent
+        transform xl:translate-x-[5px] 2xl:translate-x-[10px]
+     "
+       >
+       Ver catálogo completo
+     </a>
+   </div>
 
     </section>
   );

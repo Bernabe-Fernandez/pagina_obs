@@ -1,4 +1,4 @@
-import type { procesoTipo } from "../../types";
+ import type { procesoTipo } from "../../types";
 
 type ProcesosProps = {
   data: procesoTipo[];
@@ -45,7 +45,7 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
         <div
           className={`grid ${responsiveGrid} ${widthClass} mx-auto gap-4 sm:gap-6 lg:gap-0`}
         >
-          {data.map(({ id, img, titulo }, index) => (
+          {data.map(({ id, img, titulo }, ) => (
             <div
               key={id}
               className={`
@@ -54,23 +54,19 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
                 transition-transform duration-300
                 hover:scale-[1.03]
                 hover:shadow-lg
-
-                ${
-                  count === 3 && index === 2
-                       ? "md:col-span-2 md:mx-auto md:min-w-[280px] lg:col-span-1"
-                    : ""
-                }
               `}
             >
+
+              {/* Tamaños de las cartas responsive en diferentes dispositivos */}
               <div className="w-full relative">
                 <img
                   src={img}
                   alt={titulo}
                   className="
                     w-full
-                    h-[180px]
-                    sm:h-[200px]
-                    md:h-[300px]
+                    h-[450px]        /* Celular: más alta */
+                    sm:h-[260px]     /* Tablet: más alta */
+                    md:h-[400px]     /* iPad: mantiene proporción */
                     lg:h-full
                     object-cover
                     object-bottom
@@ -116,6 +112,3 @@ export default function Procesos({ data, descripcion }: ProcesosProps) {
     </section>
   );
 }
-
-
-

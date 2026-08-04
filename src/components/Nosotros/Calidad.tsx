@@ -38,7 +38,7 @@ export default function Calidad() {
             </p>
 
             <a
-              href="https://omnibandas.com/calidad/politica_gestion_calidad.pdf"
+              href="../images/politica/poltica.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2E6092] font-semibold underline hover:text-blue-700 transition text-[20px] mt-20 block"
@@ -47,7 +47,7 @@ export default function Calidad() {
             </a>
           </div>
         </div>
-
+      
       </div>
     </section>
   );

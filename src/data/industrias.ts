@@ -186,7 +186,7 @@ export const industriasPage : industriaTipo[] = [
       {
         id: 3,
         icono: "/images/Industria/operacion/transporte.svg",
-        titulo: "Procesos de empaque y clasificación",
+        titulo: "Transporte de productos a granel o unitarios ",
         descripcion: "Sistemas de transporte interno que permiten el desplazamiento eficiente de productos a granel o unitarios.",
       },
 
@@ -342,20 +342,7 @@ export const industriasPage : industriaTipo[] = [
         url: "/productos/empujadores",
        
       },
-      {
-        id: 3,
-        img: "/images/Industria/embotelladora/solucion/imagen3.webp",
-        titulo: "Olanes",
-        url: "/productos/olanes",
-       
-      },
-      {
-        id: 4,
-        img: "/images/Industria/embotelladora/solucion/imagen4.webp",
-        titulo: "Guías",
-        url: "/productos/guias",
-       
-      },
+      
 
     ],
     
