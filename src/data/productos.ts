@@ -316,7 +316,7 @@ export const productosList: productoPage[] = [
     ventajas: [
       {
         id: 1,
-        img: "/images/productos/F transportadores/ventajas/imgen1.webp",
+        img: "/images/productos/F transportadores/ventajas/imagen1.webp",
         titulo: "APLICACIONES COMUNES",
         descripcion:
           "La fabricación de transportadores es ideal para procesos como:",
@@ -330,7 +330,7 @@ export const productosList: productoPage[] = [
 
       {
         id: 2,
-        img: "/images/productos/F transportadores/ventajas/imagen2.webp",
+        img: "/images/productos/F transportadores/ventajas/imagen3.webp",
         titulo: "BENEFICIOS PRINCIPALES",
         listaVentajas: [
           "Soluciones adaptadas al proceso específico.",
@@ -347,25 +347,25 @@ export const productosList: productoPage[] = [
         id: 1,
         titulo: "Sistemas de transporte especiales",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen1.webp",
+        img: "/images/productos/F transportadores/aplicacion/video1.mp4",
       },
       {
         id: 2,
         titulo: "Modificaciones a equipos existentes",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen2.webp",
+        img: "/images/productos/F transportadores/aplicacion/video2.mp4",
       },
       {
         id: 3,
         titulo: "Soluciones para procesos complejos",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen3.webp",
+        img: "/images/productos/F transportadores/aplicacion/video3.mp4",
       },
       {
         id: 4,
         titulo: "Integraciones técnicas especificas ",
         descripcion: "",
-        img: "/images/productos/F transportadores/aplicacion/imagen4.webp",
+        img: "/images/productos/F transportadores/aplicacion/video4.mp4",
       },
     ],
 
@@ -413,7 +413,7 @@ export const productosList: productoPage[] = [
       "Transportadores que priorizan la precisión, el control del producto y la compatibilidad con ambientes regulados y procesos sensibles.",
    },
   ],
-    url: "/images/catalagos/productos/transportadores/completo.pdf", 
+    url: "/images/catalagos/productos/transportadores/completo (2).pdf", 
 },
 
 
@@ -456,31 +456,19 @@ export const productosList: productoPage[] = [
     tipos: [
       {
         id: 1,
-        titulo: "Bandas planas (PU / PVC / plásticas  )",
+        titulo: "Bandas circulares",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda1.webp",
+        img: "/images/productos/termosoldables/tipos/imagen1.webp",
       },
 
       {
         id: 2,
-        titulo: "Bandas con perfiles (Empujadores)",
+        titulo: "Bnadas trapezoides",
         subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda2.webp",
+         img: "/images/productos/termosoldables/tipos/imagen2.webp",
       },
 
-      {
-        id: 3,
-        titulo: "Bandas con guías de alineación",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda3.webp",
-      },
-
-      {
-        id: 4,
-        titulo: "Bandas especiales por aplicación ",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/bandas/Tipos/banda4.webp",
-      },
+      
     ],
 
     industrias: {
@@ -629,24 +617,19 @@ export const productosList: productoPage[] = [
     tipos: [
       {
         id: 1,
-        titulo: "Bandas dentadas",
+        titulo: "Poliuretano",
         subtituloTipo: "Bandas sincrónicas ",
         img: "/images/productos/olanes/tipos/imagen1.webp",
       },
 
       {
         id: 2,
-        titulo: "Bandas sincronicas",
+        titulo: "PVC",
         subtituloTipo: "Bandas sincrónicas ",
         img: "/images/productos/olanes/tipos/imagen2.webp",
       },
 
-      {
-        id: 3,
-        titulo: "Bandas doble dentadas",
-        subtituloTipo: "Bandas sincrónicas ",
-        img: "/images/productos/olanes/tipos/imagen3.webp",
-      },
+     
     ],
 
     industrias: {
@@ -683,7 +666,7 @@ export const productosList: productoPage[] = [
       },
       {
         id: 3,
-        img: "/images/productos/empujadores/ventajas/imagen3.webp",
+        img: "/images/productos/empujadores/ventajas/magen3.webp",
         titulo: "Reducción de paros de producción ",
       },
       {

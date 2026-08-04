@@ -53,10 +53,24 @@ export default function AplicacionesViewTwo({ aplicaciones, tipo, url }: Aplicac
             transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-xl"
           >
             <div className="w-full relative">
-              <img
-                src={item.img}
-                className="w-full h-[200px] sm:h-[220px] md:h-[260px] lg:h-full object-cover object-center rounded-lg"
-              />
+
+              {/*  CONDICIÓN AGREGADA — SIN CAMBIAR NADA MÁS VIDEO */}
+              {esTransportadores ? (
+                <video
+                  src={item.img}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-[200px] sm:h-[220px] md:h-[260px] lg:h-full object-cover object-center rounded-lg"
+                   style={{ aspectRatio: "28/40" }}
+                />
+              ) : (
+                <img
+                  src={item.img}
+                  className="w-full h-[200px] sm:h-[220px] md:h-[260px] lg:h-full object-cover object-center rounded-lg"
+                />
+              )}
 
               {/* RECUADRO AZUL TRANSPARENTE */}
               <div
@@ -102,11 +116,3 @@ export default function AplicacionesViewTwo({ aplicaciones, tipo, url }: Aplicac
     </div>
   );
 }
-
-
-
-
-
-
-
-

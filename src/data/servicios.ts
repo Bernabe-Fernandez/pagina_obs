@@ -8,14 +8,14 @@ export const services : servicios[] = [
 {
                         id: 1,
                         title: "Ingeniería y fabricación de transportadores.",
-                        image: "/images/nosotros/servicios/nosotros.webp",
+                        image: "/images/nosotros/servicios/nosotros-03.webp",
                        },
 
                      {
                       id: 2,
                       title:
                       "Suministro de componentes y refacciones para bandas, cadenas y transportadores",
-                      image: "/images/nosotros/servicios/nosotros-03.webp",
+                      image: "/images/nosotros/servicios/nosotros.webp",
   },
   {
     id: 3,

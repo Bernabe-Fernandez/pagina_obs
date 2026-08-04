@@ -19,13 +19,13 @@ const headerConfig: Record<string, HeaderData>= {
     subtitle: "",
     text_btn:"Solicitar Cotización",
     url_btn:"/contacto",
-    image: "/images/backgrounds/headers/home.jpg",
+    image: "/images/backgrounds/headers/principal.webp",
     height: "h-[700px]"
   },
   "/nosotros": {
     title:"Nosotros",
     subtitle:"Especialistas en soluciones industriales",
-    image:"/images/backgrounds/headers/nosotros.jpeg"
+    image:"/images/backgrounds/headers/nosotros.webp"
 
 
   },
@@ -342,7 +342,7 @@ const headerConfig: Record<string, HeaderData>= {
       "/industrias/envasado": {
       title: "ENVASE PET",
       subtitle: "Soluciones de transporte diseñadas para el manejo eficiente de envases PET en procesos de producción, llenado y empaque.",
-      image: "/images/backgrounds/headers/pet.jpg",
+      image: "/images/backgrounds/headers/pet.webp",
       text_btn: "Solicitar asesoría",
       url_btn: "/contacto",
       },
@@ -397,18 +397,7 @@ const headerConfig: Record<string, HeaderData>= {
   }, [isHome]);
 
   // Reiniciar video al cambiar de ruta
-  useEffect(() => {
-    if (!isHome) return;
-
-    const timer = setTimeout(() => {
-      setVideoEnded(false);
-      setVideoKey((prev) => prev + 1);
-    }, 0);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [isHome, location.pathname]);
+   
 
   return (
     <header
@@ -432,11 +421,11 @@ const headerConfig: Record<string, HeaderData>= {
               autoPlay
               muted
               playsInline
-              loop
+              // loop
               onEnded={() => setVideoEnded(true)}
             >
               <source
-                src="/images/backgrounds/video/logoanimacion2.mp4"
+                src="/images/backgrounds/video/Isoanimacion.mp4"
                 type="video/mp4"
               />
             </video>

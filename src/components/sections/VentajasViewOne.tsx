@@ -52,14 +52,9 @@ export default function VentajasViewOne({
         {ventajas.map((ventaja, index) => (
           <div
             key={index}
-            className={`bg-white shadow-md rounded-lg overflow-hidden ${scaleClass}
+            className={`
+              bg-white shadow-md rounded-lg overflow-hidden ${scaleClass}
               transition-transform duration-300 hover:scale-[1.03] hover:shadow-lg
-              
-              ${
-                count === 3 && index === 2
-                  ? "md:col-span-2 md:w-[45%] md:mx-auto lg:col-span-1 lg:w-auto"
-                  : ""
-              }
             `}
           >
             <div className="w-full relative">
@@ -100,6 +95,7 @@ export default function VentajasViewOne({
     </div>
   );
 }
+
 
 
 
