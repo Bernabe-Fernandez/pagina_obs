@@ -62,7 +62,7 @@ export default function Contact() {
 
             <div>
               <h3 className="font-semibold text-blue-900 text-xl sm:text-2xl">Correo</h3>
-              <p className="text-base sm:text-lg text-gray-700">ventas@omnibandas.com</p>
+              <p className="text-base sm:text-lg text-gray-700">ventas@omnibandas.com.mx</p>
             </div>
 
             <div>
